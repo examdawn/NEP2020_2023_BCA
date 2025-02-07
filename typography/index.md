@@ -7,7 +7,7 @@ Credits:
 - Github Guide for this which I also used as reference. [\[Link\]](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ### Headings
-```
+```md
 # H1 - Largest Title
 ## H2 - 2nd Largest Title
 ### H3 - 3rd Largest Title
@@ -17,7 +17,7 @@ and so on...
 In this page, "Markdown Typography Guide" is H1, and the above heading for "Headings" is H3
 
 ### Italics, bold, etc
-```
+```md
 *simple italics*
 
 **bold text**
@@ -38,7 +38,7 @@ In this page, "Markdown Typography Guide" is H1, and the above heading for "Head
 :::
 
 ### Bullet Points
-```
+```md
 Some Text Here:
 - Point1
     - Subpoint1
@@ -53,7 +53,7 @@ Some Text Here:
 :::
 
 ### Tables
-```
+```md
 | Month    | Savings |
 | -------- | ------- |
 | January  | $250    |
@@ -71,7 +71,7 @@ For More info on markdown tables
 | March    | $420    |
 :::
 ### Quote
-```
+```md
 > Some Text or FAQ here.
 
 Response text...
@@ -83,7 +83,7 @@ Response text...
 Response text...
 :::
 ### Alerts
-```
+```md
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
@@ -117,7 +117,7 @@ Response text...
 > Negative potential consequences of an action.
 :::
 ### Custom Containers
-```
+```md
 ::: info
 This is an info box.
 :::
@@ -164,8 +164,7 @@ This is a details block.
 ::::
 
 You can use containers to Show/Hide given content as well.
-```
-
+```md
 ::: details Your Title Here 
 Your hidden text here
 :::
@@ -185,8 +184,7 @@ If you're interested in Nested Containers like how we have above, please read th
 Vitepress uses shiki to render code blocks and perform syntax highlighting. 
 
 For a list of supported languages, please check out [the official list](https://shiki.style/languages).
-```
-
+````md
 ```C
 #include <stdio.h>
 void main()
@@ -194,11 +192,9 @@ void main()
     printf("Hello world");
 }
 ```
-
-```
+````
 
 ::: details Show How it Looks
-
 ```C
 #include <stdio.h>
 void main()
@@ -206,12 +202,10 @@ void main()
     printf("Hello world");
 }
 ```
-
 :::
 
 You can also add `// [!code focus]` at the part where you want to focus the code
-```
-
+````md
 ```C
 #include <stdio.h>
 void main()
@@ -219,11 +213,9 @@ void main()
     printf("Hello world"); // [!code focus]
 }
 ```
-
-```
+````
 
 ::: details Show How it Looks
-
 ```C
 #include <stdio.h>
 void main()
@@ -231,7 +223,6 @@ void main()
     printf("Hello world"); // [!code focus]
 }
 ```
-
 :::
 
 ### Equation and Math
@@ -239,7 +230,7 @@ void main()
 <!--Need to do npm add -D markdown-it-mathjax3 and math: true in config -->
 
 Here is a formula to calculate the Cut-off Frequency of a Low Pass Filter(Hz) that is built as an RC circuit:
-```math
+```md
 $$
 f_c = \frac{1}{2\pi RC}
 $$
