@@ -244,7 +244,7 @@ R ⨝ S
 
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees NATURAL JOIN departments;
 ```
 
@@ -262,7 +262,7 @@ Notation:
 R ⟕ S
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees LEFT JOIN departments ON employees.dept_id = departments.id;
 ```
 
@@ -281,7 +281,7 @@ Notation:
 R  ⟖ S
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees RIGHT JOIN departments ON employees.dept_id = departments.id;
 ```
 
@@ -301,7 +301,7 @@ R ⟗ S
 MySQL does not directly support full outer join, but you can achieve it using a combination of left join and right join with a `UNION`.
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees LEFT JOIN departments ON employees.dept_id = departments.id 
 UNION 
 SELECT employees.name, departments.dept_name FROM employees RIGHT JOIN departments ON employees.dept_id = departments.id;
@@ -320,7 +320,7 @@ Result:
 5. **Inner Join**: This join returns rows that have matching values in both tables.  
 
 Example: 
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees INNER JOIN departments ON employees.dept_id = departments.id;
 ```
 
@@ -393,7 +393,7 @@ PL/SQL Queries are more or less blocks of code.
     - Helps seperate one PL/SQL sequence from another one
 
 Syntax:
-```PL/SQL
+```plsql
 DECLARE
     declaration statements;
 

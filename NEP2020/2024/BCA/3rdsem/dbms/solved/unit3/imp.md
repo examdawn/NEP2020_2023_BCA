@@ -124,7 +124,7 @@ The selection operation is also known as horizontal partitioning since it partit
 | 4    | Ben    | ECE        | 56000 | D    |
 
 **Query:** Select all the students of Team A: σ Team = 'A' (Student)
-```MySQL
+```sql
 SELECT * 
 FROM Students 
 WHERE Team = 'A';
@@ -149,7 +149,7 @@ Notation: πA(R) where ‘A’ is the attribute list, it is the desired set of a
 
 **Query**: Project Class and Dept from Faculty: π Class, Dept (Faculty)
 
-```MySQL
+```sql
 SELECT DISTINCT Class, Dept 
 FROM Faculty;
 ```
@@ -179,7 +179,7 @@ UNION Operation:  A ∪ S where, A and S are the relations, symbol ‘∪’  is
 
 **Query**: Union operation on EMPID and NAME from two tables
 
-```MySQL
+```sql
 SELECT EMPID, NAME 
 FROM Table1
 UNION
@@ -218,7 +218,7 @@ This is a binary relation operation. It combines the tuples of two relations int
 **Query**: Cartesian product of EMPID and NAME from two tables
 
 
-```MySQL
+```sql
 SELECT A.EMPID, A.NAME, B.EMPID, B.NAME 
 FROM Table1 A
 CROSS JOIN Table2 B;
@@ -265,7 +265,7 @@ R ⨝ S
 
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees NATURAL JOIN departments;
 ```
 
@@ -283,7 +283,7 @@ Notation:
 R ⟕ S
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees LEFT JOIN departments ON employees.dept_id = departments.id;
 ```
 
@@ -302,7 +302,7 @@ Notation:
 R  ⟖ S
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees RIGHT JOIN departments ON employees.dept_id = departments.id;
 ```
 
@@ -322,7 +322,7 @@ R ⟗ S
 MySQL does not directly support full outer join, but you can achieve it using a combination of left join and right join with a `UNION`.
 
 Example:
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees LEFT JOIN departments ON employees.dept_id = departments.id 
 UNION 
 SELECT employees.name, departments.dept_name FROM employees RIGHT JOIN departments ON employees.dept_id = departments.id;
@@ -341,7 +341,7 @@ Result:
 5. **Inner Join**: This join returns rows that have matching values in both tables.  
 
 Example: 
-```MySQL
+```sql
 SELECT employees.name, departments.dept_name FROM employees INNER JOIN departments ON employees.dept_id = departments.id;
 ```
 

@@ -74,7 +74,7 @@ PL/SQL Queries are more or less blocks of code.
     - Helps seperate one PL/SQL sequence from another one
 
 Syntax:
-```PL/SQL
+```plsql
 DECLARE
     declaration statements;
 
@@ -141,7 +141,7 @@ called Determinant, and Y is called the Dependent.
 ### Explain function with example in PL/SQL.
 
 A standalone function is created using the CREATE FUNCTION statement. The simplified syntax for the CREATE OR REPLACE PROCEDURE statement is:
-```PL/SQL
+```plsql
 CREATE [OR REPLACE] FUNCTION function_name 
 [(parameter_name [IN | OUT | IN OUT] type [, ...])] 
 RETURN return_datatype 
@@ -169,7 +169,7 @@ Select * from customers;
 |  1 | Ramesh   |  32 | Ahmedabad |  2000.00 | 
 |  2 | Khilan   |  25 | Delhi     |  1500.00 | 
 
-```PL/SQL
+```plsql
 CREATE OR REPLACE FUNCTION totalCustomers 
 RETURN number IS 
    total number(2) := 0; 
@@ -183,7 +183,7 @@ END;
 ```
 
 Calling the Function
-```PL/SQL
+```plsql
 DECLARE 
    c number(2); 
 BEGIN 
