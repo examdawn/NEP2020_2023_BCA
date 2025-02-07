@@ -8,16 +8,13 @@ Credits:
 
 ### Headings
 ```
-# H1
-## H2
-### H3
+# H1 - Largest Title
+## H2 - 2nd Largest Title
+### H3 - 3rd Largest Title
 ```
 and so on...
-::: details Show How it Looks 
-# H1
-## H2
-### H3
-:::
+
+In this page, "Markdown Typography Guide" is H1, and the above heading for "Headings" is H3
 
 ### Italics, bold, etc
 ```
@@ -29,6 +26,7 @@ and so on...
 
 ~~Strikethrough text~~
 ```
+
 ::: details Show How it Looks 
 *simple italics*
 
@@ -101,6 +99,7 @@ Response text...
 > [!CAUTION]
 > Negative potential consequences of an action.
 ```
+
 ::: details Show How it Looks 
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
@@ -141,6 +140,7 @@ This is a details block.
 ```
 
 :::: details Show How it Looks 
+
 ::: info
 This is an info box.
 :::
@@ -160,16 +160,19 @@ This is a dangerous warning.
 ::: details
 This is a details block.
 :::
+
 ::::
 
 You can use containers to Show/Hide given content as well.
 ```
+
 ::: details Your Title Here 
 Your hidden text here
 :::
 ```
 
 :::: details Show How it Looks 
+
 ::: details Your Title Here 
 Your hidden text here
 :::
@@ -183,6 +186,7 @@ Vitepress uses shiki to render code blocks and perform syntax highlighting.
 
 For a list of supported languages, please check out [the official list](https://shiki.style/languages).
 ```
+
 ```C
 #include <stdio.h>
 void main()
@@ -190,8 +194,11 @@ void main()
     printf("Hello world");
 }
 ```
+
 ```
+
 ::: details Show How it Looks
+
 ```C
 #include <stdio.h>
 void main()
@@ -199,10 +206,12 @@ void main()
     printf("Hello world");
 }
 ```
+
 :::
 
 You can also add `// [!code focus]` at the part where you want to focus the code
 ```
+
 ```C
 #include <stdio.h>
 void main()
@@ -210,9 +219,11 @@ void main()
     printf("Hello world"); // [!code focus]
 }
 ```
+
 ```
 
 ::: details Show How it Looks
+
 ```C
 #include <stdio.h>
 void main()
@@ -220,6 +231,7 @@ void main()
     printf("Hello world"); // [!code focus]
 }
 ```
+
 :::
 
 ### Equation and Math
@@ -232,6 +244,7 @@ $$
 f_c = \frac{1}{2\pi RC}
 $$
 ```
+
 ::: details Show How it Looks 
 $$
 f_c = \frac{1}{2\pi RC}
