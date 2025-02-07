@@ -13,7 +13,7 @@ Credits:
 ### H3
 ```
 and so on...
-::: Show How it Looks {open}
+::: details Show How it Looks 
 # H1
 ## H2
 ### H3
@@ -29,7 +29,7 @@ and so on...
 
 ~~Strikethrough text~~
 ```
-::: Show How it Looks {open}
+::: details Show How it Looks 
 *simple italics*
 
 **bold text**
@@ -47,7 +47,7 @@ Some Text Here:
     - Subpoint2
 ```
 
-::: Show How it Looks {open}
+::: details Show How it Looks 
 Some Text Here:
 - Point1
     - Subpoint1
@@ -65,7 +65,7 @@ Some Text Here:
 
 For More info on markdown tables
 
-::: Show How it Looks {open}
+::: details Show How it Looks 
 | Month    | Savings |
 | -------- | ------- |
 | January  | $250    |
@@ -79,7 +79,7 @@ For More info on markdown tables
 Response text...
 ```
 
-::: Show How it Looks {open}
+::: details Show How it Looks 
 > Some Text or FAQ here.
 
 Response text...
@@ -101,7 +101,7 @@ Response text...
 > [!CAUTION]
 > Negative potential consequences of an action.
 ```
-::: Show How it Looks {open}
+::: details Show How it Looks 
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
@@ -140,7 +140,7 @@ This is a details block.
 :::
 ```
 
-:::: Show How it Looks {open}
+:::: details Show How it Looks 
 ::: info
 This is an info box.
 :::
@@ -164,18 +164,18 @@ This is a details block.
 
 You can use containers to Show/Hide given content as well.
 ```
-::: Your Title Here {open}
+::: details Your Title Here 
 Your hidden text here
 :::
 ```
 
-:::: Show How it Looks {open}
-::: Your Title Here {open}
+:::: details Show How it Looks 
+::: details Your Title Here 
 Your hidden text here
 :::
 ::::
 
-::: More Info on Nested Containers {open}
+::: details More Info on Nested Containers 
 If you're interested in Nested Containers like how we have above, please read this to get an idea of how to do it: https://github.com/vuejs/vitepress/issues/764
 :::
 ### Code Blocks
@@ -191,7 +191,7 @@ void main()
 }
 ```
 ```
-::: Show How it Looks {open}
+::: details Show How it Looks
 ```C
 #include <stdio.h>
 void main()
@@ -212,7 +212,7 @@ void main()
 ```
 ```
 
-::: Show How it Looks {open}
+::: details Show How it Looks
 ```C
 #include <stdio.h>
 void main()
@@ -232,7 +232,7 @@ $$
 f_c = \frac{1}{2\pi RC}
 $$
 ```
-::: Show How it Looks {open}
+::: details Show How it Looks 
 $$
 f_c = \frac{1}{2\pi RC}
 $$
