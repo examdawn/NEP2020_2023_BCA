@@ -211,7 +211,7 @@ You can also add `// [!code focus]` at the part where you want to focus the code
 #include <stdio.h>
 void main()
 {
-    printf("Hello world"); // [!code focus]
+    printf("Hello world"); // [!!code focus]
 }
 ```
 ````
