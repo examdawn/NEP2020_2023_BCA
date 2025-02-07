@@ -61,7 +61,7 @@ Some Text Here:
 | March    | $420    |
 ```
 
-For More info on markdown tables
+For More info on markdown tables, check this: https://www.codecademy.com/resources/docs/markdown/tables
 
 ::: details Show How it Looks 
 | Month    | Savings |
@@ -205,6 +205,7 @@ void main()
 :::
 
 You can also add `// [!code focus]` at the part where you want to focus the code
+
 ````md
 ```C
 #include <stdio.h>
