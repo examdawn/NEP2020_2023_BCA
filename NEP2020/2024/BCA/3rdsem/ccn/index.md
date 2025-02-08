@@ -13,7 +13,7 @@ Others:
     - [Assignment 1(Due 07/Nov/2024)](assignments/assignment1.md)
     - [Assignment 2(Due 04/Dec/2024)](assignments/assignment2.md)
 - Important Questions
-    - [2nd Internal Exams](imp2.md)
+    - [2nd Internal Exams](solved/imp2.md)
 - [Notes From Faculty](https://drive.google.com/drive/folders/19VKBV4FqY4L7BGtOIqXFprrs2iZIWfjl?usp=sharing)
 
 Source:
