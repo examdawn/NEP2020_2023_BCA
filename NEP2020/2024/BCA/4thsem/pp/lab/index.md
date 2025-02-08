@@ -1,5 +1,5 @@
 # Python Programming
 
 Others:
-    - [Lab Part A](parta.md)
-    - [Lab Part B](partb.md)
+- [Lab PartA](parta.md)
+- [Lab PartB](partb.md)

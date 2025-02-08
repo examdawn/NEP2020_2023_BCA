@@ -8,5 +8,5 @@ Units:
 - Unit 5: GUI Interface, Python SQLite, Data Analysis and Data Visualisation
 
 Others:
-    - [Lab Part A](lab/parta.md)
-    - [Lab Part B](lab/partb.md)
+- [Lab PartA](lab/parta.md)
+- [Lab PartB](lab/partb.md)
