@@ -4,3 +4,4 @@ BCA(Bachelor of Computer Applications) is a 3 years UnderGraduate course which t
 
 Semesters Supported:
 - [3rd Semester](3rdsem/index.md)
+- [4th Semester](4thsem/index.md)
