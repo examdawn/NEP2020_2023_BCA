@@ -206,7 +206,7 @@ void main()
 
 You can also add `// [!code focus]` at the part where you want to focus the code
 
-````md
+````
 ```C
 #include <stdio.h>
 void main()
