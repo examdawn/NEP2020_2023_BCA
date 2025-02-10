@@ -7,7 +7,7 @@ Subjects:
 - [Operating System Concepts(OSC)](osc/index.md)
 - Kannada
 - Hindi
-- Additional English
-- General English
+- [Additional English](addEng/index.md)
+- [Generic English](genEng/index.md)
 - [Business Leadership Skills(BLS)](bls/index.md)
 - [Open Source Tools(OSS)](oss/index.md)
