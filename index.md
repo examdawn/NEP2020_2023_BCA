@@ -17,6 +17,6 @@ features:
     link: ./4thsem
 ---
 
-BCA(Bachelor of Computer Applications) is a 3 years UnderGraduate course which teaches the basics of Computer Science
+BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science
 
 Ongoing: 4th Semester

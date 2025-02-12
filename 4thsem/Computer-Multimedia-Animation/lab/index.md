@@ -2,4 +2,4 @@
 
 Others:
 - [Lab Part A](parta.md)
-- [Lab PartB](partb.md)
+- [Lab Part B](partb.md)
