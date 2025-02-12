@@ -52,4 +52,4 @@ Refer to:
 - [EDrawMax](https://www.edrawmax.com/article/er-diagram-symbols-and-notations.html)
 - [Simplilearn](https://www.simplilearn.com/tutorials/sql-tutorial/er-diagram-in-dbms)
 
-Diagram: [Link](library-er-diagram.svg)
+Diagram: [Link](https://raw.githubusercontent.com/examdawn/NEP2020_2023_BCA/refs/heads/contents/3rdsem/Database/assignments/library-er-diagram.svg)
