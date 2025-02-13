@@ -3,7 +3,7 @@
 Assignment 1 (14/02/2025)
 
 # Short answer questions
-## Q1.	Differentiate between multiprogramming and multidftasking operating systems.
+## Q1.	Differentiate between multiprogramming and multitasking operating systems.
 
 | MultiProgramming | MultiTasking |
 
