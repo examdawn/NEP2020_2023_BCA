@@ -4,10 +4,35 @@ Assignment 1 (14/02/2025)
 
 # Short answer questions
 ## Q1.	Differentiate between multiprogramming and multitasking operating systems.
+
+| MultiProgramming | MultiTasking |
+| -- | -- | -- |
+| The Focus is on Maximizing CPU usage | The focus is on performing things simultaneously |
+| The CPU is never unused at any given time | The CPU may be unused at times |
+| Slower because it is usually done sequentially | Faster because it is handling tasks asynchronously and parallelly |
+
 ## Q2.	What is a Process?
+A process is an Instance of a computer program. 
+- It makes sense to break down programs into various processes when you're trying to execute various tasks parallelly or asynchronously
+- If a process creates another process, that resulting process is called a child process and that original process is called the parent process.
 ## Q3.	What are the main objectives of Operating System?
+
+The main objectives of an operating system are to improve efficiency, manage resources, and provide a user-friendly experience. 
+- Efficiency matters a lot because a lot of computers around us do not have very powerful CPUs, or are tied to batteries
+    - It would be wasteful if every application or system level task was resource heavy or didn't fully leverage available hardware effectively while Managing resources 
+- User Friendly Experience is important as the end user is rarely technically adept or may not want to fiddle with the little details or low level intricacies related to computers 
+    - A lot of modern Operating Systems have seperated every program into "packages" so most modern OSes(especially Linux/BSD distros) allow you to change the GUI if you do not like one
+
 ## Q4.	What is an Operating System?
+
+An operating system (OS) is the software that controls a computer's hardware and software. 
+- It enables users to interact with the computer. 
+
 ## Q5.	What is a Thread?
+A thread is the smallest sequence of instructions that a computer can execute 
+- Threads are the basic unit of processor (CPU) utilization 
+- Threads are components of a process that take less time to create and terminate than processes themselves 
+
 # Long answer questions
 ## Q1.	What are the functions of Operating System? Explain.
 An Operating System manages everything related to the allocation of hardware, and software resources. The purpose is to make the computer more convenient to use while efficiently managing hardware and software resources. 
