@@ -20,3 +20,10 @@ features:
 BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science
 
 Ongoing: 4th Semester
+
+### Content Contributors
+<a href="https://github.com/examdawn/content/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=examdawn/NEP2020_2023_BCA" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
