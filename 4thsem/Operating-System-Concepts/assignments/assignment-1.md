@@ -3,10 +3,12 @@
 Assignment 1 (14/02/2025)
 
 # Short answer questions
-## Q1.	Differentiate between multiprogramming and multitasking operating systems.
+## Q1.	Differentiate between multiprogramming and multidftasking operating systems.
 
 | MultiProgramming | MultiTasking |
-| -- | -- | -- |
+
+| -- | -- |
+
 | The Focus is on Maximizing CPU usage | The focus is on performing things simultaneously |
 | The CPU is never unused at any given time | The CPU may be unused at times |
 | Slower because it is usually done sequentially | Faster because it is handling tasks asynchronously and parallelly |
