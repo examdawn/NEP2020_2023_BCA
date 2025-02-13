@@ -124,7 +124,7 @@ It is easy to break them into these categories:
 [GeeksForGeeks](https://www.geeksforgeeks.org/threading-issues/)
 ## Q4.	Explain Process state transition diagram in Process Management.
 
-![Process State Transition Diagram](https://www.researchgate.net/publication/332546783/figure/fig3/AS:749937696464896@1555810488119/Process-state-transition-diagram.png)
+![Process State Transition Diagram](./assets/process-state.png)
 
 (The given image along with an explanation given below in quotes is licensed under CC BY-NC 4.0 and was downloaded from [ResearchGate](https://www.researchgate.net/figure/Process-state-transition-diagram_fig3_332546783) and is from a [paper by Sonia Zouaoui, Lotfi Boussaid, Mtibaa Abdellatif](https://www.researchgate.net/publication/332546783_Priority_based_round_robin_PBRR_CPU_scheduling_algorithm))
 
