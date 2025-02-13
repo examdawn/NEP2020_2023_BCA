@@ -6,9 +6,7 @@ Assignment 1 (14/02/2025)
 ## Q1.	Differentiate between multiprogramming and multitasking operating systems.
 
 | MultiProgramming | MultiTasking |
-
 | -- | -- |
-
 | The Focus is on Maximizing CPU usage | The focus is on performing things simultaneously |
 | The CPU is never unused at any given time | The CPU may be unused at times |
 | Slower because it is usually done sequentially | Faster because it is handling tasks asynchronously and parallelly |
@@ -138,11 +136,11 @@ The sharing of the processor and resources introduced several states for a task 
 5. Terminated: the task has no current application, it has terminated. 
 
 The scheduler is  responsible  for the transition  from  one  task state to another.  
-    - For  each  invocation, the scheduler updates the list of ready tasks by including all active tasks and who have their resources and removing tasks that ended their performances or blocked by waiting a resource. 
-    - Then among the ready tasks, the scheduler selects the highest priority task to run. 
-    - Thus, a task in the new state can move to the ready state. 
-    - A task in the ready state may go to running state or waiting state. 
-    - A task in running status may return to the ready state if it is preempted by another higher-priority task, it can go to the waiting state if it is waiting for resource liberation or has finished executing, it passes in the passive state. 
+- For  each  invocation, the scheduler updates the list of ready tasks by including all active tasks and who have their resources and removing tasks that ended their performances or blocked by waiting a resource. 
+- Then among the ready tasks, the scheduler selects the highest priority task to run. 
+- Thus, a task in the new state can move to the ready state. 
+- A task in the ready state may go to running state or waiting state. 
+- A task in running status may return to the ready state if it is preempted by another higher-priority task, it can go to the waiting state if it is waiting for resource liberation or has finished executing, it passes in the passive state. 
 
 (Changes: Adjusted formatting to match the rest of the docs)
 
