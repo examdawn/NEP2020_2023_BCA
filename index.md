@@ -11,7 +11,7 @@ hero:
       link: https://github.com/examdawn/NEP_2023_BCA
     - theme: alt
       text: Go Back
-      link: ..
+      link: ../../..
 
 features:
   - title: 3rd Semester
