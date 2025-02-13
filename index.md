@@ -7,8 +7,11 @@ hero:
   text: "An All-in-One Resource Site for BCA Students(2023 Batch)"
   actions:
     - theme: brand
-      text: Add to Docs
+      text: Edit Content
       link: https://github.com/examdawn/NEP_2023_BCA
+    - theme: alt
+      text: Go Back
+      link: ..
 
 features:
   - title: 3rd Semester
