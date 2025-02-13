@@ -39,8 +39,8 @@ An Operating System manages everything related to the allocation of hardware, an
 
 Many of the functions an operating system performs are:
 - Controlling System Performance
-    - I monitors and observes the delay time between a service being requested and the requested service being served. This delay time is reduced as much as possible to improve the overall performance of the system.
-- Memory ManagementI
+    - It monitors and observes the delay time between a service being requested and the requested service being served. This delay time is reduced as much as possible to improve the overall performance of the system.
+- Memory Management
     - It allocates the main memory for the program execution, and when the program is completed or terminated, then it deallocates the memory. 
     - Operating systems also keep a record that which byte of memory is assigned to which program.
 - Device Management
