@@ -1,9 +1,11 @@
+---
+order: 0
+title: AE - Syllabus
+---
 # Additional English
 
 Others: 
 
-Important Questions:
-- [2nd Internal Exams](solved/imp2.md)
 
 Grading Structure of Questions:
 - Internals:

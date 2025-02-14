@@ -1,3 +1,7 @@
+---
+order: 1
+title: Assignment 1
+---
 # Assignments - Database Management System
 ## 1. Explain Different data models with an Example
 Data models are conceptual representations of how data is organized and structured. They provide a blueprint for storing, managing, and retrieving data in a database or data storage system. There are several types of data models, each with its strengths and weaknesses. Here are some common data models with examples:

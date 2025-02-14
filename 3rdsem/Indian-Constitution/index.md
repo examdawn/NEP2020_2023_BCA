@@ -1,3 +1,7 @@
+---
+order: 0
+title: IC - Syllabus
+---
 # Indian Constitution
 
 Units:

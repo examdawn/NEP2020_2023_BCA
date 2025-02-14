@@ -1,3 +1,7 @@
+---
+order: 3
+title: Assignment 3
+---
 #### POWERS AND FUNCTIONS OF THE PRESIDENT OF INDIA 
 
 The President of India holds a significant position within the constitutional framework, serving as the head of state and performing various powers and functions that are critical to the governance of the country. Below is a detailed breakdown of these powers and functions.

@@ -1,3 +1,7 @@
+---
+order: 0
+title: SMM - Syllabus
+---
 # Social Media and Marketing
 
 Units:

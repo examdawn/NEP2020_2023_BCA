@@ -1,3 +1,7 @@
+---
+order: 2
+title: Assignment 2
+---
 ## The current Chief Ministers of the states and union territories of India, including their political parties and a brief overview of their contributions:
 
 ## STATES

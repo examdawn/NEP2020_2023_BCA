@@ -1,3 +1,7 @@
+---
+order: 0
+title: Generic English - Syllabus
+---
 # Generic English
 
 Units:

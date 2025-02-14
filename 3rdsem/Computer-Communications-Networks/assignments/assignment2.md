@@ -1,3 +1,7 @@
+---
+order: 2
+title: Assignment 2
+---
 ## Q1. Explain Checksum with example.
 Checksum is an error detection method used by upper-layer protocols, considered more reliable than LRC, VRC, and CRC. It employs a Checksum Generator on the sender side and a Checksum Checker on the receiver side to create a unique number from the data for integrity verification. When data is created, a checksum is calculated and sent or saved with it. Upon accessing the data, the checksum is recalculated, and if the two match, the data is likely error-free.
 

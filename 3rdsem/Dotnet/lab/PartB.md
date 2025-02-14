@@ -1,3 +1,7 @@
+---
+order: 2
+title: Dotnet Lab - Part B
+---
 # Lab Practicals
 ## Part B
 

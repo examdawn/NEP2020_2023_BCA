@@ -1,3 +1,7 @@
+---
+order: 0
+title: CMA - Syllabus
+---
 # Computer Multimedia And Animation
 
 Units:

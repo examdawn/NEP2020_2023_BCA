@@ -1,3 +1,7 @@
+---
+order: 2
+title: Assignment 2
+---
 # Assignment 2
 
 ## 1. Write a note on decomposition with examples.

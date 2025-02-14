@@ -1,3 +1,7 @@
+---
+order: 0
+title: CCN Assignments
+---
 # Computer Communication and Networking
 ## Assignments
 - [Assignment 1](assignment1.md)

@@ -1,3 +1,7 @@
+---
+order: 0
+title: IC Assignments List 
+---
 # Indian Constitution
 ## Assignments
 - [Fundamentals Rights and Duties(Due 03/Oct/2024)](assignment-1.md)

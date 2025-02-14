@@ -1,3 +1,7 @@
+---
+order: 1
+title: Dotnet Lab - Part A
+---
 # Lab Practicals
 ## Part A
 Program 8 is skipped(pascal triangle)
