@@ -1,3 +1,7 @@
+---
+order: 0
+title: IC Solved List
+---
 # Indian Constitution
 
 Important Questions:

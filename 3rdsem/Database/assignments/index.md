@@ -1,3 +1,7 @@
+---
+order: 0
+title: Database - Assignment List
+---
 # Database Management System
 ## Assignments
 - [Assignment-1(Due 07/Oct/2024)](assignment-1.md)

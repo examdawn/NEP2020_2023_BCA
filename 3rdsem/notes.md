@@ -1,3 +1,7 @@
+---
+order: 0
+title: Notes Page
+---
 # Notes From Faculty
 (and other useful sources)
 ## Subjects:

@@ -1,3 +1,7 @@
+---
+order: 1
+title: Solved 2
+---
 # Indian Constitution 
 
 ## Important Questions

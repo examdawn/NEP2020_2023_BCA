@@ -1,3 +1,7 @@
+---
+order: 0
+title: IC PYQs
+---
 # Indian Constitution - PYQ from April 2023
 ## Multiple Choice Questions(10q x 1m)
 

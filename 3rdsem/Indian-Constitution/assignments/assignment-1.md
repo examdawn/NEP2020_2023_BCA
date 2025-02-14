@@ -1,3 +1,7 @@
+---
+order: 1
+title: Assignment 1
+---
 # Assignments - Indian Constitution
 
 Fundamental Rights and Duties in India(Due 03/Oct/2024) 

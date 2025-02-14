@@ -1,3 +1,7 @@
+---
+order: 0
+title: OSS - Syllabus
+---
 # Open Source Tools
 
 Units:

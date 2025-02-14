@@ -1,3 +1,7 @@
+---
+order: 0
+title: OSC - Syllabus
+---
 # Operating System Concepts
 
 Units:

@@ -1,3 +1,7 @@
+---
+order: 3
+title: Database PYQs
+---
 # Previous Year Paper(Oct 2022)
 
 Total = 60 marks

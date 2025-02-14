@@ -1,3 +1,7 @@
+---
+order: 0
+title: Database - Syllabus
+---
 # Database Management System
 Units:
 - Unit 1: Database Architecture

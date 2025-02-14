@@ -1,3 +1,7 @@
+---
+order: 0
+title: BLS - Syllabus
+---
 # Business Leadership Skills
 
 Units:
