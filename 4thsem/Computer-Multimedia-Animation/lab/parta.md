@@ -143,6 +143,34 @@ title: CMA Lab - Part A
 ```
 :::
 ## Q3. Write a HTML/5 program to create gradient using css. 
+
+[View Webpage](https://sounddrill31.github.io/html-demos/prg3/)
+
+::: details See HTML Code
+```html
+<HTML>
+    <HEAD>
+            <title>Gradient Example</title>
+            <style>
+                body {
+                    /*background-color: red;*/
+                    background: linear-gradient(to bottom, #ffcccc, #ff99cc) no-repeat;
+                }
+                .gradient-box {
+                    background: radial-gradient(circle, #ccffcc, #ccff99);
+                    border-radius: 10px;
+                }
+            </style>
+        </HEAD>
+        <body>
+            <div class="gradient-box">
+            <h1>Good Morning</h1>
+            <p>This is an example with both a linear and radial gradient.</p>
+            </div>
+    </body>
+    </HTML>
+```
+:::
 ## Q4. Write a HTML/5 code to demonstrate following CSS animation properties: 
 1. Delay 
 2. Direction 
