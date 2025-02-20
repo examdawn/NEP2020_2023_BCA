@@ -177,7 +177,9 @@ title: CMA Lab - Part A
 ## Q4. Write a HTML/5 code to demonstrate following CSS animation properties: 
 1. Delay 
 2. Direction 
-3. Duration 
+3. Duration
+
+[View Webpage](https://sounddrill31.github.io/html-demos/prg4/)
 
 ::: details See Code
 ```html
@@ -212,8 +214,11 @@ title: CMA Lab - Part A
 </body>
 </html>
 ```
+:::
 
 ## Q5. Write a HTML/5 program to demonstrate key frames 
+
+[View Webpage](https://sounddrill31.github.io/html-demos/prg5/)
 
 ::: details See Code
 ````html
