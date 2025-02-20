@@ -70,7 +70,7 @@ else:
 ```
 
 ::: details Try it out
-```python:line-number
+```python:line-numbers
 import math as m
 
 def quad(a, b, c):
