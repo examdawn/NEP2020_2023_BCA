@@ -8,7 +8,7 @@ title: CMA Lab - Part A
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg1)
 
-::: details See HTML Code
+::: details See code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -43,13 +43,14 @@ title: CMA Lab - Part A
 </html>
 ```
 :::
+
 ## Q2. Write a HTML/5 program to display random contents using list properties: 
 1. ordered list 
 2. Unordered list 
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg2/)
 
-::: details See HTML Code
+::: details See code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -142,11 +143,12 @@ title: CMA Lab - Part A
 </html>
 ```
 :::
+
 ## Q3. Write a HTML/5 program to create gradient using css. 
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg3/)
 
-::: details See HTML Code
+::: details See Code
 ```html
 <HTML>
     <HEAD>
@@ -171,11 +173,85 @@ title: CMA Lab - Part A
     </HTML>
 ```
 :::
+
 ## Q4. Write a HTML/5 code to demonstrate following CSS animation properties: 
 1. Delay 
 2. Direction 
 3. Duration 
+
+::: details See Code
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation Properties Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: move;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes move {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+```
+
 ## Q5. Write a HTML/5 program to demonstrate key frames 
+
+::: details See Code
+````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Keyframes Animation Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 50px;  /*Personally added by Jp, to ensure that the box is fully visible*/
+            background-color: red;
+            position: relative;
+            animation: move 2s infinite;
+        }
+
+        @keyframes move {
+            0% {
+                left: 0px;
+            }
+            50% {
+                left: 200px;
+                transform: rotate(45deg);
+            }
+            100% {
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+```
+:::
+
 ## Q6. Write a HTML/5 code to demonstrate CSS transition and transformation. 
 ## Q7. Write a HTML/5 program to turn on/off a light bulb using JavaScript. 
 Make use of gif image and buttons. 
