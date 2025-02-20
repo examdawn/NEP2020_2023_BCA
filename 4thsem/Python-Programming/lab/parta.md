@@ -93,7 +93,6 @@ if roots is not None:
     print(f"The roots of the equation {a} x^2 * {b} x + {c} = 0 are {roots[0]:.2f} and {roots[1]:.2f}")
 else:
     print("The given equation has no real roots")
-
 ```
 <Editor id="quad-prg2" />
 :::
