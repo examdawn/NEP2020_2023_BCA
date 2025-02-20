@@ -96,3 +96,22 @@ else:
 ```
 <Editor id="quad-prg2" />
 :::
+
+## Program 3: Program to find the Sum of n Natural number
+
+````python
+n = int(input("Enter a Natural Number: "))
+sum_of_n_number = n*(n+1)//2
+print(f"The sum of the digits of the first {n} natural number: {sum_of_n_number}")
+```
+
+::: details Try it out
+```python:line-numbers
+n = int(input("Enter a Natural Number: "))
+sum_of_n_number = n*(n+1)//2
+print(f"The sum of the digits of the first {n} natural number: {sum_of_n_number}")
+```
+<Editor id="sonn-prg3" />
+:::
+
+
