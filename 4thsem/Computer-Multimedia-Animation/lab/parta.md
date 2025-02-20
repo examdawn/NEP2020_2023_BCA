@@ -221,7 +221,7 @@ title: CMA Lab - Part A
 [View Webpage](https://sounddrill31.github.io/html-demos/prg5/)
 
 ::: details See Code
-````html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -254,6 +254,7 @@ title: CMA Lab - Part A
     <div class="box"></div>
 </body>
 </html>
+
 ```
 :::
 
