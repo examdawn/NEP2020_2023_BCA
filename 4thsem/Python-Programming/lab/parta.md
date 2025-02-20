@@ -97,7 +97,7 @@ else:
 <Editor id="quad-prg2" />
 :::
 
-## Program 3: Program to find the Sum of n Natural number
+## Program 3: Program to find the Sum of n Natural number.
 
 ```python
 n = int(input("Enter a Natural Number: "))
@@ -114,4 +114,58 @@ print(f"The sum of the digits of the first {n} natural number: {sum_of_n_number}
 <Editor id="sonn-prg3" />
 :::
 
+## Program 4: Program to Display Multiple Tables.
 
+```python
+num = int(input("Enter a Number: "))
+for i in range(1,11):
+    print(f"{num} x {i} = {num*i}")
+```
+
+::: details Try it out
+```python:line-numbers
+num = int(input("Enter a Number: "))
+for i in range(1,11):
+    print(f"{num} x {i} = {num*i}")
+```
+<Editor id="table-prg3" />
+:::
+
+## Program 5: Program to check if the given number is Prime or not.
+
+```python
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+n = int(input("Enter a Number: "))
+
+if is_prime(n):
+    print(f"{n} is a Prime number.")
+else:
+    print(f"{n} is not a Prime number.")
+```
+
+::: details Try it out
+```python:line-numbers
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+n = int(input("Enter a Number: "))
+
+if is_prime(n):
+    print(f"{n} is a Prime number.")
+else:
+    print(f"{n} is not a Prime number.")
+```
+<Editor id="prime-prg3" />
+:::
