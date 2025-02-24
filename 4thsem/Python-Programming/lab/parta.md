@@ -3,6 +3,13 @@ order: 1
 title: Python Lab - Part A
 ---
 # Python Programming - Lab Part A
+
+Info on built-in python web editor:
+> [!WARNING]
+> This will not work if your browser is too old or does not support Web Assembly/Web Workers. If you're using a privacy focused browser like cromite, please enable JavaScript JIT and WebAssembly from the permissions menu.
+
+If the Run Button doesn't load, try reloading your browser!
+
 ## Program 1: Program to check if a given number belongs to the Fibonacci sequence
 
 ```python
