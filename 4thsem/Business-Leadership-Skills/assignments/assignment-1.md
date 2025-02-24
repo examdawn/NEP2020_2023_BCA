@@ -30,6 +30,7 @@ Leadership is not a role, but an ability we use to lead people and help them gro
 - Influence
     - A good leader is able to positively influence the team
     - This also includes motivating them beyond monetary compensation and connecting them to project vision
+    - This also ties into communication skills
 - Active Innovation
     - A good leader encourages innovation and optimization
     - This also means that the leader is ready to take risks and listen to his team/peers
@@ -41,6 +42,46 @@ Leadership is not a role, but an ability we use to lead people and help them gro
     - This ensures that the leader is able to effectively lead even in tough, time constrained situations
 - Resilience
     - A leader always fails and grows from their mistakes
+
+[CCL](https://www.ccl.org/articles/leading-effectively-articles/characteristics-good-leader/)
 # 8 Marks Questions <!--(Mildly short)-->
 ## Q4. Explain about the latest trends in leadership after COVID-19.
+1. Building The Right Culture For Remote Teams
+    - When you are in a physical work environment, you can build a culture that suits your brand and business.
+    - It isn't as easy virtually.
+2. Investing In Employee Wellbeing
+    - The other leadership trend that everyone will invest their time and effort into is employee well-being. 
+    - Covid 19 has impacted people worldwide, and it has also made people aware of the company's responsibilities towards its workforce.
+3. Work From Anywhere
+    - Companies and their HR leaders are more open towards working from anywhere concept. 
+    - 2025 will witness this massive cultural shift, and more and more companies are going to adapt to this new normal
+4. Empathetic Leadership
+    - Taking your humanity to work. 
+    - A genuine and truly open human being is what workers and others want. 
+    - It means connecting yourself with even other people and not just your successes.
+    - Leaders must work for and behave with their teams with respect. Showing empathy towards the workforce during any crisis builds a loyal team
+
+[VantageCircle](https://www.vantagecircle.com/en/blog/leadership-trends/)
 ## Q5. Explain the challenges faced in leadership.
+1. Managing responsibilities
+    - Often, leaders in the workplace are responsible for managing all team members as well as overseeing work projects and tasks. 
+    - Specifically, a leader may feel pressured on projects with strict requirements and deadlines.
+2. Delivering difficult news
+    - At times, leaders may need to have uncomfortable conversations with employees, such as laying off employees or relaying the company's struggles to their team. 
+    - These instances can challenge the leader because they require them to communicate delicately while also remaining calm.
+3. Communicating effectively
+    - They may encounter communication difficulties between clients, team members, leaders, managers and other upper-level leadership employees.
+4. Motivating team members
+    - Keeping the members of your team motivated and engaged is an important task for leaders. 
+    - When your team members believe in the value they provide your organization, they may feel more engaged with their work.
+5. Encouraging autonomy
+    - It's important to allow employees to have autonomy in their roles by giving them some freedom and space to complete their tasks. 
+    - The role of the leader is to encourage, guide and support each team member.
+6. Providing guidance
+    - Although allowing team members to have some independence in their work can help them feel motivated and empowered
+        - it's also important to provide clear guidelines for employees to follow. 
+7. Accepting and distributing feedback
+    - Having a system for requesting and providing feedback is important for leaders. 
+    - Gaining feedback about your leadership style from your team can help you identify your strengths and areas for improvement.
+
+[Linkedin](https://www.indeed.com/career-advice/career-development/leadership-challenge-examples)
