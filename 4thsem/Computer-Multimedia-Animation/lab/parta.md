@@ -161,6 +161,7 @@ title: CMA Lab - Part A
 
 ::: details See Code
 ```html
+<!DOCTYPE HTML>
 <HTML>
     <HEAD>
             <title>Gradient Example</title>
@@ -168,6 +169,7 @@ title: CMA Lab - Part A
                 body {
                     /*background-color: red;*/
                     background: linear-gradient(to bottom, #ffcccc, #ff99cc) no-repeat;
+                    min-height:100vh;
                 }
                 .gradient-box {
                     background: radial-gradient(circle, #ccffcc, #ccff99);
