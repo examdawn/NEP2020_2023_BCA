@@ -7,4 +7,6 @@ title: BLS - Syllabus
 Units:
 - Unit 1: 
 
+- [Assignments](assignments) 
+
 <!--Others:-->
