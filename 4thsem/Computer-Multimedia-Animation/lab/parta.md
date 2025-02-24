@@ -43,7 +43,7 @@ title: CMA Lab - Part A
 ```
 :::
 
-::: details Show output
+::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg1)
 
@@ -149,7 +149,7 @@ title: CMA Lab - Part A
 ```
 :::
 
-::: details Show output
+::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg2)
 
@@ -187,7 +187,7 @@ title: CMA Lab - Part A
 ```
 :::
 
-::: details Show output
+::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg3)
 
@@ -236,7 +236,7 @@ title: CMA Lab - Part A
 ```
 :::
 
-::: details Show output
+::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg4)
 
@@ -286,7 +286,7 @@ title: CMA Lab - Part A
 ```
 :::
 
-::: details Show output
+::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg5)
 
