@@ -330,4 +330,60 @@ title: CMA Lab - Part A
 
 :::
 ## Q7. Write a HTML/5 program to turn on/off a light bulb using JavaScript. 
-Make use of gif image and buttons. 
+Make use of image and buttons. 
+
+> [!WARNING]
+> This program requires you to use an external image for bulb off and bulb on states.
+> I used [light_off](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:light_off:FILL@0;wght@400;GRAD@0;opsz@40&icon.query=bulb&icon.size=42&icon.color=%231f1f1f) and [light_2](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:lightbulb_2:FILL@0;wght@400;GRAD@0;opsz@40&icon.query=bulb&icon.size=42&icon.color=%231f1f1f) from google fonts for this.
+
+> [!NOTE]
+> Remember to download [light_off](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:light_off:FILL@0;wght@400;GRAD@0;opsz@40&icon.query=bulb&icon.size=42&icon.color=%231f1f1f) as png using the given button and rename it to bulb_off.png. It will not work without this!
+
+> [!NOTE]
+> Remember to download [light_2](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:lightbulb_2:FILL@0;wght@400;GRAD@0;opsz@40&icon.query=bulb&icon.size=42&icon.color=%231f1f1f) as png using the given button and rename it to bulb_on.png. It will not work without this!
+
+::: details See code
+```html
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> </title>
+	<script>
+		function toggleLight() {
+			var bulb = document.getElementById("lightbulb");
+			if (bulb.src.match("bulb_on.png"))
+			{
+				bulb.src = "bulb_off.png";
+				bulb.style.background="";
+				
+			}
+			else
+			{
+				bulb.src = "bulb_on.png";
+				bulb.style.background="radial-gradient(circle, rgba(240,251,63,1) 0%, rgba(252,70,107,0) 58%)";
+			}
+		}
+	</script>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div>
+		<img id="lightbulb" src=bulb_off.png alt="Light Bulb"/>
+	</div>
+	<div>
+		<button onclick="toggleLight()">Toggle Light</button>
+	</div>
+</body>
+</html>
+```
+:::
+
+::: details Show output {open}
+
+[View Webpage](https://sounddrill31.github.io/html-demos/prg7)
+
+<iframe src="https://sounddrill31.github.io/html-demos/prg7/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+:::
