@@ -295,5 +295,39 @@ title: CMA Lab - Part A
 :::
 
 ## Q6. Write a HTML/5 code to demonstrate CSS transition and transformation. 
+
+::: details See code
+```html
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CSS Transition and Transformation Example</title>
+  <style>
+    .box{
+     width:100px;
+     height:100px;
+     background-color: red;
+     position: relative;
+     transition: tramsform 4s;
+    }
+    .box:hover {
+     transform: rotate(45deg);
+    }
+  </style>
+ </head>
+ <body>
+  <div class="box"></div>
+ </body>
+</html>
+```
+:::
+
+::: details Show output {open}
+
+[View Webpage](https://sounddrill31.github.io/html-demos/prg6)
+
+<iframe src="https://sounddrill31.github.io/html-demos/prg6/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+:::
 ## Q7. Write a HTML/5 program to turn on/off a light bulb using JavaScript. 
 Make use of gif image and buttons. 
