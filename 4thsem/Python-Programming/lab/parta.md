@@ -87,8 +87,6 @@ else:
 <Editor id="fibo2-prg1" />
 :::
 
-:::
-
 ## Program 2: Program to solve Quadratic equation.
 
 ```python
