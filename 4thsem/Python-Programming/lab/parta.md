@@ -13,6 +13,44 @@ If the Run Button doesn't load, try reloading your browser!
 ## Program 1: Program to check if a given number belongs to the Fibonacci sequence
 
 ```python
+def fabo(n):
+    a = 0
+    b = 1
+    while (b<n):
+        temp = b
+        b += a
+        a = temp
+    return b==n or n==0
+
+n = int(input("Enter a number: "))
+if fabo(n):
+    print(f"{n} belongs to Fibonacci Sequence.")
+else:
+    print(f"{n} does not belongs to Fibonacci Sequence.")
+```
+
+::: details Try it out
+```python:line-numbers
+def fabo(n):
+    a = 0
+    b = 1
+    while (b<n):
+        temp = b
+        b += a
+        a = temp
+    return b==n or n==0
+
+n = int(input("Enter a number: "))
+if fabo(n):
+    print(f"{n} belongs to Fibonacci Sequence.")
+else:
+    print(f"{n} does not belongs to Fibonacci Sequence.")
+```
+<Editor id="fibo1-prg1" />
+:::
+
+::: details Alternative Code
+```python
 import math as m  
    
 def isPerfectSquare(n):  
@@ -28,6 +66,7 @@ if(isFibo(num)):
 else:
     print("No, given number", num, "is not a Fibonacci number")
 ```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -46,7 +85,7 @@ if(isFibo(num)):
 else:
     print("No, given number", num, "is not a Fibonacci number")
 ```
-<Editor id="fibo-prg1" />
+<Editor id="fibo2-prg1" />
 :::
 
 ## Program 2: Program to solve Quadratic equation.
