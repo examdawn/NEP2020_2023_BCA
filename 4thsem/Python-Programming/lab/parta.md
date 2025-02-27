@@ -66,7 +66,6 @@ if(isFibo(num)):
 else:
     print("No, given number", num, "is not a Fibonacci number")
 ```
-:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -86,6 +85,8 @@ else:
     print("No, given number", num, "is not a Fibonacci number")
 ```
 <Editor id="fibo2-prg1" />
+:::
+
 :::
 
 ## Program 2: Program to solve Quadratic equation.
