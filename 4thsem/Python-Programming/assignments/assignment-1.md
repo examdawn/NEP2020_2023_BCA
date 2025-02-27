@@ -7,7 +7,7 @@ title: Python Assignment 1(28/2/25)
 > [!TIP]
 > This Page supports running Python directly from your browser!
 
-::: details If this feature is not working as expected, [please report it to us!](https://github.com/examdawn/NEP2020_2023_BCA/issues) Click for more details
+::: details  Click for more details. If this feature is not working as expected, [please report it to us!](https://github.com/examdawn/NEP2020_2023_BCA/issues)
 
 > [!WARNING]
 > This will not work if your browser is too old or does not support Web Assembly/Web Workers. If you're using a privacy focused browser like cromite, please enable JavaScript JIT and WebAssembly from the permissions menu.
