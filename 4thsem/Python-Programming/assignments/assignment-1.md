@@ -48,7 +48,7 @@ Python has many useful characteristics:
 ## Q5. Explain Different Types of Conversion with Examples
 - Implicit conversion or coercion is when data type conversion takes place either during compilation or during run time and is handled directly by Python for you. 
     - Example:
-    - ```python
+    - ```python:line-numbers
       a_int = 1
       b_float = 1.0
       c_sum = a_int + b_float
@@ -56,7 +56,7 @@ Python has many useful characteristics:
 - Explicit data type conversion, often referred to as type casting, occurs when you deliberately convert a value from one data type to another
     - Syntax: `target_data_type(expression)`
     - Example:
-    - ```python
+    - ```python:line-numbers
       a = int(3.14)
       print(a)
       ```
