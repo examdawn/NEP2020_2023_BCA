@@ -16,7 +16,7 @@ Others:
 Fun fact: this is running completely inside your browser securely without any extra servers, serverless functions or external workers! This also allows our website to stay static and not incur any (additional) cost.
 :::
 
-If this feature is not working as expected, [please report it to us!](https://github.com/examdawn/NEP2020_2023_BCA/issues)
+If this feature is not working as expected, [please report it to us on Github!](https://github.com/examdawn/NEP2020_2023_BCAissues/new)
 
 > [!WARNING]
 > This will not work if your browser is too old or does not support Web Assembly/Web Workers. If you're using a privacy focused browser like cromite, please enable JavaScript JIT and WebAssembly from the permissions menu.
