@@ -12,7 +12,9 @@ title: Python Assignment 1(28/2/25)
 > [!WARNING]
 > This will not work if your browser is too old or does not support Web Assembly/Web Workers. If you're using a privacy focused browser like cromite, please enable JavaScript JIT and WebAssembly from the permissions menu.
 
-If the Run Button doesn't load, try reloading your browser!
+If the Run Button doesn't show the run or loading button, try reloading your browser!
+
+It will take some time to load, especially if your internet is slow.
 :::
 
 ## Q1. Explain the Features of Python
