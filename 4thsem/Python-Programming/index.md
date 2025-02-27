@@ -14,3 +14,4 @@ Units:
 Others:
 - [Lab PartA](lab/parta.md)
 - [Lab PartB](lab/partb.md)
+- [Assignments](assignments) 
