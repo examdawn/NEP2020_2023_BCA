@@ -60,3 +60,5 @@ Python has many useful characteristics:
       a = int(3.14)
       print(a)
       ```
+
+[DataCamp](https://www.datacamp.com/tutorial/python-data-type-conversion)
