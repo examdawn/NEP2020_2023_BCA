@@ -2,6 +2,18 @@
 order: 0
 title: Python Assignment 1(28/2/25)
 ---
+# Python Assignment 1(28/2/25)
+
+> [!TIP]
+> This Page supports running Python directly from your browser!
+
+::: details If this feature is not working as expected, [please report it to us!](https://github.com/examdawn/NEP2020_2023_BCA/issues) Click for more details
+
+> [!WARNING]
+> This will not work if your browser is too old or does not support Web Assembly/Web Workers. If you're using a privacy focused browser like cromite, please enable JavaScript JIT and WebAssembly from the permissions menu.
+
+If the Run Button doesn't load, try reloading your browser!
+:::
 
 ## Q1. Explain the Features of Python
 
@@ -17,7 +29,7 @@ Python has many useful characteristics:
 ## Q2. Explain Tokens with examples
 
 | Tokens | Explanation | Some Examples |
-| == | == | == |
+| --- | --- | --- |
 | Keyword | Reserved Words, cannot use as Identifiers.\nThey have a distinct meaning | True, for |
 | Identifier | Name that is given to class, function, variable, etc | `a = 5` Here, `a` is the identifier |
 | Operator | Performs a specific action with the given operands | `a+5` Here, `+` is the operator and it will add the value of a and 5 together |
