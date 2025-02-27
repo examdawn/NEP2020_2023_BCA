@@ -17,7 +17,7 @@ Python has many useful characteristics:
 ## Q2. Explain Tokens with examples
 
 | Tokens | Explanation | Some Examples |
-| == | == |
+| == | == | == |
 | Keyword | Reserved Words, cannot use as Identifiers.\nThey have a distinct meaning | True, for |
 | Identifier | Name that is given to class, function, variable, etc | `a = 5` Here, `a` is the identifier |
 | Operator | Performs a specific action with the given operands | `a+5` Here, `+` is the operator and it will add the value of a and 5 together |
