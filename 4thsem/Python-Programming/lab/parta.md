@@ -197,7 +197,7 @@ num = int(input("Enter a Number: "))
 for i in range(1,11):
     print(f"{num} x {i} = {num*i}")
 ```
-<Editor id="table-prg3" />
+<Editor id="table-prg4" />
 :::
 
 ## Program 5: Program to check if the given number is Prime or not.
@@ -236,5 +236,151 @@ if is_prime(n):
 else:
     print(f"{n} is not a Prime number.")
 ```
-<Editor id="prime-prg3" />
+<Editor id="prime-prg5" />
+:::
+
+## Program 6: Program to implement a Sequential Search.
+
+```python
+def search(lst, key):
+    for i in range(len(lst)):
+        if lst[i] == key:
+            return i
+    return -1
+
+num = list(map(int, input("Enter number separated with a Space: ").split()))    
+key = int(input("Enter a number to be Searched: "))
+
+result = search(num, key)
+
+if result != -1:
+    print(f"Elements found at Position   : {result + 1}")
+else:
+    print("Element not found in the list")
+```
+
+::: details Try it out
+```python:line-numbers
+def search(lst, key):
+    for i in range(len(lst)):
+        if lst[i] == key:
+            return i
+    return -1
+
+num = list(map(int, input("Enter number separated with a Space: ").split()))    
+key = int(input("Enter a number to be Searched: "))
+
+result = search(num, key)
+
+if result != -1:
+    print(f"Elements found at Position   : {result + 1}")
+else:
+    print("Element not found in the list")
+```
+<Editor id="Seque-prg6" />
+:::
+
+## Program 7: Program to create a Calculator
+
+```python
+def add(x, y):
+    return x + y
+
+def sub(x, y):
+    return x - y
+    
+def mul(x, y):
+    return x * y
+    
+def div(x, y):
+    if y != 0:
+        return x / y
+    else: 
+        return "Undefined! Can't divide by Zero"
+        
+while True:
+    print("\n-----------------")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. QUIT")
+    print("-----------------")
+    
+    choice = input("\nEnter Choice: ")
+    
+    if choice == '5':
+        print("\nExiting The Program!")
+        break
+    
+    num1 = float(input("Enter First  Number: "))
+    num2 = float(input("Enter Second Number: "))
+    
+    if choice == '1':
+        print("\nThe Result: ", add(num1, num2))
+        
+    elif choice == '2':
+        print("\nThe Result: ", sub(num1, num2))
+            
+    elif choice == '3':
+        print("\nThe Result: ", mul(num1, num2))
+            
+    elif choice == '4':
+        print("\nThe Result: ", div(num1, num2))
+        
+    else:
+        print("\nINVALID INPUT!")
+```
+
+::: details Try it out
+```python:line-numbers
+def add(x, y):
+    return x + y
+
+def sub(x, y):
+    return x - y
+    
+def mul(x, y):
+    return x * y
+    
+def div(x, y):
+    if y != 0:
+        return x / y
+    else: 
+        return "Undefined! Can't divide by Zero"
+        
+while True:
+    print("\n-----------------")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. QUIT")
+    print("-----------------")
+    
+    choice = input("\nEnter Choice: ")
+    
+    if choice == '5':
+        print("\nExiting The Program!")
+        break
+    
+    num1 = float(input("Enter First  Number: "))
+    num2 = float(input("Enter Second Number: "))
+    
+    if choice == '1':
+        print("\nThe Result: ", add(num1, num2))
+        
+    elif choice == '2':
+        print("\nThe Result: ", sub(num1, num2))
+            
+    elif choice == '3':
+        print("\nThe Result: ", mul(num1, num2))
+            
+    elif choice == '4':
+        print("\nThe Result: ", div(num1, num2))
+        
+    else:
+        print("\nINVALID INPUT!")
+```
+<Editor id="calc-prg7" />
 :::
