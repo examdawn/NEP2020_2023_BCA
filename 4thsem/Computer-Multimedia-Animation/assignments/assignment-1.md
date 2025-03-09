@@ -108,8 +108,8 @@ EXAMPLE:
 ## Q4. What is HTML? Mention any two tags in HTML.
 - HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
 - Types of HTML Tags:
-  1. Head Tag: HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. There can be only one head element in an HTML document. The Syntax is `<head></head>`
-  2. Image Tag: HTML element embeds an image into the document. The Syntax is `<img></img>`
+  1. Head Tag: HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. There can be only one head element in an HTML document. The Syntax is `<head></head>`.
+  2. Image Tag: HTML element embeds an image into the document. The Syntax is `<img></img>` <sup>[[1](https://developer.mozilla.org/en-US/docs/Web/HTML)]</sup>.
 
 ## Q5. Define JavaScript and its features
 JS is an object oriented scripting language used to create dynamically updating content, control multimedia, and even enable more functionality. 
