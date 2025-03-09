@@ -10,9 +10,10 @@ title: CMA Assignment 1(10/3/25)
     1. tr -> table row 
     2. th -> table header
     3. td -> table cell.
-- An HTML table may also include caption, colgroup, thead, tfoot, and tbody elements.
-<sup>[[1](https://www.w3schools.com/tags/tag_table.asp)]</sup>
-- Example:
+- An HTML table may also include caption, colgroup, thead, tfoot, and tbody elements 
+<sup>[[1](https://www.w3schools.com/tags/tag_table.asp)]</sup>.
+
+EXAMPLE:
 ```HTML
  <table>
   <tr>
@@ -40,12 +41,76 @@ title: CMA Assignment 1(10/3/25)
 - Hypertext can be added to the text: 
     - HTML enables the creation of hyperlinks that connect to other web pages or resources. This feature is essential for navigation on the web.
 - It is a markup language
-    - HTML uses tags to define the structure and presentation of web content. These tags indicate how elements should be displayed in a browser.
-<sup>[[1](https://www.geeksforgeeks.org/html-introduction/#features-of-html)]</sup>
+    - HTML uses tags to define the structure and presentation of web content. These tags indicate how elements should be displayed in a browser 
+<sup>[[1](https://www.geeksforgeeks.org/html-introduction/#features-of-html)]</sup>.
 
 ## Q3. What is CSS? Explain different styles in CSS
+- Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications <sup>[[1](https://developer.mozilla.org/en-US/docs/Web/CSS)]</sup>.
+- This are the types of CSS:
+    1. Inline CSS:
+    - It involves applying styles directly to individual HTML elements using the style attribute. This method allows for specific styling of elements within the HTML document, overriding any external or internal styles.
 
-## Q4. What is HTML? Mention any two tags in HTML
+    EXAMPLE:
+    ```HTML
+    <h1 style="font-style: bold">Hello</h1>
+    ```
+    2. Internal(Embedded) CSS:
+    - Its is defined within the HTML document’s style element inside the head section. It applies styles to specified HTML elements. The CSS rule set should be within the HTML file in the head section.
+
+    EXAMPLE:
+    ```HTML
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            div {
+                text-align: center;
+                background-color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p>Hello</p>
+        </div>
+    </body>
+    </html>
+    ```
+    3. External CSS:
+    - It contains separate CSS files that contain only style properties with the help of tag attributes. CSS property is written in a separate file with a .css extension and it is linked to the HTML document using a link tag inside the head section <sup>[[1](https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/)]</sup>.
+
+    EXAMPLE:
+    ```HTML
+    <!-- This is .html -->
+    <html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div>
+        <h1>Hello</h1>
+      </div>
+    </body>
+    </html>
+    ```
+
+    ```CSS
+    /* This is .CSS */
+    body {
+      background-color: blue;
+    }
+
+    div {
+      background-color: lightblue;
+    }
+    ```
+## Q4. What is HTML? Mention any two tags in HTML.
+- HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+- Types of HTML Tags:
+  1. Head Tag: HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. There can be only one head element in an HTML document. The Syntax is `<head></head>`
+  2. Image Tag: HTML element embeds an image into the document. The Syntax is `<img></img>`
+
 ## Q5. Define JavaScript and its features
 JS is an object oriented scripting language used to create dynamically updating content, control multimedia, and even enable more functionality. 
 - Browser Support
