@@ -11,7 +11,7 @@ title: CMA Assignment 1(10/3/25)
     2. th -> table header
     3. td -> table cell.
 - An HTML table may also include caption, colgroup, thead, tfoot, and tbody elements.
-<sup>[[1](https://www.w3schools.com/tags/tag_table.asp)]<sup>
+<sup>[[1](https://www.w3schools.com/tags/tag_table.asp)]</sup>
 - Example:
 ```HTML
  <table>
@@ -114,7 +114,7 @@ The `name` attribute is used to specify an easily identifiable name for an HTML 
 - We can use it to reference this element later from other elements
 
 
-[W3Schools(Tag <a>)](https://www.w3schools.com/tags/tag_a.asp)
+[W3Schools(Tag `<a>`)](https://www.w3schools.com/tags/tag_a.asp)
 
 [W3Schools(Target)](https://www.w3schools.com/Tags/att_a_target.asp)
 <!--9. Explain different ways using style sheet in HTML?
