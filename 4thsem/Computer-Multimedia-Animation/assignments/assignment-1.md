@@ -20,7 +20,7 @@ JS is an object oriented scripting language used to create dynamically updating 
   - JS allows running performant client-side code directly on the user's browser for high performance tasks like games and apps(WebGL, WASM, etc) or even more ordinary tasks like Form Validation and Data Processing.
 [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)
 ## Q6. What is the use of cell padding and cell spacing attributes in `<table>`
-## Q7. What are the uses of == and != operators in JavaScript?
+## Q7. What are the uses of `==` and `!=` operators in JavaScript?
 ## Q8. Explain about `<a>` tag ,href, target and name attributes
 
 <!--9. Explain different ways using style sheet in HTML?
