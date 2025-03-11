@@ -259,7 +259,7 @@ th, td {
 ### `<a>` Tag and `href` and `target` attributes
 We use the `<a>` tag to specify a hyperlink or image.
 - Syntax: `<a href="path or url" target="location on doc" name="somename">Some Text</a>`
-- Example: `<a href="https://google.com" target="_blank" name=googlelink">Text Link</a>`
+- Example: `<a href="https://google.com" target="_blank" name="googlelink">Text Link</a>`
 - This is used to link from one page to another or load an image, even from an external source
 - `href` specifies the path to the file
   - It can be a relative path like `search/index.html`
