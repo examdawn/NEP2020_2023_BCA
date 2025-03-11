@@ -242,12 +242,12 @@ th, td {
 - `==` is used to check if the operand on the left is equal to the one on the right or not
   - eg. ```javascript
         let x = 5;
-        let result = x == 5; //true
+        console.log(x == 5); //true
         ```
 - `!=` is used to check if the operand on the left is equal to the one on the right or not
   - eg. ```javascript
         let x = 5;
-        let result = x != 5; //false
+        console.log(x != 5); //false
         ```
 ## Q8. Explain about `<a>` tag, href, target and name attributes
 ### `<a>` Tag and `href` and `target` attributes
