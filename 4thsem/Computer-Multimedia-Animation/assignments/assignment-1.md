@@ -130,6 +130,7 @@ JS is an object oriented scripting language used to create dynamically updating 
 The space between two or more cells is called Cell Spacing 
 
 ::: details Show code
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -171,6 +172,7 @@ table {
 
 </body>
 </html>
+```
 :::
 ::: details Show output {open}
 
@@ -185,6 +187,7 @@ table {
 The space between cell edges and cell content is called the Cell Padding 
 
 ::: details Show code
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -227,6 +230,7 @@ th, td {
 <p>Cell padding specifies the space between the cell content and its borders. Code credit to W3Schools! Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellpadding</p>
 </body>
 </html>
+```
 :::
 ::: details Show output {open}
 
@@ -240,18 +244,22 @@ th, td {
 ## Q7. What are the uses of `==` and `!=` operators in JavaScript?
 `==`, `!=`, etc come under `Comparison Operators`. They're used to compare the values of the given operands.
 - `==` is used to check if the operand on the left is equal to the one on the right or not
-  - eg. ```javascript
-        let x = 5;
-        console.log(x == 5); //true
-        ```
+  - eg. 
+  ```javascript
+  let x = 5;
+  console.log(x == 5); //true
+  ```
 - `!=` is used to check if the operand on the left is equal to the one on the right or not
-  - eg. ```javascript
-        let x = 5;
-        console.log(x != 5); //false
-        ```
+  - eg.
+    ```javascript
+    let x = 5;
+    console.log(x != 5); //false
+    ```
 ## Q8. Explain about `<a>` tag, href, target and name attributes
 ### `<a>` Tag and `href` and `target` attributes
 We use the `<a>` tag to specify a hyperlink or image.
+- Syntax:
+- Example: 
 - This is used to link from one page to another or load an image, even from an external source
 - `href` specifies the path to the file
   - It can be a relative path like `search/index.html`
