@@ -129,6 +129,49 @@ JS is an object oriented scripting language used to create dynamically updating 
 ### Cell Spacing 
 The space between two or more cells is called Cell Spacing 
 
+::: details Show code
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 30px;
+}
+</style>
+</head>
+<body>
+<h2>Cellspacing</h2>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<p>Change the space between the cells with the border-spacing property. Code credit to W3Schools! Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_border-spacing</p>
+
+</body>
+</html>
+:::
 ::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/non-lab/cellspacing)
@@ -140,6 +183,51 @@ The space between two or more cells is called Cell Spacing
 
 ### Cell Padding
 The space between cell edges and cell content is called the Cell Padding 
+
+::: details Show code
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2>Cellpadding</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<p>Cell padding specifies the space between the cell content and its borders. Code credit to W3Schools! Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellpadding</p>
+</body>
+</html>
+:::
 ::: details Show output {open}
 
 [View Webpage](https://sounddrill31.github.io/html-demos/non-lab/cellpadding)
@@ -152,9 +240,15 @@ The space between cell edges and cell content is called the Cell Padding
 ## Q7. What are the uses of `==` and `!=` operators in JavaScript?
 `==`, `!=`, etc come under `Comparison Operators`. They're used to compare the values of the given operands.
 - `==` is used to check if the operand on the left is equal to the one on the right or not
-  - eg. If the value of x is 5, `x==5` will return true, `x==6` will return false
+  - eg. ```javascript
+        let x = 5;
+        let result = x == 5; //true
+        ```
 - `!=` is used to check if the operand on the left is equal to the one on the right or not
-  - eg. If the value of x is 5, `x!=5` will return false, `x!=6` will return true
+  - eg. ```javascript
+        let x = 5;
+        let result = x != 5; //false
+        ```
 ## Q8. Explain about `<a>` tag, href, target and name attributes
 ### `<a>` Tag and `href` and `target` attributes
 We use the `<a>` tag to specify a hyperlink or image.
