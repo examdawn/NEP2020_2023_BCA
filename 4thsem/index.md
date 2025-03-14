@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Edit Content
-      link: https://github.com/examdawn/NEP_2023_BCA/tree/contents/4thsem
+      link: https://github.com/Sink_through_the_sands/easter_eggs_/tree/friends_ain't_normal!
     - theme: alt
       text: Go Back
       link: ..
