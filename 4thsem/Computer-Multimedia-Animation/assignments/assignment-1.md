@@ -47,15 +47,16 @@ EXAMPLE:
 ## Q3. What is CSS? Explain different styles in CSS
 - Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications <sup>[[1](https://developer.mozilla.org/en-US/docs/Web/CSS)]</sup>.
 - This are the types of CSS:
-    1. Inline CSS:
+    ### 1. Inline CSS:
     - It involves applying styles directly to individual HTML elements using the style attribute. This method allows for specific styling of elements within the HTML document, overriding any external or internal styles.
 
     EXAMPLE:
     ```HTML
     <h1 style="font-style: bold">Hello</h1>
     ```
-    2. Internal(Embedded) CSS:
-    - Its is defined within the HTML document’s style element inside the head section. It applies styles to specified HTML elements. The CSS rule set should be within the HTML file in the head section.
+    ### 2. Internal(Embedded) CSS:
+    - Its is defined within the HTML document’s style element inside the head section. It applies styles to specified HTML elements. 
+    - The CSS rule set should be within the HTML file in the head section.
 
     EXAMPLE:
     ```HTML
@@ -77,12 +78,13 @@ EXAMPLE:
     </body>
     </html>
     ```
-    3. External CSS:
-    - It contains separate CSS files that contain only style properties with the help of tag attributes. CSS property is written in a separate file with a .css extension and it is linked to the HTML document using a link tag inside the head section <sup>[[1](https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/)]</sup>.
+    ### 3. External CSS:
+    - It contains separate CSS files that contain only style properties with the help of tag attributes. 
+    - CSS property is written in a separate file with a .css extension and it is linked to the HTML document using a link tag inside the head section <sup>[[1](https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/)]</sup>.
 
     EXAMPLE:
     ```HTML
-    <!-- This is .html -->
+    <!-- This is index.html -->
     <html>
     <head>
       <link rel="stylesheet" href="style.css">
@@ -96,7 +98,7 @@ EXAMPLE:
     ```
 
     ```CSS
-    /* This is .CSS */
+    /* This is style.css */
     body {
       background-color: blue;
     }
