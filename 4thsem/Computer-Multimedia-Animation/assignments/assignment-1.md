@@ -1,5 +1,5 @@
 ---
-order: 0
+order: 1
 title: CMA Assignment 1(10/3/25)
 ---
 # CMA Assignment 1(10/3/25)
