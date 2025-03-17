@@ -4,7 +4,7 @@ title: CMA Assignment 1 Part B(17/3/25)
 ---
 # CMA Assignment 1 Part B(17/3/25)
 > [!WARNING]
-> This Page is incomplete and answers will be added soon. 5/9 Remaining.
+> This Page is incomplete and answers will be added soon. 4/9 Remaining.
 ## Q9. Explain different ways using stylesheets in HTML
 > [!NOTE]
 > This Question was already answered [before](./assignment-1#q3-what-is-css-explain-different-styles-in-css)
@@ -18,6 +18,29 @@ title: CMA Assignment 1 Part B(17/3/25)
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/difference-between-div-and-span-tag-in-html/)
 ## Q11. Briefly describe alert() and confirm() methods in JavaScript
+### `alert()` method
+This is used to give a quick message to the user along with an "OK" button which dismisses the message
+- This is good for quick attention-grabbing alerts
+
+Example:
+```javascript
+alert("Warning: You have run out of free visits")
+```
+### `confirm()` method
+This is used to ask a question to the user
+- It displays a custom message along with two buttons:
+    - "OK" - `true`
+    - "Cancel" - `false`
+- It returns the user's action as `true`/`false`
+
+Example:
+```javascript
+var result = confirm("Do you want to delete this item?"); 
+console.log(result);
+```
+
+
+[Hashnode](https://iamdipankarpaul.hashnode.dev/enhancing-user-interaction-with-javascript-a-guide-to-alert-prompt-and-confirm-functions#heading-confirming-user-actions-with-confirm)
 ## Q12. Explain addeventListener() method with an example
 ## Q13. Explain the `<form>` tag and its attributes
 ## Q14. Write a short note on `<aside>` with any of its unique attributes
