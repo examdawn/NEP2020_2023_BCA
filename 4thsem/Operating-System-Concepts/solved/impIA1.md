@@ -4,7 +4,7 @@ title: OSC IA1 Important Questions
 ---
 
 > [!WARNING]
-> This Page is incomplete and answers will be added soon.
+> This Page is incomplete and answers will be added soon. 12/12 Remaining.
 
 # Operating System Concepts
 # Part A(2 marks)

@@ -1,8 +1,8 @@
 ---
 order: 1
-title: CMA Assignment 1(10/3/25)
+title: CMA Assignment 1 Part A(10/3/25)
 ---
-# CMA Assignment 1(10/3/25)
+# CMA Assignment 1 Part A(10/3/25)
 ## Q1. Explan Table tags with suitable examples
 - The table tag is used to display Table in a Web Page.
 - An HTML table consists of one table element and one or more tr, th, and td elements.
@@ -284,14 +284,3 @@ The `name` attribute is used to specify an easily identifiable name for an HTML 
 [W3Schools(Tag `<a>`)](https://www.w3schools.com/tags/tag_a.asp)
 
 [W3Schools(Target)](https://www.w3schools.com/Tags/att_a_target.asp)
-<!--9. Explain different ways using style sheet in HTML?
-10. Explain the difference between <div>  and <span> tag?
-11. Briefly describe alert() and confirm() methods in java script?
-12. Explain addeventListener() method with example?
-13. Explain the<form> tag and its attributes?
-14. Write a short note on  <aside> with  any of its unique attributes?
-15. Explain <input> tag with element specific attributes?
-16. Explain how to define a  JavaScript function  with proper Example?
-17. Explain different ways linking style sheet in HTML5?
-18. Explain the steps of creating internal and external style sheet?
--->
