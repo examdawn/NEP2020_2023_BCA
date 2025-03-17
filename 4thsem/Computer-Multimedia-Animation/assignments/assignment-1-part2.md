@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 title: CMA Assignment 1 Part B(17/3/25)
 ---
 # CMA Assignment 1 Part B(17/3/25)
