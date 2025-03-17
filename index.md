@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Exam Dawn - BCA"
-  text: "An All-in-One Resource Site for BCA Students(2023 Batch)"
+  tagline: "An All-in-One Resource Site for BCA Students(2023 Batch)"
   actions:
     - theme: brand
       text: Edit Content
