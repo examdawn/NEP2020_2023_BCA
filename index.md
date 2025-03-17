@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Exam Dawn - BCA"
-  tagline: "(2023 Batch)"
+  tagline: "2023 Batch"
   actions:
     - theme: brand
       text: Edit Content
