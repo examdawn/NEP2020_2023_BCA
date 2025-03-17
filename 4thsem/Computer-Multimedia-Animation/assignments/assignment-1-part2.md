@@ -23,13 +23,17 @@ title: CMA Assignment 1 Part B(17/3/25)
 ## Q14. Write a short note on `<aside>` with any of its unique attributes
 ## Q15. Explain `<input>` tag with element-specific attributes
 ## Q16. Explain how to define a JavaScript function with a proper example
-A javascript function is a block of code meant to performa a specific task that can be run when something "invokes" it.
+A javascript function is a block of code meant to performs a specific task that can be run when something "invokes" it.
+
+Here, we use the `function` keyword to create a function. 
+- We pass arguments to the functions
+- After the operation inside the code block is done, we ask it to return a certain value so that we can use it
 
 Syntax:
 ```javascript
-function MyFunctionName(argument1, argument2) {
+function MyFunctionName(arguments) {
     // Your Code here
-    return argument1; // return a value after the task is done  
+    return something; // return a value after the task is done  
 }
 ```
 
