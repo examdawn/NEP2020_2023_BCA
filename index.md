@@ -19,7 +19,7 @@ features:
     link: ./3rdsem
   - title: 4th Semester
     link: ./4thsem
-    details: Click here to view 3rd Semester options
+    details: Click here to view 4th Semester options
 ---
 
 BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science
