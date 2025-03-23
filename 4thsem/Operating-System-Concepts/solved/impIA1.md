@@ -22,3 +22,6 @@ title: OSC IA1 Important Questions
 ## Q4. Write a note on Interprocess Communication.
 ## Q5. What is priority scheduling in real time systems? Explain with examples.
 ## Q6. Explain reader writer's problem.
+
+# Part C(8 Marks)
+All algorithms like SJF, FCFS
