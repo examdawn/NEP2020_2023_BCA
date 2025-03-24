@@ -36,6 +36,26 @@ An operating system (OS) is the software that controls a computer's hardware and
 From Q4 in [Assignment 1](../assignments/assignment-1#q4what-is-an-operating-system)
 # Part B(4 marks)
 ## Q1. Explain "Dining Philosopher's Problem"
+
+```mermaid
+flowchart LR
+ %% Nodes for philosophers and forks
+ P1((Philosopher 1))
+ P2((Philosopher 2))
+ P3((Philosopher 3))
+
+ P1 --> P2 --> P3 --> P1
+```
+
+```mermaid
+flowchart LR
+ %% Nodes for philosophers and forks
+ P1((Philosopher 1))
+ P2((Philosopher 2))
+ P3((Philosopher 3))
+
+fork3 <---> P1 <---> fork1 <---> P2 <---> fork2 <---> P3 <---> fork3
+```
 ## Q2. Write a note on the "Critical Section Problem".
 ## Q3. Differentiate between pre-emptive and non-pre-emptive scheduling
 ## Q4. Write a note on Interprocess Communication.
