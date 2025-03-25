@@ -26,14 +26,10 @@ title: BLS IA1 Important Questions
 
 # Section C
 
-## Q6. Explain the theory of leadership by:
-1. Maxwell
-2. Jim Colin
+## Q6. Explain the theory of leadership by Maxwell
 
 ## Q7. Explain the characteristics of leadership/a leader
 
-## Q8. Write down the traits of an ethical leader
+## Q8. Write down 10 qualities of an effective leader
 
-## Q9. Write down the qualities of an effective leader
-
-## Q10. Explain the different roles of leadership 
+## Q9. Explain the different roles of leadership 
