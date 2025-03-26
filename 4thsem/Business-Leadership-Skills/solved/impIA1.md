@@ -57,8 +57,39 @@ Good, well established examples of this are Union Leaders, to regulate Companies
 # Section B
 
 ## Q2. Write down the dark traits of a leader
+- The dark side of leadership is defined as “an ongoing pattern of behavior exhibited by a leader that results in overall negative organizational outcomes based on the interactions between the leader, follower and the environment.”
+- Leaders who cross over to the dark side and contribute to negative results often display one or more of the following attributes:
+    1. Narcissistic
+    2. Controlling
+    3. Arrogant
+    4. Selfish
+    5. Dishonest
+- These personality traits can lead to the abuse of power, lack of empathy and even unethical behavior. For example, a narcissist may only listen for their own ideas while punishing critics who disagree, causing a toxic environment where those in agreement are rewarded and those who do not are punished.
+
+[FloridaTechOnline](https://www.floridatechonline.com/blog/business/the-dark-side-of-leadership/)
+
 ## Q3. Differentiate between authority and leadership
+|Authority|Leadership|
+|---------|----------|
+| Formal post in Organization | Formal or Informal |
+| Excercise power | Labour union leader |
+| Demanding | Lead |
+| Ordering | Motivate |
+| Best performance/output | Infinite |
+| Human approach meeting | Complete the task besed on one's talent and skills |
+
 ## Q4. Differentiate between management and leadership
+<!-- | Management | Leadership |
+|------------|------------|
+| Influencing & Motivating | Planning, Organising, Staffing Controlling |
+| Work to achieve the goal of individual | Result Oriented | 
+| Unorganized group | Formulate the brand policy |
+| Concern with human personal goal |  |
+| Performance of individual | Concern with organization goals |
+| Risk Takers | |
+||Concern for organization performance |
+--> TODO: SOlve
+
 ## Q4. Write down the importance of a leader 
 1. Leaders Introduce Changes
     - Change doesn’t just happen naturally. 
