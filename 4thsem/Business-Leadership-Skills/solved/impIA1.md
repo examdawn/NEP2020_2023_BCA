@@ -59,23 +59,41 @@ Good, well established examples of this are Union Leaders, to regulate Companies
 ## Q2. Write down the dark traits of a leader
 ## Q3. Differentiate between authority and leadership
 ## Q4. Differentiate between management and leadership
-## Q5. Write down the importance of a leader 
+## Q4. Write down the importance of a leader 
+1. Leaders Introduce Changes
+    - Change doesn’t just happen naturally. 
+    - For change to occur, executives need to direct their teams on what actions will drive the most impact. 
+2. Leaders Help People Fulfill Needs
+    - Effective leadership development establishes a personal connection with others. 
+    - If someone believes that a leader truly understands their feelings and concerns, they are more likely to follow them
+3. Leaders Resolve Conflicts
+    - Leaders will listen to concerns and address them quickly
+4. Leaders Provide Guidance
+    - people need additional help when learning, and leaders must be willing to take the necessary steps to do so
+5. Leaders Establish a Vision
+    - leaders place tasks and responsibilities in the proper context for people
+6. Leaders Improve Morale
+    - If they make sure to praise and recognize people regularly, morale will steadily improve among all workers
+7. Leaders Create Positive Work Environments
+- When executives, directors, and managers are positive and encouraging, people will feel right at home and ready to contribute
+
+[Leaders](https://leaders.com/articles/leadership/why-is-leadership-important/)
 
 # Section C
 
 ## Q5. Explain the theory of leadership by Maxwell
 There are 5 P’s of Leadership, which John Maxwell details below:
 
-**Position** (Rights): 
-- People follow you because they have to.
-**Permission** (Relationships): 
-- People follow you because they want to.
-**Production** (Results): 
-- People follow you because of what you have done for the entire organization.
-**People Development** (Reproduction): 
-- People follow because of what you have done for them.
-**Pinnacle** (Respect): 
-- People follow you because of who you are and what you represent. 
+- **Position** (Rights): 
+    - People follow you because they have to.
+- **Permission** (Relationships): 
+    - People follow you because they want to.
+- **Production** (Results): 
+    - People follow you because of what you have done for the entire organization.
+- **People Development** (Reproduction): 
+    - People follow because of what you have done for them.
+- **Pinnacle** (Respect): 
+    - People follow you because of who you are and what you represent. 
 
 ![Pyramid of 5 Stages of Leadership by Maxwell](https://slidemodel.com/wp-content/uploads/22106-01-john-maxwell-5-levels-of-leadership-pyramid-template-for-powerpoint-16x9-1.jpg)
 
@@ -84,16 +102,16 @@ There are 5 P’s of Leadership, which John Maxwell details below:
 (Image from Slidemodel)
 ## Q6. Explain the characteristics of leadership/a leader
 1. Ability to Influence Others
-- understanding their motivations and encourage them to share their opinions
-- use that knowledge to make change and show their voice matters
+    - understanding their motivations and encourage them to share their opinions
+    - use that knowledge to make change and show their voice matters
 2. Transparency
 Part of building trust is being transparent. 
-- The more open you are about the organization’s goals and challenges, the easier it is for employees to understand their roles and how they can individually contribute to the company’s overall success
+    - The more open you are about the organization’s goals and challenges, the easier it is for employees to understand their roles and how they can individually contribute to the company’s overall success
 3. Encourage Risk-Taking and Innovation
 Leaders must actively foster a culture of innovation by:
-- supporting experimentation
-- challenging unwritten rules
-- and embracing mistakes. 
+    - supporting experimentation
+    - challenging unwritten rules
+    - and embracing mistakes. 
 
 These steps can yield innovations that wouldn’t have otherwise surfaced.
 4. Integrity and Accountability
