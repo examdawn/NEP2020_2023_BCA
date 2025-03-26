@@ -1,6 +1,7 @@
 ---
 order: 0
-title: Python - Assignments
+title: Python - Assignments List
+exclude: true
 ---
 # Python Programming
 

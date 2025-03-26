@@ -1,6 +1,7 @@
 ---
 order: 0
-title: CMA - Assignments
+title: CMA - Assignments List
+exclude: true
 ---
 # Computer Multimedia and Animation
 

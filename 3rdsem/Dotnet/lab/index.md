@@ -1,6 +1,6 @@
 ---
 order: 0
-title: Dotnet - Lab
+title: Dotnet - Lab View
 ---
 # C# and DotNet Technologies
 ## Lab Practicals

@@ -1,6 +1,7 @@
 ---
 order: 0
-title: CCN Assignments
+title: CCN - Assignments List
+exclude: true
 ---
 # Computer Communication and Networking
 ## Assignments

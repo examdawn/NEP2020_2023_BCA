@@ -1,6 +1,7 @@
 ---
 order: 0
-title: IC Assignments List 
+title: IC - Assignments List
+exclude: true
 ---
 # Indian Constitution
 ## Assignments

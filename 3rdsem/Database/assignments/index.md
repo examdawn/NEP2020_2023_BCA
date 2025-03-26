@@ -1,6 +1,7 @@
 ---
 order: 0
 title: Database - Assignment List
+exclude: true
 ---
 # Database Management System
 ## Assignments

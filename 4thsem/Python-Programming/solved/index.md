@@ -1,6 +1,7 @@
 ---
 order: 0
-title: Python - Solved Questions
+title: Python - Solved List
+exclude: true
 ---
 # Python Programming
 

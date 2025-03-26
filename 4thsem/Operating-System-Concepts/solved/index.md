@@ -1,6 +1,7 @@
 ---
 order: 0
-title: OSC - Solved Questions
+title: OSC - Solved List
+exclude: true
 ---
 # Operating System Concepts
 

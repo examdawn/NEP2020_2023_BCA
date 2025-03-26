@@ -1,6 +1,7 @@
 ---
 order: 0
-title: OSC - Assignments
+title: OSC - Assignments List
+exclude: true
 ---
 # Operating System Concepts
 

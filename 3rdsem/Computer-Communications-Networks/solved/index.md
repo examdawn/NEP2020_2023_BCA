@@ -1,6 +1,7 @@
 ---
 order: 0
-title: CCN - Solved
+title: CCN - Solved List
+exclude: true
 ---
 # Computer Communications and Networking
 

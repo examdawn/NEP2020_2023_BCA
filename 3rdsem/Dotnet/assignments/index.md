@@ -1,6 +1,7 @@
 ---
 order: 0
-title: Dotnet Assignment List
+title: Dotnet - AssignmentList
+exclude: true
 ---
 # C# and Dotnet
 ## Assignments

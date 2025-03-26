@@ -1,6 +1,7 @@
 ---
 order: 0
-title: BLS - Assignments
+title: BLS - Assignments List
+exclude: true
 ---
 # Business Leadership Skills
 

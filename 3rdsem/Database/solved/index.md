@@ -1,6 +1,7 @@
 ---
 order: 0
-title: Database - Syllabus
+title: Database - Solved List
+exclude: true
 ---
 # Database Management System
 Units:

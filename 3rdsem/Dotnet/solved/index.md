@@ -1,6 +1,7 @@
 ---
 order: 0
-title: Dotnet - Solved
+title: Dotnet - Solved List
+exclude: true
 ---
 # C# and DotNet Technologies
 

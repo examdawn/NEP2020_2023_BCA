@@ -1,6 +1,7 @@
 ---
 order: 0
-title: BLS - Solved Questions
+title: BLS - Solved List
+exclude: true
 ---
 # Business Leadership Skills
 

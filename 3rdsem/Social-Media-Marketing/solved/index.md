@@ -1,6 +1,7 @@
 ---
 order: 0
 title: SMM - Solved List
+exclude: true List
 ---
 # Social Media and Marketing
 
