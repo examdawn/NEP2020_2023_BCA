@@ -4,7 +4,7 @@ title: BLS IA1 Important Questions
 ---
 
 > [!WARNING]
-> This Page is incomplete and answers will be added soon. 10/10 Remaining.
+> This Page is incomplete and answers will be added soon. 1/10 Remaining.
 
 
 # Section A
