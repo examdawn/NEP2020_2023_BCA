@@ -2,7 +2,8 @@
 order: 2
 title: CMA Assignment 1 Part B
 ---
-# CMA Assignment 1 Part B(17/3/25)
+# CMA Assignment 1 Part B
+(Due on 17/3/2025)
 > [!WARNING]
 > This Page is incomplete and answers will be added soon. 4/9 Remaining.
 ## Q9. Explain different ways using stylesheets in HTML

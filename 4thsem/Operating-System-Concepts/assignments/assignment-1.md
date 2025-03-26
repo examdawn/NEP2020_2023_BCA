@@ -4,7 +4,7 @@ title: OSC Assignment 1
 ---
 # Operating System Concepts
 
-Assignment 1 (14/02/2025)
+Assignment 1 (Due on 14/02/2025)
 
 # Short answer questions
 ## Q1.	Differentiate between multiprogramming and multitasking operating systems.

@@ -5,4 +5,4 @@ exclude: true
 ---
 # Business Leadership Skills
 
-- [Assignment 1 (14/02/2025)](./assignment-1)
+- [Assignment 1 (Due at 14/02/2025)](./assignment-1)

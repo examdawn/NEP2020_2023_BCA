@@ -2,7 +2,9 @@
 order: 0
 title: Python Assignment 1
 ---
-# Python Assignment 1(28/2/25)
+# Python Assignment 1
+
+(Due on 28/2/2025)
 
 > [!TIP]
 > This Page supports running Python directly from your browser!

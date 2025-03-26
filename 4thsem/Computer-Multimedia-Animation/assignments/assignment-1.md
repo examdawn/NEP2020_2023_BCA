@@ -2,7 +2,8 @@
 order: 1
 title: CMA Assignment 1 Part A
 ---
-# CMA Assignment 1 Part A(10/3/25)
+# CMA Assignment 1 Part A
+(Due on 10/3/2025)
 ## Q1. Explan Table tags with suitable examples
 - The table tag is used to display Table in a Web Page.
 - An HTML table consists of one table element and one or more tr, th, and td elements.
