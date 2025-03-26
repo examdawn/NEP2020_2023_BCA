@@ -1,6 +1,6 @@
 ---
 order: 1
-title: OSC Assignment 1(14/2/25)
+title: OSC Assignment 1
 ---
 # Operating System Concepts
 

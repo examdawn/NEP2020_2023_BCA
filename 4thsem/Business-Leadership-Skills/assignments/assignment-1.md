@@ -1,6 +1,6 @@
 ---
 order: 1
-title: BLS Assignment 1(25/2/25)
+title: BLS Assignment 1
 ---
 
 # 2 Marks Questions <!--(Doubly Short)-->

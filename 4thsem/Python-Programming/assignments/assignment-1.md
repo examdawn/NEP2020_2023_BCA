@@ -1,6 +1,6 @@
 ---
 order: 0
-title: Python Assignment 1(28/2/25)
+title: Python Assignment 1
 ---
 # Python Assignment 1(28/2/25)
 

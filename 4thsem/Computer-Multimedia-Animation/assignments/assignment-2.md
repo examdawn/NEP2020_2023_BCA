@@ -1,8 +1,8 @@
 ---
 order: 3
-title: CMA Assignment 2(17/3/25)
+title: CMA Assignment 2
 ---
-# CMA Assignment 2(17/3/25)
+# CMA Assignment 2
 ## Q1. Define Interpolation with neat diagram
 ## Q2. Explain any 4 `<input>` tags with their element specific attributes
 ## Q3. Explain clear property of CSS3 with all its option

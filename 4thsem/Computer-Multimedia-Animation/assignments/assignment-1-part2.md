@@ -1,6 +1,6 @@
 ---
 order: 2
-title: CMA Assignment 1 Part B(17/3/25)
+title: CMA Assignment 1 Part B
 ---
 # CMA Assignment 1 Part B(17/3/25)
 > [!WARNING]

@@ -1,6 +1,6 @@
 ---
 order: 1
-title: CMA Assignment 1 Part A(10/3/25)
+title: CMA Assignment 1 Part A
 ---
 # CMA Assignment 1 Part A(10/3/25)
 ## Q1. Explan Table tags with suitable examples
