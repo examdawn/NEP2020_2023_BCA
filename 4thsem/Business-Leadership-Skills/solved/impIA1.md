@@ -56,7 +56,7 @@ Good, well established examples of this are Union Leaders, to regulate Companies
 
 # Section B
 
-## Q2. Write down the dark traits of a leader
+## Q1. Write down the dark traits of a leader
 - The dark side of leadership is defined as “an ongoing pattern of behavior exhibited by a leader that results in overall negative organizational outcomes based on the interactions between the leader, follower and the environment.”
 - Leaders who cross over to the dark side and contribute to negative results often display one or more of the following attributes:
     1. Narcissistic
@@ -68,7 +68,7 @@ Good, well established examples of this are Union Leaders, to regulate Companies
 
 [FloridaTechOnline](https://www.floridatechonline.com/blog/business/the-dark-side-of-leadership/)
 
-## Q3. Differentiate between authority and leadership
+## Q2. Differentiate between authority and leadership
 |Authority|Leadership|
 |---------|----------|
 | Formal post in Organization | Formal or Informal |
@@ -78,17 +78,18 @@ Good, well established examples of this are Union Leaders, to regulate Companies
 | Best performance/output | Infinite |
 | Human approach meeting | Complete the task besed on one's talent and skills |
 
-## Q4. Differentiate between management and leadership
-<!-- | Management | Leadership |
+## Q3. Differentiate between management and leadership
+| Management | Leadership |
 |------------|------------|
 | Influencing & Motivating | Planning, Organising, Staffing Controlling |
-| Work to achieve the goal of individual | Result Oriented | 
-| Unorganized group | Formulate the brand policy |
-| Concern with human personal goal |  |
-| Performance of individual | Concern with organization goals |
-| Risk Takers | |
-||Concern for organization performance |
---> TODO: SOlve
+| Work to achieve the goal of individual | Result Oriented,  Formulate the brand policy| 
+| Unorganized group | Organized group |
+
+| Concern with human personal goal | Concern with organization goals |
+| Performance of individual | Concern for organization performance |
+| Risk Takers | Risk Averse|
+| Initiate a task | Result oriented |
+| For individual | For organization |
 
 ## Q4. Write down the importance of a leader 
 1. Leaders Introduce Changes
