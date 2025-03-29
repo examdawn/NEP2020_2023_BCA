@@ -39,6 +39,7 @@ jobs:
           git clone https://github.com/examdawn/website
           mv website/* .
           rm -rf website
+          cd docs
           wget https://raw.githubusercontent.com/examdawn/helper_scripts/refs/heads/main/build.sh
           SKIP_REPO_NAME="NEP2020_2023_BCA" bash build.sh
       - name: Setup Node
