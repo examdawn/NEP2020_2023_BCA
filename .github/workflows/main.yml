@@ -35,8 +35,6 @@ jobs:
           mv website/* .
           rm -rf website
           cd docs
-          wget https://raw.githubusercontent.com/examdawn/helper_scripts/refs/heads/main/build.sh
-          SKIP_REPO_NAME="NEP2020_2023_BCA" bash build.sh
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -52,7 +50,9 @@ jobs:
       - name: Install dependencies
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
-        run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
+        run: |
+          wget https://raw.githubusercontent.com/examdawn/helper_scripts/refs/heads/main/build.sh
+          SKIP_REPO_NAME="NEP2020_2023_BCA" bash build.sh
       #- name: Upload artifact
       #  uses: actions/upload-pages-artifact@v3
       #  with:
