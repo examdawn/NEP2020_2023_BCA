@@ -32,14 +32,11 @@ jobs:
       - name: Prepare Vitepress
         run: |
           git clone https://github.com/examdawn/website
-          mv website/* .
-          rm -rf website
-          cd docs
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
-          path: 'docs/NEP2020/2023/BCA'
+          path: 'website/docs/NEP2020/2023/BCA'
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -49,6 +46,7 @@ jobs:
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: |
+          cd website/docs
           wget https://raw.githubusercontent.com/examdawn/helper_scripts/refs/heads/main/build.sh
           SKIP_REPO_NAME="NEP2020_2023_BCA" bash build.sh
       #- name: Upload artifact
