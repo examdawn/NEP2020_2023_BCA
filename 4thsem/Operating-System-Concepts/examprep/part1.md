@@ -24,5 +24,9 @@ A "Wait-For Graph" is a directed graph used in OS to represent the waiting relat
     1. `P1` holds `R1` but waits for `R2`.
     2. `P2` holds `R2` but waits for `R1`
 - The Wait-For Graph would look like this
-    
-<!-- Try to use charts as much as possible -->
+    ```mermaid
+    graph LR;
+    A[Process 1] --> B[Resource 2];
+    B[Resource 2] --> C[Process 2];
+    C[Process 2] --> A[Process 1];
+    ```
