@@ -75,3 +75,47 @@ title: CMA - "Exam Preparation" Part1
         confirm("Speed your computer by deleting System32");
         ```
         
+## Explain `addEventListener()` method with example.
+- It attaches an event handler to a specified element.
+    - ***Parameters***:
+        1. *Event*: The type of event to listen for[E.g. "click", "hover", "submit"].
+        2. *Function*: The event handler function to execute when the event occurs.
+        3. *Use Capture*: An optional boolean value indicating whenther to use event capture or bubbling.
+    - ***Syntax***:
+        ```javascript
+        Element.addEventListener(Event, Function, User Capture)
+    - ***Example***: 
+        ```javascript
+        <button id="Mybutton">Click Me!</button>
+        <script>
+            const button = document.getElementById("Mybutton");
+            button.addEventListener("click", function() { 
+                alert("Button Clicked!");
+            });
+        </script>
+        ```
+
+## Explain Longhand properties and Shorthand properties.
+- CSS transitions can be defined using both longhand and shorthand properties. These two approaches offer distinct levels of control or convenience for specifying transition effects.
+    1. ***Longhand Properties***: They  are CSS properties that are written out in full, with each individual aspect of the transition such as the properties being transitioned, the duration the timing function and the delay.
+    - EXAMPLE:
+        ```css
+        .ballontop {
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0.2s;
+        }
+        ```
+    2. ***Shorthand Properties***: It allows to specify multiple properties in a single line of code. Shorthand properties offer a more concise way to declare transition by combining multiple aspects into a single property called transition.
+    - EXAMPLE:
+        ```css
+        transition: width 1s case-on-out 0.2s;
+        ```
+
+    | ***Aspects*** | ***Longhand Properties*** | ***Shorthand Properties*** |
+    |---------|---------------------|----------------------|
+    | NO. OF DECLARATION | For separate declaration for property, duration. | A single declaration combining all aspects.  |
+    | CONTROL | Provides precise control over each aspects. | Offers more concise way to declare. |
+    | READABILITY | May result in longer, more detailed code. | Provides a compact and readable declaration. |
+    | FLEXIBILITY | Allows different properties to have individual settings. | Suitable for straightforward transitions. |
