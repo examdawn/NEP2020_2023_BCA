@@ -30,7 +30,7 @@ title: CMA Lab - Part B
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg1)
 
-<iframe src="https://sounddrill31.github.io/html-demos/partb/prg1/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg1/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="350px" allowfullscreen></iframe>
 
 :::
 
@@ -69,7 +69,7 @@ title: CMA Lab - Part B
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg2)
 
-<iframe src="https://sounddrill31.github.io/html-demos/partb/prg2/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg2/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="400px" allowfullscreen></iframe>
 
 :::
 
@@ -164,6 +164,6 @@ title: CMA Lab - Part B
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg4)
 
-<iframe src="https://sounddrill31.github.io/html-demos/partb/prg4/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg4/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
 
 :::
