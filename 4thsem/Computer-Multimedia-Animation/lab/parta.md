@@ -4,7 +4,7 @@ title: CMA Lab - Part A
 ---
 # Computer Multimedia and Animation - Lab Part A
 
-## Q1. Write a HTML/5 program to demonstrate the use of Font family, font variant, font style, and font size. 
+## Q1. Write an HTML/5 program to demonstrate the use of Font family, font variant, font style, and font size. 
 
 
 ::: details See code
@@ -51,7 +51,7 @@ title: CMA Lab - Part A
 
 :::
 
-## Q2. Write a HTML/5 program to display random contents using list properties: 
+## Q2. Write an HTML/5 program to display random contents using list properties: 
 1. ordered list 
 2. Unordered list 
 
@@ -157,7 +157,7 @@ title: CMA Lab - Part A
 
 :::
 
-## Q3. Write a HTML/5 program to create gradient using css. 
+## Q3. Write an HTML/5 program to create gradient using css. 
 
 ::: details See Code
 ```html
@@ -195,7 +195,7 @@ title: CMA Lab - Part A
 
 :::
 
-## Q4. Write a HTML/5 code to demonstrate following CSS animation properties: 
+## Q4. Write an HTML/5 code to demonstrate following CSS animation properties: 
 1. Delay 
 2. Direction 
 3. Duration
@@ -244,7 +244,7 @@ title: CMA Lab - Part A
 
 :::
 
-## Q5. Write a HTML/5 program to demonstrate key frames 
+## Q5. Write an HTML/5 program to demonstrate key frames 
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg5/)
 
@@ -294,7 +294,7 @@ title: CMA Lab - Part A
 
 :::
 
-## Q6. Write a HTML/5 code to demonstrate CSS transition and transformation. 
+## Q6. Write an HTML/5 code to demonstrate CSS transition and transformation. 
 
 ::: details See code
 ```html
@@ -329,7 +329,7 @@ title: CMA Lab - Part A
 <iframe src="https://sounddrill31.github.io/html-demos/prg6/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
 
 :::
-## Q7. Write a HTML/5 program to turn on/off a light bulb using JavaScript. 
+## Q7. Write an HTML/5 program to turn on/off a light bulb using JavaScript. 
 Make use of image and buttons. 
 
 > [!WARNING]

@@ -4,7 +4,7 @@ title: CMA Lab - Part B
 ---
 # Computer Multimedia and Animation - Lab Part B
 
-## Q1. Write a HTML5 program to draw shapes using SVG like rectangle, line, polygon, polyline
+## Q1. Write an HTML/5 program to draw shapes using SVG like rectangle, line, polygon, polyline
 
 ::: details See code
 ```html
@@ -34,7 +34,7 @@ title: CMA Lab - Part B
 
 :::
 
-## Q2. Write a HTML5 program to draw linear and radial gradient ellipse using SVG
+## Q2. Write an HTML/5 program to draw linear and radial gradient ellipse using SVG
 
 ::: details See code
 ```html
@@ -74,7 +74,7 @@ title: CMA Lab - Part B
 :::
 
 
-## Q3. Write a HTML5 program to draw a star using SVG
+## Q3. Write an HTML/5 program to draw a star using SVG
 
 ::: details See code
 ```html
@@ -105,7 +105,7 @@ title: CMA Lab - Part B
 <iframe src="https://sounddrill31.github.io/html-demos/partb/prg3/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
 
 :::
-## Q4. Write a HTML5 program to drawline, circle, rectangle, gradient, text using SVG
+## Q4. Write an HTML/5 program to drawline, circle, rectangle, gradient, text using SVG
 
 ::: details See code
 ```html
@@ -165,5 +165,114 @@ title: CMA Lab - Part B
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg4)
 
 <iframe src="https://sounddrill31.github.io/html-demos/partb/prg4/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
+
+:::
+## Q5. Write an HTML/5 program to demonstrate translation, rotation, scaling, and transform using Canvas
+
+::: details See code
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Canvas Transformation</title>
+	<style>
+	 canvas {
+		border: 1px solid black;
+	 }
+	</style>
+  </head>
+  <body>
+     <canvas id="myCanvas" width="400" height="400"></canvas>
+     <script>
+    
+       const canvas= document.getElementById("myCanvas");
+ 
+       const ctx = canvas.getContext("2d");
+
+	ctx.fillStyle="red";
+	ctx.fillRect(50,50,100,100);
+
+	ctx.translate(200,100);
+	ctx.rotate(Math.PI/4)
+	ctx.scale(2,2);
+
+	ctx.fillStyle="blue";
+	ctx.fillRect(-50,-50,100,100);
+
+	ctx.setTransform(1,0,0,1,0,0);
+
+	ctx.fillStyle="green";
+	ctx.fillRect(200,200,100,100);
+
+	ctx.setTransform(1,0.5,-0.5,1,0,0);
+
+	ctx.fillStyle="orange";
+	ctx.fillRect(200,200,100,100);
+	</script>
+  </body>
+</html>
+```
+:::
+
+::: details Show output {open}
+
+[View Webpage](https://sounddrill31.github.io/html-demos/partb/prg5)
+
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg5/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
+
+:::
+## Q6. Write an HTML/5 program to demonstrate Bezier Curves and Quadratic Equations
+
+::: details See code
+```html
+<html>
+  <head>
+     <title>Bezier and Quadratic Curves Example</title>
+     <style>
+	 canvas{
+	     border: 1px solid black;
+	    }
+     </style>
+  </head>
+  <body>
+     <canvas id="mycanvas" width="400" height="400"></canvas>
+     <script>
+    
+	const canvas= document.getElementById("mycanvas");
+ 
+	const ctx = canvas.getContext("2d");
+
+	ctx.beginPath();
+	ctx.moveTo(50,50);
+		ctx.quadraticCurveTo(100,25,150,50);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.moveTo(200,50);
+
+	ctx.bezierCurveTo(200,25,250,25,250,50);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.quadraticCurveTo(75,125,100,150);
+	ctx.quadraticCurveTo(125,175,150,150);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.moveTo(200,150);
+	ctx.bezierCurveTo(200,125,250,125,250,150);
+	ctx.bezierCurveTo(250,175,200,175,200,150);
+	ctx.stroke();
+    </script>
+  </body>
+</html>
+```
+:::
+
+::: details Show output {open}
+
+[View Webpage](https://sounddrill31.github.io/html-demos/partb/prg6)
+
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg6/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
 
 :::
