@@ -385,7 +385,49 @@ while True:
 <Editor id="calc-prg7" />
 :::
 
-## Program 8: Program to implement Selection Sort.
+## Program 8: Program to explore String Functions
+```python
+str = input("Enter a string: ")
+
+print("Capital string: ", str.capitalize())
+print("Upper string: ", str.upper())
+print("Lower string: ", str.lower())
+print("Is string AlphaNumeric? ", str.isalnum())
+print("Is string Numeric? ", str.isnumeric())
+
+substring = input("Enter substring to search: ")
+print(f"Substring '{substring}' found at index: {str.find(substring)}")
+
+old_sub = input("Enter old substring to replace: ")
+new_sub = input("Enter new substring: ")
+print("Replaced String: ", str.replace(old_sub, new_sub))
+
+print("List of Words: ", str.split())
+```
+
+::: details Try it out
+```python:line-numbers
+str = input("Enter a string: ")
+
+print("Capital string: ", str.capitalize())
+print("Upper string: ", str.upper())
+print("Lower string: ", str.lower())
+print("Is string AlphaNumeric? ", str.isalnum())
+print("Is string Numeric? ", str.isnumeric())
+
+substring = input("Enter substring to search: ")
+print(f"Substring '{substring}' found at index: {str.find(substring)}")
+
+old_sub = input("Enter old substring to replace: ")
+new_sub = input("Enter new substring: ")
+print("Replaced String: ", str.replace(old_sub, new_sub))
+
+print("List of Words: ", str.split())
+```
+<Editor id="string-prg8" />
+:::
+
+## Program 9: Program to implement Selection Sort.
 
 ```python
 def selection_sort(lst):
@@ -422,5 +464,93 @@ sorted_numbers = selection_sort(numbers)
 
 print("Sorted List: ", sorted_numbers)
 ```
-<Editor id="Seque-prg8" />
+<Editor id="Seque-prg9" />
+:::
+
+## Program 10: Program to implement Stack.
+```python
+# Empty stack
+stack = []
+
+while True:
+    print("""
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    """)
+    ch = int(input("Enter choice: "))
+
+    match ch:
+        case 1:
+            num = int(input("Enter number to push: "))
+            stack.append(num)
+        case 2:
+            if len(stack) < 1:
+                print("Stack is empty, nothing to pop")
+            else:
+                print("Popped Value: ", stack.pop())
+        case 3:
+            if len(stack) < 1:
+                print("Stack is empty")
+            else:
+                print("Top Value: ", stack[-1])
+        case 4:
+            print("Stack: ", stack)
+        case 5:
+            break # Breaks the loop. Match case doesn't support break/continue
+        case _: # Equivalent to else
+            print("Invalid Choice. Please try again")
+
+```
+
+::: details Try it out
+```python:line-numbers
+# Empty stack
+stack = []
+
+while True:
+    print("""
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    """)
+    ch = int(input("Enter choice: "))
+
+    match ch:
+        case 1:
+            num = int(input("Enter number to push: "))
+            stack.append(num)
+        case 2:
+            if len(stack) < 1:
+                print("Stack is empty, nothing to pop")
+            else:
+                print("Popped Value: ", stack.pop())
+        case 3:
+            if len(stack) < 1:
+                print("Stack is empty")
+            else:
+                print("Top Value: ", stack[-1])
+        case 4:
+            print("Stack: ", stack)
+        case 5:
+            break # Breaks the loop. Match case doesn't support break/continue
+        case _: # Equivalent to else
+            print("Invalid Choice. Please try again")
+```
+<Editor id="stack-prg10" />
+:::
+
+## Program 11: Read and Write into a File
+```python
+
+```
+
+::: details Try it out
+```python:line-numbers
+```
+<Editor id="filehandle-prg11" />
 :::
