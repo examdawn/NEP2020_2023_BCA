@@ -6,7 +6,7 @@ title: CMA Lab - Part B
 
 ## Q1. Write an HTML/5 program to draw shapes using SVG like rectangle, line, polygon, polyline
 
-::: details See code
+::: details See code {open}
 ```html
 <!DOCTYPE html>
 <html>
@@ -26,7 +26,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg1)
 
@@ -36,7 +36,7 @@ title: CMA Lab - Part B
 
 ## Q2. Write an HTML/5 program to draw linear and radial gradient ellipse using SVG
 
-::: details See code
+::: details See code {open}
 ```html
 <!DOCTYPE html>
 <html>
@@ -65,7 +65,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg2)
 
@@ -76,7 +76,7 @@ title: CMA Lab - Part B
 
 ## Q3. Write an HTML/5 program to draw a star using SVG
 
-::: details See code
+::: details See code {open}
 ```html
 <!DOCTYPE html>
 <html>
@@ -98,7 +98,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg3)
 
@@ -107,7 +107,7 @@ title: CMA Lab - Part B
 :::
 ## Q4. Write an HTML/5 program to drawline, circle, rectangle, gradient, text using SVG
 
-::: details See code
+::: details See code {open}
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -160,7 +160,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg4)
 
@@ -169,7 +169,7 @@ title: CMA Lab - Part B
 :::
 ## Q5. Write an HTML/5 program to demonstrate translation, rotation, scaling, and transform using Canvas
 
-::: details See code
+::: details See code {open}
 ```html
 <!DOCTYPE html>
 <html>
@@ -214,7 +214,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg5)
 
@@ -223,7 +223,7 @@ title: CMA Lab - Part B
 :::
 ## Q6. Write an HTML/5 program to demonstrate Bezier Curves and Quadratic Equations
 
-::: details See code
+::: details See code {open}
 ```html
 <html>
   <head>
@@ -269,7 +269,7 @@ title: CMA Lab - Part B
 ```
 :::
 
-::: details Show output {open}
+::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/partb/prg6)
 
