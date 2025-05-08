@@ -20,10 +20,68 @@ Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead 
 :::
 
 
-## Program 1: Demonstrate usage of Basic Regular Expressions
+<!-- ## Program 1: Demonstrate usage of Basic Regular Expressions
 
-
+-->
 ## Program 2: Demonstrate use of Advanced Regular Expressions for Data Validation
+
+```python
+import re
+
+def validate_data():
+    email = input("Enter Email Addr: ")
+    phone = input("Enter Mobile Number: ")
+    url = input("Enter a URL: ")
+    password = input("Enter Password: ")
+
+    email_regex = r'\S+@\S+\.\S+'
+    phone_regex = r'\d{10}'
+    url_regex = r'https?://(www\.)?(\S+\.\S+)'
+    password_regex = r'.{8,}'
+
+    if not re.fullmatch(email_regex, email):
+        print("Invalid Email Address")
+    elif not re.fullmatch(phone_regex, phone):
+        print("Invalid Phone")
+    elif not re.fullmatch(url_regex, url):
+        print("Invalid URL")
+    elif not re.fullmatch(password_regex, password):
+        print("Invalid Password. Minimum 8 Characters.")
+    else:
+        print("Data is Valid.")
+validate_data()
+```
+
+::: details Try it out
+```python:line-numbers
+import re
+
+def validate_data():
+    email = input("Enter Email Addr: ")
+    phone = input("Enter Mobile Number: ")
+    url = input("Enter a URL: ")
+    password = input("Enter Password: ")
+
+    email_regex = r'\S+@\S+\.\S+'
+    phone_regex = r'\d{10}'
+    url_regex = r'https?://(www\.)?(\S+\.\S+)'
+    password_regex = r'.{8,}'
+
+    if not re.fullmatch(email_regex, email):
+        print("Invalid Email Address")
+    elif not re.fullmatch(phone_regex, phone):
+        print("Invalid Phone")
+    elif not re.fullmatch(url_regex, url):
+        print("Invalid URL")
+    elif not re.fullmatch(password_regex, password):
+        print("Invalid Password. Minimum 8 Characters.")
+    else:
+        print("Data is Valid.")
+validate_data()
+```
+<Editor id="valid-prg2" />
+:::
+
 
 ## Program 3: Demonstrate use of List
 
