@@ -85,6 +85,78 @@ validate_data()
 
 ## Program 3: Demonstrate use of List
 
+```python
+my_list = [10, 20, 30, 3.142, 'Python', 'BCA']
+print("Initial List: ", my_list)
+
+print("Element at list index 0: ", my_list[0])
+print("Element at list index 2: ", my_list[2])
+
+my_list[4] = 'Java'
+print("List after modifying an item: ", my_list)
+
+my_list.append('ExamDawn')
+print("List after appending an item: ", my_list)
+
+my_list.remove('Java')
+print("List after removing an item: ", my_list)
+
+del my_list[0]
+print("List after deleting an item: ", my_list)
+
+print("Popped item: ", my_list.pop(1))
+print("List after popping an item: ", my_list)
+
+print("Index of 'BCA': ", my_list.index('BCA'))
+
+print("Count of '3.142'", my_list.count(3.142))
+
+print("Length of List: ", len(my_list))
+
+my_list.reverse()
+print("Reversed List: ", my_list)
+
+my_list.clear()
+print("List after clearing: ", my_list)
+```
+
+```python:line-numbers
+my_list = [10, 20, 30, 3.142, 'Python', 'BCA']
+print("Initial List: ", my_list)
+
+print("Element at list index 0: ", my_list[0])
+print("Element at list index 2: ", my_list[2])
+
+my_list[4] = 'Java'
+print("List after modifying an item: ", my_list)
+
+my_list.append('ExamDawn')
+print("List after appending an item: ", my_list)
+
+my_list.remove('Java')
+print("List after removing an item: ", my_list)
+
+del my_list[0]
+print("List after deleting an item: ", my_list)
+
+print("Popped item: ", my_list.pop(1))
+print("List after popping an item: ", my_list)
+
+print("Index of 'BCA': ", my_list.index('BCA'))
+
+print("Count of '3.142'", my_list.count(3.142))
+
+print("Length of List: ", len(my_list))
+
+my_list.reverse()
+print("Reversed List: ", my_list)
+
+my_list.clear()
+print("List after clearing: ", my_list)
+```
+<Editor id="list-prg3-b" />
+:::
+
 ## Program 4: Demonstrate use of Dictionaries
 
 ## Program 5: Create SQLite Database and Perform Operations on tables
