@@ -16,7 +16,7 @@ If the Run Button doesn't show the run or loading button, try reloading your bro
 
 It will take some time to load, especially if your internet is slow.
 
-Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead for compatibility with matplotlib and other libraries
+Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead for compatibility with matplotlib and other libraries. The iframe embeds are generated with https://examdawn.github.io/url-py
 :::
 
 
@@ -168,6 +168,28 @@ print("List after clearing: ", my_list)
 ## Program 8: Drawing Line Chart and Bar Chart using Matplotlib
 
 #### Line Chart
+
+```python
+import matplotlib.pyplot as plt
+
+x = [1,2,3,4,5]
+y = [1,4,9,16,25]
+
+plt.plot(x,y)
+
+plt.title("Simple Line Graph")
+plt.xlabel("Number")
+plt.ylabel("Square")
+
+plt.show()
+
+plt.savefig("simple_line_graph.png")
+```
+
+::: details Try it out
+<a href="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%0A%0Ax%20%3D%20%5B1%2C2%2C3%2C4%2C5%5D%0Ay%20%3D%20%5B1%2C4%2C9%2C16%2C25%5D%0A%0Aplt.plot(x%2Cy)%0A%0Aplt.title(%22Simple%20Line%20Graph%22)%0Aplt.xlabel(%22Number%22)%0Aplt.ylabel(%22Square%22)%0A%0Aplt.show()%0A%0Aplt.savefig(%22simple_line_graph.png%22)%0A&execute=1" target="_blank">Open in New Tab</a>
+<iframe src="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%0A%0Ax%20%3D%20%5B1%2C2%2C3%2C4%2C5%5D%0Ay%20%3D%20%5B1%2C4%2C9%2C16%2C25%5D%0A%0Aplt.plot(x%2Cy)%0A%0Aplt.title(%22Simple%20Line%20Graph%22)%0Aplt.xlabel(%22Number%22)%0Aplt.ylabel(%22Square%22)%0A%0Aplt.show()%0A%0Aplt.savefig(%22simple_line_graph.png%22)%0A&execute=1" width="100%" height="100%"></iframe>
+:::
 
 #### Bar Chart
 
