@@ -120,6 +120,7 @@ my_list.clear()
 print("List after clearing: ", my_list)
 ```
 
+::: details Try it out
 ```python:line-numbers
 my_list = [10, 20, 30, 3.142, 'Python', 'BCA']
 print("Initial List: ", my_list)
