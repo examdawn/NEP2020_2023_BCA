@@ -276,3 +276,59 @@ title: CMA Lab - Part B
 <iframe src="https://sounddrill31.github.io/html-demos/partb/prg6/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
 
 :::
+
+## Q7. 
+
+## Q8. Write an HTML/5 program to add random size obstacles with a red square controller box
+
+::: details See code {open}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Obstacles</title>
+    <style>
+        #controller {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid #000;"></canvas>
+    <button id="controller" onclick="addObstacle()">Add Obstacle</button>
+
+<script> 
+const canvas = document.getElementById('myCanvas'); 
+const ctx = canvas.getContext('2d'); 
+
+function getRandomInt(min, max) { 
+    return Math.floor(Math.random() * (max - min + 1)) + min; 
+}
+
+function addObstacle() { 
+    // Determine random size for the obstacle 
+    const obstacleSize = getRandomInt(18, 50); 
+    // Determine random position for the obstacle ensuring it fits within the canvas 
+    const x = getRandomInt(0, canvas.width - obstacleSize); 
+    const y = getRandomInt(0, canvas.height - obstacleSize); 
+    // Draw the obstacle 
+    ctx.fillStyle = 'grey'; 
+    ctx.fillRect(x, y, obstacleSize, obstacleSize); 
+} 
+</script> 
+</body> 
+</html>
+```
+:::
+
+::: details Show output
+
+[View Webpage](https://sounddrill31.github.io/html-demos/partb/prg8)
+
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg8/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
+
+:::
