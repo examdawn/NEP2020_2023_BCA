@@ -16,7 +16,7 @@ If the Run Button doesn't show the run or loading button, try reloading your bro
 
 It will take some time to load, especially if your internet is slow.
 
-Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead for compatibility with matplotlib and other libraries. The iframe embeds are generated with https://examdawn.github.io/url-py
+Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead for compatibility with matplotlib and other libraries. The iframe embeds are generated with https://examdawn.github.io/url-py <!-- Personal Note: JupyterLite with SQLite3 needs you to set the db file in another location like /tmp/filename.db https://github.com/jupyterlite/pyodide-kernel/issues/35#issuecomment-1487234353 -->
 :::
 
 
