@@ -277,7 +277,82 @@ title: CMA Lab - Part B
 
 :::
 
-## Q7. 
+## Q7. Write a HTML/S program to create canvas and add a red square onto the game area with up/down/left/right controller buttons
+
+> [!NOTE]
+> This example NEEDS you to use your keyboard. Press up/down/left/right buttons to move the box. There's no touch equivalent for these actions.
+
+::: details See code {open}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Game</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <script>
+        // Get the canvas element
+        var canvas = document.getElementById("gameCanvas");
+        var context = canvas.getContext("2d");
+
+        // Set initial position of the square
+        var squareX = 200;
+        var squareY = 200;
+        var squareSize = 50;
+
+        // Function to draw the square
+        function drawSquare() {
+            context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+            context.fillStyle = "red";
+            context.fillRect(squareX, squareY, squareSize, squareSize);
+        }
+
+        // Function to handle keyboard input
+        function handleKeyDown(event) {
+            var keyCode = event.keyCode;
+            switch (keyCode) {
+                case 37: // Left arrow key
+                    squareX -= 10;
+                    break;
+                case 38: // Up arrow key
+                    squareY -= 10;
+                    break;
+                case 39: // Right arrow key
+                    squareX += 10;
+                    break;
+                case 40: // Down arrow key
+                    squareY += 10;
+                    break;
+            }
+            drawSquare();
+        }
+
+        // Add event listener for keydown events
+        document.addEventListener("keydown", handleKeyDown);
+
+        // Call drawSquare initially to draw the square
+        drawSquare();
+
+    </script>
+</body>
+</html>
+```
+:::
+
+::: details Show output
+
+[View Webpage](https://sounddrill31.github.io/html-demos/partb/prg7)
+
+<iframe src="https://sounddrill31.github.io/html-demos/partb/prg7/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
+
+:::
+
 
 ## Q8. Write an HTML/5 program to add random size obstacles with a red square controller box
 
