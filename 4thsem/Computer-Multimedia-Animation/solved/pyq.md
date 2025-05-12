@@ -4,7 +4,7 @@ title: CMA Previous Paper 2023
 ---
 
 > [!WARNING]
-> This Page is incomplete and answers will be added soon. 11/20 Remaining.
+> This Page is incomplete and answers will be added soon. 3/20 Remaining.
 
 # SECTION-A (6x2=12) 
 ## Q1. What is HTML? Mention any two tags in HTML. 
@@ -193,7 +193,111 @@ These methods include `translate()`, `rotate()`, `scale()`, `transform()`, `rese
 
 # SECTION-C (3x8=24) 
 ## Q16. What is CSS? Explain the different styles in CSS. 
+- Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications <sup>[[1](https://developer.mozilla.org/en-US/docs/Web/CSS)]</sup>.
+- This are the types of CSS:
+    ### 1. Inline CSS:
+    - It involves applying styles directly to individual HTML elements using the style attribute. This method allows for specific styling of elements within the HTML document, overriding any external or internal styles.
+
+    EXAMPLE:
+    ```HTML
+    <h1 style="font-style: bold">Hello</h1>
+    ```
+    ### 2. Internal(Embedded) CSS:
+    - Its is defined within the HTML document’s style element inside the head section. It applies styles to specified HTML elements. 
+    - The CSS rule set should be within the HTML file in the head section.
+
+    EXAMPLE:
+    ```HTML
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            div {
+                text-align: center;
+                background-color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p>Hello</p>
+        </div>
+    </body>
+    </html>
+    ```
+    ### 3. External CSS:
+    - It contains separate CSS files that contain only style properties with the help of tag attributes. 
+    - CSS property is written in a separate file with a .css extension and it is linked to the HTML document using a link tag inside the head section <sup>[[1](https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/)]</sup>.
+
+    EXAMPLE:
+    ```HTML
+    <!-- This is index.html -->
+    <html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div>
+        <h1>Hello</h1>
+      </div>
+    </body>
+    </html>
+    ```
+
+    ```CSS
+    /* This is style.css */
+    body {
+      background-color: blue;
+    }
+
+    div {
+      background-color: lightblue;
+    }
+    ```
 ## Q17. Explain different ways of creating animations in HTML. 
+#### 1. CSS Transitions:
+- Purpose:
+    - To smoothly change an element's appearance over a specified duration when a CSS property changes. 
+
+- Mechanism:
+    - Define the properties to be animated (e.g., opacity, width, height, background-color) and the duration of the transition.
+- Example:
+    - `transition: background-color 1s ease;` will make the background color change smoothly over 1 second. 
+- Use Cases: Hover effects, navigation transitions, smooth scrolls. 
+
+2. CSS Animations:
+- Purpose: 
+    - To create more complex and customizable animations with keyframes. 
+
+- Mechanism: 
+    - Use the `@keyframes` rule to define the animation's different states at specific points in time.
+
+- Example: `@keyframes myAnimation { from { opacity: 0; } to { opacity: 1; } }` defines an animation that fades an element in. 
+
+- Use Cases: Rotating elements, sliding effects, creating custom animations. 
+
+3. JavaScript Animations:
+- Purpose:
+    - To create dynamic and interactive animations by manipulating element styles in real-time. 
+
+- Mechanism:
+    - Use JavaScript to access and modify an element's CSS properties, often using requestAnimationFrame for smooth frame-by-frame updates. 
+- Example:
+    - `element.style.left = (parseInt(element.style.left) + 10) + 'px';` moves an element 10 pixels to the right in each frame. 
+- Use Cases: Interactive animations, game development, and custom effects. 
+
+4. `<canvas>` Element:
+
+- Purpose: 
+    - To draw animations using a bitmap image.
+- Mechanism: 
+    - Use JavaScript to access the canvas's drawing API (e.g., `beginPath()`, `fillRect()`, `drawImage()`) and redraw the scene in each frame.
+- Example: 
+    - `context.clearRect(0, 0, canvas.width, canvas.height);` clears the canvas, and `context.fillRect(x, y, width, height);` draws a rectangle.
+- Use Cases:
+    - Interactive drawing apps, simulations, and advanced graphics. 
+
 ## Q18. Write a HTML program to draw a line using SVG. 
 ## Q19. Explain the steps for drawing Bezier curves in canvas. 
 ## Q20. Explain the styles and colors in HTML5 with an example
