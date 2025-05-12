@@ -298,6 +298,110 @@ These methods include `translate()`, `rotate()`, `scale()`, `transform()`, `rese
 - Use Cases:
     - Interactive drawing apps, simulations, and advanced graphics. 
 
-## Q18. Write a HTML program to draw a line using SVG. 
+## Q18. Write a HTML program to draw a line using SVG.
+
+```html
+<html>
+<body>
+	<svg height="200" width="200">
+    	<line x1="0" y1="0" x2="160" y2="160" style="stroke:red;stroke-width:2" />
+    </svg>
+</body>
+</html>
+```
+<iframe src="https://sounddrill31.github.io/html-demos/non-lab/line" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
 ## Q19. Explain the steps for drawing Bezier curves in canvas. 
+To draw a Bezier curve on a canvas, you'll primarily use the `bezierCurveTo()` method in the `CanvasRenderingContext2D` object. 
+- This method takes six arguments: 
+    - two control points and the ending point of the curve. 
+    - The starting point is implicitly taken from the last point defined in the path, so you'll need to use `beginPath()` and `moveTo()` to set the initial point before calling `bezierCurveTo()`. 
+Steps:
+- Get the canvas context: Obtain a reference to the canvas element and its 2D rendering context using `document.getElementById("canvasId").getContext("2d")`. 
+- Start a new path: Initialize a new path using `context.beginPath()`. 
+- Move to the starting point: Define the starting point of the curve using `context.moveTo(x, y)`. 
+- Draw the Bezier curve: Use `context.bezierCurveTo(c1x, c1y, c2x, c2y, x, y)` to add the curve to the path. c1x, c1y and c2x, c2y are the coordinates of the control points, and x, y are the coordinates of the ending point. 
+- Render the curve: Use `context.stroke()` to draw the path with a stroke or `context.fill()` to fill the path. 
+
+```html
+<html>
+<body>
+<canvas id="myCanvas" width="300" height="150"></canvas>
+
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.bezierCurveTo(20, 100, 200, 100, 200, 20); // (controlpoint1x, controlpoint1y, controlpoint2x, controlpoint2y, endingx, endingy)
+ctx.stroke();
+</script> 
+
+</body>
+</html>
+```
+
+<iframe src="https://sounddrill31.github.io/html-demos/non-lab/bezier" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+[W3Schools](https://www.w3schools.com/jsref/canvas_beziercurveto.asp)
+
 ## Q20. Explain the styles and colors in HTML5 with an example
+
+Below content will explore how to:
+- Use the style attribute for styling HTML elements
+- Use background-color for background color
+- Use color for text colors
+- Use font-family for text fonts
+- Use font-size for text sizes
+- Use text-align for text alignment
+
+
+### Style Attribute
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+- Setting the style of an HTML element, can be done with the style attribute.
+- The HTML style attribute has the following syntax:
+    ```html
+    <tagname style="property:value;">
+    ```
+- The property is a CSS property. 
+    - The value is a CSS value.
+
+### Background Color
+The CSS background-color property defines the background color for an HTML element.
+- Set the background color for a page to powderblue:
+    ```html
+    <body style="background-color:powderblue;">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    </body>
+
+### Text Color
+
+The CSS color property defines the text color for an HTML element. Example: 
+```html
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+### Fonts
+
+The CSS font-family property defines the font to be used for an HTML element. Example:
+```html
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+### Text Size
+The CSS font-size property defines the text size for an HTML element. Example:
+
+```html
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+### Text Alignment
+
+The CSS text-align property defines the horizontal text alignment for an HTML element. Example:
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+[W3Schools](https://www.w3schools.com/html/html_styles.asp)
