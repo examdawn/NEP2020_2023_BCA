@@ -15,3 +15,6 @@ Others:
 - [Lab PartA](lab/parta.md)
 - [Lab PartB](lab/partb.md)
 - [Assignments](assignments) 
+
+PYQs:
+- [September/October 2023](solved/pyq.md)
