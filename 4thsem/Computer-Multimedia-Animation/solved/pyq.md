@@ -3,8 +3,6 @@ order: 0
 title: CMA Previous Paper 2023
 ---
 
-> [!WARNING]
-> This Page is incomplete and answers will be added soon. 3/20 Remaining.
 
 # SECTION-A (6x2=12) 
 ## Q1. What is HTML? Mention any two tags in HTML. 
