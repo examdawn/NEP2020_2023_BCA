@@ -400,8 +400,9 @@ The CSS font-size property defines the text size for an HTML element. Example:
 ### Text Alignment
 
 The CSS text-align property defines the horizontal text alignment for an HTML element. Example:
+```html
 <h1 style="text-align:center;">Centered Heading</h1>
 <p style="text-align:center;">Centered paragraph.</p>
-
+```
 
 [W3Schools](https://www.w3schools.com/html/html_styles.asp)
