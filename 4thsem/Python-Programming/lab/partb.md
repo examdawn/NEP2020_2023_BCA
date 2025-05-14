@@ -39,7 +39,7 @@ print("Search: ", search.group() if search else None)
 findall = re.findall("[0-9]", text) 
 print("Findall: ", findall) 
 # re.split() returns a list where the string has been split at each match. 
-split = re.split("\s", text) 
+split = re.split(r"\s", text) 
 print("Split: ", split) 
 #re.sub() replaces the matches with the text of choice. 
 sub = re.sub("4th", "Third", text) 
@@ -389,7 +389,7 @@ try:
 except ValueError: 
     print("That's not a valid number!") 
 else: 
-    print (f"You entered {num}.") 
+    print((f"You entered {num}.") 
 finally: 
     print("This statement is always executed.")
 ```
@@ -400,7 +400,7 @@ try:
 except ValueError: 
     print("That's not a valid number!") 
 else: 
-    print (f"You entered {num}.") 
+    print((f"You entered {num}.") 
 finally: 
     print("This statement is always executed.")
 ```
@@ -562,7 +562,7 @@ print("\nFirst row using loc[]:\n", df.loc[0])
 #Slice the first two rows and select 'Student Name' and 'Age' columns print("The first two rows of Name and Age Columns: ") 
 print(df[:2][['Name', 'Age']]) 
 #Filtering based on age>30 
-print("\nFiltered DataFrame (Age > 30):\n", df [df['Age'] > 30]) 
+print("\nFiltered DataFrame (Age > 30):\n", df[df['Age'] > 30]) 
 # Grouping based on Course and Age 
 grouped_df = df.groupby('Gender') ['Age'].mean() 
 print("\nGrouped DataFrame (based on 'Gender' and 'Age'):\n", grouped_df) 
