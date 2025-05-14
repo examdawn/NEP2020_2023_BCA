@@ -161,17 +161,180 @@ print("List after clearing: ", my_list)
 :::
 
 ## Program 4: Demonstrate use of Dictionaries
-<!-- ```python
-my_dict = {'name': 'Souhrud', 'age':19, 'city':'Bangalore'}
-print(f"Initial Dictionary: {my_dict}")
+```python
+my_dict = {'name': 'Souhrud', 'age': 19, 'city': 'Bangalore'}
+print("Initial dictionary:", my_dict)
+print("Value for 'name':", my_dict['name'])
+print("Value for 'age':", my_dict['age'])
 
-print(f"Value for name: {my_dict['name']}")
-print(f"Value for Age: {my_dict['age']}")
+print("Value for 'country':", my_dict.get('country'))
 
-WIP
+print("Value for 'country' with default:", my_dict.get('country', 'India'))
+
+my_dict['age'] = 25
+print("Dictionary after modifying an item:", my_dict)
+
+my_dict['job'] = 'Developer'
+print("Dictionary after adding an item:", my_dict)
+
+del my_dict['city']
+print("Dictionary after deleting an item by key:", my_dict)
+
+print("Popped item:", my_dict.pop('job'))
+print("Dictionary after popping an item:", my_dict)
+
+print("Keys:", list(my_dict.keys()))
+print("Values:", list(my_dict.values()))
+print("Items:", list(my_dict.items()))
+
+print("Number of items:", len(my_dict))
+
+print("'name' in dictionary:", 'name' in my_dict)
+print("'city' in dictionary:", 'city' in my_dict)
+
+my_dict2 = {'country': 'India', 'job': 'Developer'}
+my_dict.update(my_dict2)
+print("Dictionary after merging:", my_dict)
+
+my_dict.clear()
+print("Dictionary after clearing:", my_dict)
 ```
--->
+
+::: details Try it out
+```python:line-numbers
+my_dict = {'name': 'Souhrud', 'age': 19, 'city': 'Bangalore'}
+print("Initial dictionary:", my_dict)
+print("Value for 'name':", my_dict['name'])
+print("Value for 'age':", my_dict['age'])
+
+print("Value for 'country':", my_dict.get('country'))
+
+print("Value for 'country' with default:", my_dict.get('country', 'India'))
+
+my_dict['age'] = 25
+print("Dictionary after modifying an item:", my_dict)
+
+my_dict['job'] = 'Developer'
+print("Dictionary after adding an item:", my_dict)
+
+del my_dict['city']
+print("Dictionary after deleting an item by key:", my_dict)
+
+print("Popped item:", my_dict.pop('job'))
+print("Dictionary after popping an item:", my_dict)
+
+print("Keys:", list(my_dict.keys()))
+print("Values:", list(my_dict.values()))
+print("Items:", list(my_dict.items()))
+
+print("Number of items:", len(my_dict))
+
+print("'name' in dictionary:", 'name' in my_dict)
+print("'city' in dictionary:", 'city' in my_dict)
+
+my_dict2 = {'country': 'India', 'job': 'Developer'}
+my_dict.update(my_dict2)
+print("Dictionary after merging:", my_dict)
+
+my_dict.clear()
+print("Dictionary after clearing:", my_dict)
+```
+:::
+
 ## Program 5: Create SQLite Database and Perform Operations on tables
+```python
+import sqlite3
+
+def display_rows(cursor):
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+
+conn = sqlite3.connect('employee.db')
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS emp")
+
+cursor.execute("""
+CREATE TABLE emp
+(empno INTEGER PRIMARY KEY,
+empname TEXT,
+salary REAL,
+department TEXT)""")
+
+
+print("Table Created")
+cursor.execute("INSERT INTO emp VALUES (1 , 'Souhrud' , 50000 , 'IT')")
+cursor.execute("INSERT INTO emp VALUES (2 , 'John' , 35000 , 'Sales')")
+conn.commit()
+print("Records inserted")
+
+
+cursor.execute("SELECT * from emp")
+print("Records in the table:")
+display_rows(cursor)
+cursor.execute("UPDATE emp SET salary = 100000 WHERE empno = 1")
+conn.commit()
+print("Record Updated")
+
+cursor.execute("SELECT * from emp")
+print("Records in the table after update:")
+display_rows(cursor)
+
+cursor.execute("DROP TABLE emp")
+conn.commit()
+print("Table Dropped")
+
+conn.close()
+```
+
+::: details Try it out
+```python:line-numbers
+import sqlite3
+
+def display_rows(cursor):
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+
+conn = sqlite3.connect('employee.db')
+cursor = conn.cursor()
+
+cursor.execute("DROP TABLE IF EXISTS emp")
+
+cursor.execute("""
+CREATE TABLE emp
+(empno INTEGER PRIMARY KEY,
+empname TEXT,
+salary REAL,
+department TEXT)""")
+
+
+print("Table Created")
+cursor.execute("INSERT INTO emp VALUES (1 , 'Souhrud' , 50000 , 'IT')")
+cursor.execute("INSERT INTO emp VALUES (2 , 'John' , 35000 , 'Sales')")
+conn.commit()
+print("Records inserted")
+
+
+cursor.execute("SELECT * from emp")
+print("Records in the table:")
+display_rows(cursor)
+cursor.execute("UPDATE emp SET salary = 100000 WHERE empno = 1")
+conn.commit()
+print("Record Updated")
+
+cursor.execute("SELECT * from emp")
+print("Records in the table after update:")
+display_rows(cursor)
+
+cursor.execute("DROP TABLE emp")
+conn.commit()
+print("Table Dropped")
+
+conn.close()
+```
+:::
 
 ## Program 6: Create GUI using Tkinter Module 
 
