@@ -289,51 +289,8 @@ conn.close()
 ```
 
 ::: details Try it out
-```python:line-numbers
-import sqlite3
-
-def display_rows(cursor):
-    rows = cursor.fetchall()
-    for row in rows:
-        print(row)
-
-conn = sqlite3.connect('employee.db')
-cursor = conn.cursor()
-
-cursor.execute("DROP TABLE IF EXISTS emp")
-
-cursor.execute("""
-CREATE TABLE emp
-(empno INTEGER PRIMARY KEY,
-empname TEXT,
-salary REAL,
-department TEXT)""")
-
-
-print("Table Created")
-cursor.execute("INSERT INTO emp VALUES (1 , 'Souhrud' , 50000 , 'IT')")
-cursor.execute("INSERT INTO emp VALUES (2 , 'John' , 35000 , 'Sales')")
-conn.commit()
-print("Records inserted")
-
-
-cursor.execute("SELECT * from emp")
-print("Records in the table:")
-display_rows(cursor)
-cursor.execute("UPDATE emp SET salary = 100000 WHERE empno = 1")
-conn.commit()
-print("Record Updated")
-
-cursor.execute("SELECT * from emp")
-print("Records in the table after update:")
-display_rows(cursor)
-
-cursor.execute("DROP TABLE emp")
-conn.commit()
-print("Table Dropped")
-
-conn.close()
-```
+<a href="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20sqlite3%0A%0Adef%20display_rows(cursor)%3A%0A%20%20%20%20rows%20%3D%20cursor.fetchall()%0A%20%20%20%20for%20row%20in%20rows%3A%0A%20%20%20%20%20%20%20%20print(row)%0A%0Aconn%20%3D%20sqlite3.connect('%2Ftmp%2Femployee.db')%0Acursor%20%3D%20conn.cursor()%0A%0Acursor.execute(%22DROP%20TABLE%20IF%20EXISTS%20emp%22)%0A%0Acursor.execute(%22%22%22%0ACREATE%20TABLE%20emp%0A(empno%20INTEGER%20PRIMARY%20KEY%2C%0Aempname%20TEXT%2C%0Asalary%20REAL%2C%0Adepartment%20TEXT)%22%22%22)%0A%0A%0Aprint(%22Table%20Created%22)%0Acursor.execute(%22INSERT%20INTO%20emp%20VALUES%20(1%20%2C%20'Souhrud'%20%2C%2050000%20%2C%20'IT')%22)%0Acursor.execute(%22INSERT%20INTO%20emp%20VALUES%20(2%20%2C%20'John'%20%2C%2035000%20%2C%20'Sales')%22)%0Aconn.commit()%0Aprint(%22Records%20inserted%22)%0A%0A%0Acursor.execute(%22SELECT%20*%20from%20emp%22)%0Aprint(%22Records%20in%20the%20table%3A%22)%0Adisplay_rows(cursor)%0Acursor.execute(%22UPDATE%20emp%20SET%20salary%20%3D%20100000%20WHERE%20empno%20%3D%201%22)%0Aconn.commit()%0Aprint(%22Record%20Updated%22)%0A%0Acursor.execute(%22SELECT%20*%20from%20emp%22)%0Aprint(%22Records%20in%20the%20table%20after%20update%3A%22)%0Adisplay_rows(cursor)%0A%0Acursor.execute(%22DROP%20TABLE%20emp%22)%0Aconn.commit()%0Aprint(%22Table%20Dropped%22)%0A%0Aconn.close()&execute=1" target="_blank">Open in New Tab</a>
+<iframe src="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20sqlite3%0A%0Adef%20display_rows(cursor)%3A%0A%20%20%20%20rows%20%3D%20cursor.fetchall()%0A%20%20%20%20for%20row%20in%20rows%3A%0A%20%20%20%20%20%20%20%20print(row)%0A%0Aconn%20%3D%20sqlite3.connect('%2Ftmp%2Femployee.db')%0Acursor%20%3D%20conn.cursor()%0A%0Acursor.execute(%22DROP%20TABLE%20IF%20EXISTS%20emp%22)%0A%0Acursor.execute(%22%22%22%0ACREATE%20TABLE%20emp%0A(empno%20INTEGER%20PRIMARY%20KEY%2C%0Aempname%20TEXT%2C%0Asalary%20REAL%2C%0Adepartment%20TEXT)%22%22%22)%0A%0A%0Aprint(%22Table%20Created%22)%0Acursor.execute(%22INSERT%20INTO%20emp%20VALUES%20(1%20%2C%20'Souhrud'%20%2C%2050000%20%2C%20'IT')%22)%0Acursor.execute(%22INSERT%20INTO%20emp%20VALUES%20(2%20%2C%20'John'%20%2C%2035000%20%2C%20'Sales')%22)%0Aconn.commit()%0Aprint(%22Records%20inserted%22)%0A%0A%0Acursor.execute(%22SELECT%20*%20from%20emp%22)%0Aprint(%22Records%20in%20the%20table%3A%22)%0Adisplay_rows(cursor)%0Acursor.execute(%22UPDATE%20emp%20SET%20salary%20%3D%20100000%20WHERE%20empno%20%3D%201%22)%0Aconn.commit()%0Aprint(%22Record%20Updated%22)%0A%0Acursor.execute(%22SELECT%20*%20from%20emp%22)%0Aprint(%22Records%20in%20the%20table%20after%20update%3A%22)%0Adisplay_rows(cursor)%0A%0Acursor.execute(%22DROP%20TABLE%20emp%22)%0Aconn.commit()%0Aprint(%22Table%20Dropped%22)%0A%0Aconn.close()&execute=1" width="100%" height="100%"></iframe>
 :::
 
 ## Program 6: Create GUI using Tkinter Module 
