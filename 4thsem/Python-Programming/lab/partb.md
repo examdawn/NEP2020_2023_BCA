@@ -25,6 +25,48 @@ Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead 
 -->
 
 ## Program 1: Demonstrate use of Basic Regular Expressions
+
+```python
+import re 
+text = "Hello There!" 
+#re.match() tries to match a pattern at the beginning of the string. 
+match = re.match("Hello", text) 
+print("Match: ", match.group() if match else None) 
+# re.search() searches the string for a match, and returns a Match object if there is a match. 
+search = re.search("BCA", text) 
+print("Search: ", search.group() if search else None) 
+#re.findall() returns a list containing all matches. 
+findall = re.findall("[0-9]", text) 
+print("Findall: ", findall) 
+# re.split() returns a list where the string has been split at each match. 
+split = re.split("\s", text) 
+print("Split: ", split) 
+#re.sub() replaces the matches with the text of choice. 
+sub = re.sub("4th", "Third", text) 
+print("Sub: ", sub)
+```
+::: details Try it out
+```python:line-numbers
+import re 
+text = "Hello There!" 
+#re.match() tries to match a pattern at the beginning of the string. 
+match = re.match("Hello", text) 
+print("Match: ", match.group() if match else None) 
+# re.search() searches the string for a match, and returns a Match object if there is a match. 
+search = re.search("BCA", text) 
+print("Search: ", search.group() if search else None) 
+#re.findall() returns a list containing all matches. 
+findall = re.findall("[0-9]", text) 
+print("Findall: ", findall) 
+# re.split() returns a list where the string has been split at each match. 
+split = re.split("\s", text) 
+print("Split: ", split) 
+#re.sub() replaces the matches with the text of choice. 
+sub = re.sub("4th", "Third", text) 
+print("Sub: ", sub)
+```
+:::
+
 ## Program 2: Demonstrate use of Advanced Regular Expressions for Data Validation
 
 ```python
@@ -341,7 +383,28 @@ root.mainloop()
 ```
 TODO: Upload output
 ## Program 7: Demonstrate exceptions in Python
-
+```python
+try: 
+    num = int(input("Enter a number: ")) 
+except ValueError: 
+    print("That's not a valid number!") 
+else: 
+    print (f"You entered {num}.") 
+finally: 
+    print("This statement is always executed.")
+```
+::: details Try it out
+```python:line-numbers
+try: 
+    num = int(input("Enter a number: ")) 
+except ValueError: 
+    print("That's not a valid number!") 
+else: 
+    print (f"You entered {num}.") 
+finally: 
+    print("This statement is always executed.")
+```
+:::
 ## Program 8: Drawing Line Chart and Bar Chart using Matplotlib
 
 #### Line Chart
@@ -394,10 +457,124 @@ plt.show()
 
 ## Program 9: Drawing Histograms and Pie Chart using Matplotlib
 
+#### Histogram
+```python
+import matplotlib.pyplot as plt 
+ages = [25, 22, 23, 23, 30, 31, 22, 35, 34, 56, 27, 45, 41, 19, 19, 26, 32, 33, 45, 40] 
+plt.hist(ages, bins=5, edgecolor='black') 
+plt.title('Ages of Customers')
+plt.xlabel('Age')
+plt.ylabel('Number')
+
+plt.show()
+```
+
+::: details Try it out
+<a href="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%20%0Aages%20%3D%20%5B25%2C%2022%2C%2023%2C%2023%2C%2030%2C%2031%2C%2022%2C%2035%2C%2034%2C%2056%2C%2027%2C%2045%2C%2041%2C%2019%2C%2019%2C%2026%2C%2032%2C%2033%2C%2045%2C%2040%5D%20%0Aplt.hist(ages%2C%20bins%3D5%2C%20edgecolor%3D'black')%20%0Aplt.title('Ages%20of%20Customers')%0Aplt.xlabel('Age')%0Aplt.ylabel('Number')%0A%0Aplt.show()&execute=1" target="_blank">Open in New Tab</a>
+<iframe src="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%20%0Aages%20%3D%20%5B25%2C%2022%2C%2023%2C%2023%2C%2030%2C%2031%2C%2022%2C%2035%2C%2034%2C%2056%2C%2027%2C%2045%2C%2041%2C%2019%2C%2019%2C%2026%2C%2032%2C%2033%2C%2045%2C%2040%5D%20%0Aplt.hist(ages%2C%20bins%3D5%2C%20edgecolor%3D'black')%20%0Aplt.title('Ages%20of%20Customers')%0Aplt.xlabel('Age')%0Aplt.ylabel('Number')%0A%0Aplt.show()&execute=1" width="100%" height="100%"></iframe>
+:::
+
+
+#### Pie Chart
+
+```python
+import matplotlib.pyplot as plt 
+# Data 
+languages = ['Python', 'Java', 'C++', 'JavaScript', 'C#'] 
+votes = [250, 150, 100, 75, 50] 
+# Create a pie chart 
+plt.figure(figsize=[5,5]) 
+plt.pie(votes, labels=languages, autopct='%1.1f%%') 
+plt.title('Favorite Programming Languages') 
+plt.show()
+```
+
+::: details Try it out
+<a href="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%20%0A%23%20Data%20%0Alanguages%20%3D%20%5B'Python'%2C%20'Java'%2C%20'C%2B%2B'%2C%20'JavaScript'%2C%20'C%23'%5D%20%0Avotes%20%3D%20%5B250%2C%20150%2C%20100%2C%2075%2C%2050%5D%20%0A%23%20Create%20a%20pie%20chart%20%0Aplt.figure(figsize%3D%5B5%2C5%5D)%20%0Aplt.pie(votes%2C%20labels%3Dlanguages%2C%20autopct%3D'%251.1f%25%25')%20%0Aplt.title('Favorite%20Programming%20Languages')%20%0Aplt.show()%0A&execute=1" target="_blank">Open in New Tab</a>
+<iframe src="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20matplotlib.pyplot%20as%20plt%20%0A%23%20Data%20%0Alanguages%20%3D%20%5B'Python'%2C%20'Java'%2C%20'C%2B%2B'%2C%20'JavaScript'%2C%20'C%23'%5D%20%0Avotes%20%3D%20%5B250%2C%20150%2C%20100%2C%2075%2C%2050%5D%20%0A%23%20Create%20a%20pie%20chart%20%0Aplt.figure(figsize%3D%5B5%2C5%5D)%20%0Aplt.pie(votes%2C%20labels%3Dlanguages%2C%20autopct%3D'%251.1f%25%25')%20%0Aplt.title('Favorite%20Programming%20Languages')%20%0Aplt.show()%0A&execute=1" width="100%" height="100%"></iframe>
+:::
+
 ## Program 10: Create array using Numpy and Perform Operations on Array
+```python
+import numpy as np 
+#Create two arrays 
+a = np.array([1, 2, 3]) 
+b = np.array([4, 5, 6]) 
+#Perform arithmetic operations 
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b) 
+#Perform relational operations 
+print("a Greater than b", a > b) 
+print("a Less than b", a < b) 
+print("a Equal to b:", a == b) 
+print("a Not Equal to b:", a != b) 
+#Perform logical operations 
+print("Logical OR:", np.logical_or(a, b))
+print("Logical AND:", np.logical_and(a, b))
+print("Logical NOT:", np.logical_not(a)) 
+#Perform aggregation functions 
+print("Sum of a:", np.sum(a))
+print("Max of b:", np.max(b))
+print("Min of a:", np.min(a))
+print("Average of b:", np.average(b))
+# Perform matrix operations 
+print("Matrix Addition:\n", a + b) 
+print("Matrix Subtraction:\n", a - b) 
+print("Matrix Multiplication (element-wise):\n", a* b) 
+print("Matrix Multiplication:\n", np.matmul(a, b)) 
+print("Transpose of a:\n", np.transpose(a)) 
+#Perform statistical functions 
+print("Standard Deviation:", np.std(a)) 
+print("Variance:", np.var(a)) 
+print("Median:", np.median(a))
+#Reshape array 
+c = a.reshape((3, 1)) 
+print("Reshaped a:", c) 
+#Stack arrays 
+print("Horizontal Stack:\n", np.hstack((a, b))) 
+print("Vertical Stack:\n", np.vstack((a, b))) 
+#Split array 
+d= np.array([[1, 2, 3, 4], [5, 6, 7, 8]]) 
+print("Horizontal Split:\n", np.hsplit(d, 2)) 
+print("Vertical Split:\n", np.vsplit(d, 2)) 
+#Broadcasting 
+print("Broadcasting addition:\n", a + 5)
+```
 
-## PRogram 11: Create Data Frame from Excel Sheets using Pandas and Perform Operations on Data Frames
+::: details Try it out
+<a href="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20numpy%20as%20np%20%0A%23Create%20two%20arrays%20%0Aa%20%3D%20np.array(%5B1%2C%202%2C%203%5D)%20%0Ab%20%3D%20np.array(%5B4%2C%205%2C%206%5D)%20%0A%23Perform%20arithmetic%20operations%20%0Aprint(%22Addition%3A%22%2C%20a%20%2B%20b)%0Aprint(%22Subtraction%3A%22%2C%20a%20-%20b)%0Aprint(%22Multiplication%3A%22%2C%20a%20*%20b)%0Aprint(%22Division%3A%22%2C%20a%20%2F%20b)%20%0A%23Perform%20relational%20operations%20%0Aprint(%22a%20Greater%20than%20b%22%2C%20a%20%3E%20b)%20%0Aprint(%22a%20Less%20than%20b%22%2C%20a%20%3C%20b)%20%0Aprint(%22a%20Equal%20to%20b%3A%22%2C%20a%20%3D%3D%20b)%20%0Aprint(%22a%20Not%20Equal%20to%20b%3A%22%2C%20a%20!%3D%20b)%20%0A%23Perform%20logical%20operations%20%0Aprint(%22Logical%20OR%3A%22%2C%20np.logical_or(a%2C%20b))%0Aprint(%22Logical%20AND%3A%22%2C%20np.logical_and(a%2C%20b))%0Aprint(%22Logical%20NOT%3A%22%2C%20np.logical_not(a))%20%0A%23Perform%20aggregation%20functions%20%0Aprint(%22Sum%20of%20a%3A%22%2C%20np.sum(a))%0Aprint(%22Max%20of%20b%3A%22%2C%20np.max(b))%0Aprint(%22Min%20of%20a%3A%22%2C%20np.min(a))%0Aprint(%22Average%20of%20b%3A%22%2C%20np.average(b))%0A%23%20Perform%20matrix%20operations%20%0Aprint(%22Matrix%20Addition%3A%5Cn%22%2C%20a%20%2B%20b)%20%0Aprint(%22Matrix%20Subtraction%3A%5Cn%22%2C%20a%20-%20b)%20%0Aprint(%22Matrix%20Multiplication%20(element-wise)%3A%5Cn%22%2C%20a*%20b)%20%0Aprint(%22Matrix%20Multiplication%3A%5Cn%22%2C%20np.matmul(a%2C%20b))%20%0Aprint(%22Transpose%20of%20a%3A%5Cn%22%2C%20np.transpose(a))%20%0A%23Perform%20statistical%20functions%20%0Aprint(%22Standard%20Deviation%3A%22%2C%20np.std(a))%20%0Aprint(%22Variance%3A%22%2C%20np.var(a))%20%0Aprint(%22Median%3A%22%2C%20np.median(a))%0A%23Reshape%20array%20%0Ac%20%3D%20a.reshape((3%2C%201))%20%0Aprint(%22Reshaped%20a%3A%22%2C%20c)%20%0A%23Stack%20arrays%20%0Aprint(%22Horizontal%20Stack%3A%5Cn%22%2C%20np.hstack((a%2C%20b)))%20%0Aprint(%22Vertical%20Stack%3A%5Cn%22%2C%20np.vstack((a%2C%20b)))%20%0A%23Split%20array%20%0Ad%3D%20np.array(%5B%5B1%2C%202%2C%203%2C%204%5D%2C%20%5B5%2C%206%2C%207%2C%208%5D%5D)%20%0Aprint(%22Horizontal%20Split%3A%5Cn%22%2C%20np.hsplit(d%2C%202))%20%0Aprint(%22Vertical%20Split%3A%5Cn%22%2C%20np.vsplit(d%2C%202))%20%0A%23Broadcasting%20%0Aprint(%22Broadcasting%20addition%3A%5Cn%22%2C%20a%20%2B%205)%0A&execute=1" target="_blank">Open in New Tab</a>
+<iframe src="https://examdawn.pages.dev/jupyterlite/dist/repl/index.html?kernel=python&code=import%20numpy%20as%20np%20%0A%23Create%20two%20arrays%20%0Aa%20%3D%20np.array(%5B1%2C%202%2C%203%5D)%20%0Ab%20%3D%20np.array(%5B4%2C%205%2C%206%5D)%20%0A%23Perform%20arithmetic%20operations%20%0Aprint(%22Addition%3A%22%2C%20a%20%2B%20b)%0Aprint(%22Subtraction%3A%22%2C%20a%20-%20b)%0Aprint(%22Multiplication%3A%22%2C%20a%20*%20b)%0Aprint(%22Division%3A%22%2C%20a%20%2F%20b)%20%0A%23Perform%20relational%20operations%20%0Aprint(%22a%20Greater%20than%20b%22%2C%20a%20%3E%20b)%20%0Aprint(%22a%20Less%20than%20b%22%2C%20a%20%3C%20b)%20%0Aprint(%22a%20Equal%20to%20b%3A%22%2C%20a%20%3D%3D%20b)%20%0Aprint(%22a%20Not%20Equal%20to%20b%3A%22%2C%20a%20!%3D%20b)%20%0A%23Perform%20logical%20operations%20%0Aprint(%22Logical%20OR%3A%22%2C%20np.logical_or(a%2C%20b))%0Aprint(%22Logical%20AND%3A%22%2C%20np.logical_and(a%2C%20b))%0Aprint(%22Logical%20NOT%3A%22%2C%20np.logical_not(a))%20%0A%23Perform%20aggregation%20functions%20%0Aprint(%22Sum%20of%20a%3A%22%2C%20np.sum(a))%0Aprint(%22Max%20of%20b%3A%22%2C%20np.max(b))%0Aprint(%22Min%20of%20a%3A%22%2C%20np.min(a))%0Aprint(%22Average%20of%20b%3A%22%2C%20np.average(b))%0A%23%20Perform%20matrix%20operations%20%0Aprint(%22Matrix%20Addition%3A%5Cn%22%2C%20a%20%2B%20b)%20%0Aprint(%22Matrix%20Subtraction%3A%5Cn%22%2C%20a%20-%20b)%20%0Aprint(%22Matrix%20Multiplication%20(element-wise)%3A%5Cn%22%2C%20a*%20b)%20%0Aprint(%22Matrix%20Multiplication%3A%5Cn%22%2C%20np.matmul(a%2C%20b))%20%0Aprint(%22Transpose%20of%20a%3A%5Cn%22%2C%20np.transpose(a))%20%0A%23Perform%20statistical%20functions%20%0Aprint(%22Standard%20Deviation%3A%22%2C%20np.std(a))%20%0Aprint(%22Variance%3A%22%2C%20np.var(a))%20%0Aprint(%22Median%3A%22%2C%20np.median(a))%0A%23Reshape%20array%20%0Ac%20%3D%20a.reshape((3%2C%201))%20%0Aprint(%22Reshaped%20a%3A%22%2C%20c)%20%0A%23Stack%20arrays%20%0Aprint(%22Horizontal%20Stack%3A%5Cn%22%2C%20np.hstack((a%2C%20b)))%20%0Aprint(%22Vertical%20Stack%3A%5Cn%22%2C%20np.vstack((a%2C%20b)))%20%0A%23Split%20array%20%0Ad%3D%20np.array(%5B%5B1%2C%202%2C%203%2C%204%5D%2C%20%5B5%2C%206%2C%207%2C%208%5D%5D)%20%0Aprint(%22Horizontal%20Split%3A%5Cn%22%2C%20np.hsplit(d%2C%202))%20%0Aprint(%22Vertical%20Split%3A%5Cn%22%2C%20np.vsplit(d%2C%202))%20%0A%23Broadcasting%20%0Aprint(%22Broadcasting%20addition%3A%5Cn%22%2C%20a%20%2B%205)%0A&execute=1" width="100%" height="100%"></iframe>
+:::
 
+## Program 11: Create Data Frame from Excel Sheets using Pandas and Perform Operations on Data Frames
+```python
+import pandas as pd 
+#Read DataFrame from excel file 
+df = pd.read_excel("emp.xlsx") 
+#Data selection of single column print("Single column: \n", df[ 'Name']) 
+#Data selection of double columns 
+print("\nDouble columns: \n", df[['Name', 'Gender']]) 
+# Select first row by index label using .loc[] 
+print("\nFirst row using loc[]:\n", df.loc[0]) 
+# Select first row by position using iloc[] print("\nFirst row using .iloc[]: \n", df.iloc[0]) 
+#Slice the first two rows and select 'Student Name' and 'Age' columns print("The first two rows of Name and Age Columns: ") 
+print(df[:2][['Name', 'Age']]) 
+#Filtering based on age>30 
+print("\nFiltered DataFrame (Age > 30):\n", df [df['Age'] > 30]) 
+# Grouping based on Course and Age 
+grouped_df = df.groupby('Gender') ['Age'].mean() 
+print("\nGrouped DataFrame (based on 'Gender' and 'Age'):\n", grouped_df) 
+# Sorting by index 
+df_by_index= df.sort_index(ascending=False) 
+print("\nDataFrame sorted by index: \n", df_by_index) 
+# Sorting by values 
+df_by_value = df.sort_values (by='Age') 
+print("\nDataFrame sorted by 'Age' column: \n", df_by_value)
+```
+
+TODO: Add Sample data and output 
 
 <!--
 
