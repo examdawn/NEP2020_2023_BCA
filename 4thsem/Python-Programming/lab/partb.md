@@ -23,6 +23,8 @@ Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead 
 <!-- ## Program 1: Demonstrate usage of Basic Regular Expressions
 
 -->
+
+## Program 1: Demonstrate use of Basic Regular Expressions
 ## Program 2: Demonstrate use of Advanced Regular Expressions for Data Validation
 
 ```python
@@ -159,7 +161,16 @@ print("List after clearing: ", my_list)
 :::
 
 ## Program 4: Demonstrate use of Dictionaries
+<!-- ```python
+my_dict = {'name': 'Souhrud', 'age':19, 'city':'Bangalore'}
+print(f"Initial Dictionary: {my_dict}")
 
+print(f"Value for name: {my_dict['name']}")
+print(f"Value for Age: {my_dict['age']}")
+
+WIP
+```
+-->
 ## Program 5: Create SQLite Database and Perform Operations on tables
 
 ## Program 6: Create GUI using Tkinter Module 
