@@ -381,7 +381,15 @@ tk.Button(root, text="Submit", command=submit).grid(row=10,column=1)
 root.mainloop()
 
 ```
-TODO: Upload output
+
+::: details Show Output
+![Form before submitting with sample data](./assets/partb/prg6/form-data.png)
+
+
+![Form after submit button is pressed](./assets/partb/prg6/form-submit.png)
+
+:::
+
 ## Program 7: Demonstrate exceptions in Python
 ```python
 try: 
