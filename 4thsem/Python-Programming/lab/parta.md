@@ -262,6 +262,8 @@ else:
 
 ::: details Show Output
 ```
+Enter a Number: 15
+15 is not a Prime number.
 ```
 :::
 
@@ -307,6 +309,9 @@ else:
 
 ::: details Show Output
 ```
+Enter number separated with a Space: 1 2 5 3 0
+Enter a number to be Searched: 3
+Elements found at Position   : 4
 ```
 :::
 
@@ -385,6 +390,46 @@ while True:
 
 ::: details Show Output
 ```
+
+-----------------
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. QUIT
+-----------------
+
+Enter Choice: 1
+Enter First  Number: 5
+Enter Second Number: 10
+
+The Result:  15.0
+
+-----------------
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. QUIT
+-----------------
+
+Enter Choice: 3
+Enter First  Number: 10
+Enter Second Number: 15
+
+The Result:  150.0
+
+-----------------
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. QUIT
+-----------------
+
+Enter Choice: 5
+
+Exiting The Program!
 ```
 :::
 
@@ -463,6 +508,18 @@ print("List of Words: ", str.split())
 
 ::: details Show Output
 ```
+Enter a string: Hello
+Capital string:  Hello
+Upper string:  HELLO
+Lower string:  hello
+Is string AlphaNumeric?  True
+Is string Numeric?  False
+Enter substring to search: lo
+Substring 'lo' found at index: 3
+Enter old substring to replace: llo
+Enter new substring: hi
+Replaced String:  Hehi
+List of Words:  ['Hello']
 ```
 :::
 
@@ -510,6 +567,8 @@ print("Sorted List: ", sorted_numbers)
 
 ::: details Show Output
 ```
+Enter numbers seperated by space: 10 200 30 45 1 2 4 7 3
+Sorted List:  [1, 2, 3, 4, 7, 10, 30, 45, 200]
 ```
 :::
 
@@ -573,6 +632,67 @@ while True:
 
 ::: details Show Output
 ```
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 1
+Enter number to push: 500
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 3
+Top Value:  500
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 1
+Enter number to push: 232
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 1
+Enter number to push: 50
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 4
+Stack:  [500, 232, 50]
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 2
+Popped Value:  50
+
+    1: Push
+    2: Pop
+    3: Peek
+    4: Display Stack
+    5: Exit
+    
+Enter choice: 5
 ```
 :::
 
@@ -650,6 +770,16 @@ display_details()
 
 ::: details Show Output
 ```
+Enter student name (q to exit): Souhrud
+Enter Roll Number: 026
+Enter marks: 80
+Enter student name (q to exit): John
+Enter Roll Number: 000
+Enter marks: 50
+Enter student name (q to exit): q
+Name	Roll Number	Marks
+Souhrud	026	80.0
+John	000	50.0
 ```
 :::
 

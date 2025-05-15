@@ -48,6 +48,11 @@ print("Sub: ", sub)
 
 ::: details Show Output
 ```
+Match:  Hello
+Search:  None
+Findall:  []
+Split:  ['Hello', 'There!']
+Sub:  Hello There!
 ```
 :::
 
@@ -104,6 +109,11 @@ validate_data()
 
 ::: details Show Output
 ```
+Enter Email Addr: example@email.net
+Enter Mobile Number: 1234567890
+Enter a URL: https://example.net
+Enter Password: password123
+Data is Valid.
 ```
 :::
 
@@ -177,6 +187,20 @@ print("List after clearing: ", my_list)
 
 ::: details Show Output
 ```
+Initial List:  [10, 20, 30, 3.142, 'Python', 'BCA']
+Element at list index 0:  10
+Element at list index 2:  30
+List after modifying an item:  [10, 20, 30, 3.142, 'Java', 'BCA']
+List after appending an item:  [10, 20, 30, 3.142, 'Java', 'BCA', 'ExamDawn']
+List after removing an item:  [10, 20, 30, 3.142, 'BCA', 'ExamDawn']
+List after deleting an item:  [20, 30, 3.142, 'BCA', 'ExamDawn']
+Popped item:  30
+List after popping an item:  [20, 3.142, 'BCA', 'ExamDawn']
+Index of 'BCA':  2
+Count of '3.142' 1
+Length of List:  4
+Reversed List:  ['ExamDawn', 'BCA', 3.142, 20]
+List after clearing:  []
 ```
 :::
 
@@ -260,6 +284,24 @@ print("Dictionary after clearing:", my_dict)
 
 ::: details Show Output
 ```
+Initial dictionary: {'name': 'Souhrud', 'age': 19, 'city': 'Bangalore'}
+Value for 'name': Souhrud
+Value for 'age': 19
+Value for 'country': None
+Value for 'country' with default: India
+Dictionary after modifying an item: {'name': 'Souhrud', 'age': 25, 'city': 'Bangalore'}
+Dictionary after adding an item: {'name': 'Souhrud', 'age': 25, 'city': 'Bangalore', 'job': 'Developer'}
+Dictionary after deleting an item by key: {'name': 'Souhrud', 'age': 25, 'job': 'Developer'}
+Popped item: Developer
+Dictionary after popping an item: {'name': 'Souhrud', 'age': 25}
+Keys: ['name', 'age']
+Values: ['Souhrud', 25]
+Items: [('name', 'Souhrud'), ('age', 25)]
+Number of items: 2
+'name' in dictionary: True
+'city' in dictionary: False
+Dictionary after merging: {'name': 'Souhrud', 'age': 25, 'country': 'India', 'job': 'Developer'}
+Dictionary after clearing: {}
 ```
 :::
 
@@ -418,10 +460,20 @@ try:
 except ValueError: 
     print("That's not a valid number!") 
 else: 
-    print((f"You entered {num}.") 
+    print(f"You entered {num}.") 
 finally: 
     print("This statement is always executed.")
 ```
+
+::: details Show Output
+```
+Enter a number: 5
+You entered 5.
+This statement is always executed.
+```
+:::
+
+
 ::: details Try it out
 ```python:line-numbers
 try: 
@@ -429,7 +481,7 @@ try:
 except ValueError: 
     print("That's not a valid number!") 
 else: 
-    print((f"You entered {num}.") 
+    print(f"You entered {num}.") 
 finally: 
     print("This statement is always executed.")
 ```
