@@ -45,6 +45,12 @@ print("Split: ", split)
 sub = re.sub("4th", "Third", text) 
 print("Sub: ", sub)
 ```
+
+::: details Show Output
+```
+```
+:::
+
 ::: details Try it out
 ```python:line-numbers
 import re 
@@ -95,6 +101,11 @@ def validate_data():
         print("Data is Valid.")
 validate_data()
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -163,6 +174,11 @@ print("Reversed List: ", my_list)
 my_list.clear()
 print("List after clearing: ", my_list)
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -241,6 +257,11 @@ print("Dictionary after merging:", my_dict)
 my_dict.clear()
 print("Dictionary after clearing:", my_dict)
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -582,7 +603,56 @@ df_by_value = df.sort_values (by='Age')
 print("\nDataFrame sorted by 'Age' column: \n", df_by_value)
 ```
 
-TODO: Add Sample data and output 
+Sample Data: https://showai.undo.it/sample_data/emp.xlsx
+
+::: details Show Output
+```
+Double columns: 
+       Name  Gender
+0    Alice  Female
+1      Bob    Male
+2  Charlie    Male
+3    Daisy  Female
+
+First row using loc[]:
+ Name           Alice
+Gender        Female
+Age               28
+Department        HR
+Name: 0, dtype: object
+    Name  Age
+0  Alice   28
+1    Bob   35
+
+Filtered DataFrame (Age > 30):
+       Name Gender  Age Department
+1      Bob   Male   35         IT
+2  Charlie   Male   40    Finance
+
+Grouped DataFrame (based on 'Gender' and 'Age'):
+ Gender
+Female    26.5
+Male      37.5
+Name: Age, dtype: float64
+
+DataFrame sorted by index: 
+       Name  Gender  Age Department
+3    Daisy  Female   25  Marketing
+2  Charlie    Male   40    Finance
+1      Bob    Male   35         IT
+0    Alice  Female   28         HR
+
+DataFrame sorted by 'Age' column: 
+       Name  Gender  Age Department
+3    Daisy  Female   25  Marketing
+0    Alice  Female   28         HR
+1      Bob    Male   35         IT
+2  Charlie    Male   40    Finance
+```
+:::
+
+
+<!-- TODO: Add Sample data and output -->
 
 <!--
 

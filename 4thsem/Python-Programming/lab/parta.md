@@ -73,6 +73,13 @@ else:
 <Editor id="fibo1-prg1" />
 :::
 
+::: details Show Output
+```
+Enter a number: 15
+15 does not belongs to Fibonacci Sequence.
+```
+:::
+
 ::: details Alternative Code
 ```python
 import math as m  
@@ -138,6 +145,16 @@ else:
     print("The given equation has no real roots")
 ```
 
+::: details Show output
+
+Enter Coefficient for x^2[a]: 1
+Enter Coefficient for x[b]  : 6
+Enter Constant Term[c]      : 9
+The roots of the equation 1.0 x^2 + 6.0 x + 9.0 = 0 are -3.00 and -3.00
+
+:::
+
+
 ::: details Try it out
 ```python:line-numbers
 import math as m
@@ -174,6 +191,13 @@ sum_of_n_number = n*(n+1)//2
 print(f"The sum of the first {n} natural number: {sum_of_n_number}")
 ```
 
+::: details Show Output
+```
+Enter a Natural Number: 5
+The sum of the first 5 natural number: 15
+```
+:::
+
 ::: details Try it out
 ```python:line-numbers
 n = int(input("Enter a Natural Number: "))
@@ -190,6 +214,23 @@ num = int(input("Enter a Number: "))
 for i in range(1,11):
     print(f"{num} x {i} = {num*i}")
 ```
+
+::: details Show Output
+```
+Enter a Number: 5
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -218,6 +259,11 @@ if is_prime(n):
 else:
     print(f"{n} is not a Prime number.")
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -258,6 +304,11 @@ if result != -1:
 else:
     print("Element not found in the list")
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -332,6 +383,11 @@ while True:
         print("\nINVALID INPUT!")
 ```
 
+::: details Show Output
+```
+```
+:::
+
 ::: details Try it out
 ```python:line-numbers
 def add(x, y):
@@ -405,6 +461,11 @@ print("Replaced String: ", str.replace(old_sub, new_sub))
 print("List of Words: ", str.split())
 ```
 
+::: details Show Output
+```
+```
+:::
+
 ::: details Try it out
 ```python:line-numbers
 str = input("Enter a string: ")
@@ -446,6 +507,11 @@ sorted_numbers = selection_sort(numbers)
 print("Sorted List: ", sorted_numbers)
 
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -504,6 +570,11 @@ while True:
             print("Invalid Choice. Please try again")
 
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
@@ -576,6 +647,11 @@ students = accept_details()
 write_details(students)
 display_details()
 ```
+
+::: details Show Output
+```
+```
+:::
 
 ::: details Try it out
 ```python:line-numbers
