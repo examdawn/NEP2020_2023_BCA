@@ -76,6 +76,7 @@ print("Split: ", split)
 sub = re.sub("4th", "Third", text) 
 print("Sub: ", sub)
 ```
+<Editor id="valid-prg1" />
 :::
 
 ## Program 2: Demonstrate use of Advanced Regular Expressions for Data Validation
