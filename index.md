@@ -22,13 +22,13 @@ features:
     details: Click here to view 4th Semester options
 ---
 
-BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science
+<p style="text-align: center;">BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science</p>
 
-Ongoing: 4th Semester
+<h6 style="text-align: center;">Ongoing: 4th Semester</h6>
 
-### Content Contributors
-<a href="https://github.com/examdawn/NEP2020_2023_BCA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=examdawn/NEP2020_2023_BCA" />
+<h2 style="text-align: center;">Content Contributors</h2>
+<a style="text-align: center;" href="https://github.com/examdawn/NEP2020_2023_BCA/graphs/contributors">
+  <img style="text-align: center;" src="https://contrib.rocks/image?repo=examdawn/NEP2020_2023_BCA" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+<p style="text-align: center;">Made with [contrib.rocks](https://contrib.rocks).</p>
