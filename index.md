@@ -20,6 +20,9 @@ features:
   - title: 4th Semester
     link: ./4thsem
     details: Click here to view 4th Semester options
+  - title: Request New Page
+    details: Add your section here!
+    link: https://forms.gle/G15qitWu66YgSj5e6
 ---
 
 <p style="text-align: center;">BCA(Bachelor of Computer Applications) is a 3 years Undergraduate course which teaches the extremely fundamental basics of Computer Science</p>
@@ -28,7 +31,7 @@ features:
 
 <h2 style="text-align: center;">Content Contributors</h2>
 <a style="text-align: center;" href="https://github.com/examdawn/NEP2020_2023_BCA/graphs/contributors">
-  <img style="text-align: center;" src="https://contrib.rocks/image?repo=examdawn/NEP2020_2023_BCA" />
+  <img style="display: block;margin-left: auto;margin-right: auto;" src="https://contrib.rocks/image?repo=examdawn/NEP2020_2023_BCA" />
 </a>
 
 <p style="text-align: center;">Made with [contrib.rocks](https://contrib.rocks).</p>
