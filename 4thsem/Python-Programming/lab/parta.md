@@ -183,7 +183,7 @@ else:
 <Editor id="quad-prg2" />
 :::
 
-## Program 3: Program to find the Sum of n Natural number.
+## Program 3: Program to find the Sum of n Natural number. *
 
 ```python
 n = int(input("Enter a Natural Number: "))
@@ -207,7 +207,7 @@ print(f"The sum of the first {n} natural number: {sum_of_n_number}")
 <Editor id="sonn-prg3" />
 :::
 
-## Program 4: Program to Display Multiple Tables.
+## Program 4: Program to Display Multiple Tables. *
 
 ```python
 num = int(input("Enter a Number: "))
@@ -241,7 +241,7 @@ for i in range(1,11):
 <Editor id="table-prg4" />
 :::
 
-## Program 5: Program to check if the given number is Prime or not.
+## Program 5: Program to check if the given number is Prime or not. *
 
 ```python
 def is_prime(num):
@@ -287,7 +287,7 @@ else:
 <Editor id="prime-prg5" />
 :::
 
-## Program 6: Program to implement a Sequential Search.
+## Program 6: Program to implement a Sequential Search. *
 
 ```python
 def search(lst, key):
@@ -336,7 +336,36 @@ else:
 <Editor id="Seque-prg6" />
 :::
 
-## Program 7: Program to create a Calculator
+::: details Alternative Code
+```python
+list = list(map(str, input("Enter multiple items seperated by space: ").split()))
+
+target = input("Search for: ")
+for i in list:
+    if i == target:
+        print(f"Found at index {list.index(i)}")
+        break
+else:
+    print(f"{target} not found.")
+```
+
+::: details Try it out
+```python:line-numbers
+list = list(map(str, input("Enter multiple items seperated by space: ").split()))
+
+target = input("Search for: ")
+for i in list:
+    if i == target:
+        print(f"Found at index {list.index(i)}")
+        break
+else:
+    print(f"{target} not found.")
+```
+<Editor id="alt-sq-prg6" />
+:::
+
+
+## Program 7: Program to create a Calculator *
 
 ```python
 def add(x, y):
@@ -486,7 +515,37 @@ while True:
 <Editor id="calc-prg7" />
 :::
 
-## Program 8: Program to explore String Functions
+
+::: details Alternative Code
+```python
+while True:
+    print("Calculator")
+    op = input("Enter Operation ('+', '-', '*', '/', 'quit'): ")
+    if op == 'quit':
+        break
+    num1=float(input("Enter Operand 1: "))
+    num2=float(input("Enter Operand 2: "))
+    expr = f"{num1} {op} {num2}"
+    print(expr, " = ", eval(expr))
+```
+
+::: details Try it out
+```python:line-numbers
+while True:
+    print("Calculator")
+    op = input("Enter Operation ('+', '-', '*', '/', 'quit'): ")
+    if op == 'quit':
+        break
+    num1=float(input("Enter Operand 1: "))
+    num2=float(input("Enter Operand 2: "))
+    expr = f"{num1} {op} {num2}"
+    print(expr, " = ", eval(expr))
+```
+<Editor id="alt-calc-prg7" />
+:::
+
+
+## Program 8: Program to explore String Functions *
 ```python
 str = input("Enter a string: ")
 
@@ -545,7 +604,7 @@ print("List of Words: ", str.split())
 <Editor id="string-prg8" />
 :::
 
-## Program 9: Program to implement Selection Sort.
+## Program 9: Program to implement Selection Sort. *
 
 ```python
 def selection_sort(lst):
@@ -592,7 +651,7 @@ print("Sorted List: ", sorted_numbers)
 <Editor id="Seque-prg9" />
 :::
 
-## Program 10: Program to implement Stack.
+## Program 10: Program to implement Stack. *
 ```python
 # Empty stack
 stack = []

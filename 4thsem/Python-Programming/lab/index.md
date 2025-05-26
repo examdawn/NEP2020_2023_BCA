@@ -13,29 +13,39 @@ On this page
 | Program Number | Description | Date |
 | --- | --- | --- |
 | Part A | --- | --- |
-| 1 | Check if a given number belongs to the Fibonacci sequence | 10th Feb 2025 |
+| 1 | * Check if a given number belongs to the Fibonacci sequence | 10th Feb 2025 |
 | 2 | Solve Quadratic equation. | 10th Feb 2025 |
-| 3 | Find the Sum of n Natural number. | 17th Feb 2025 |
-| 4 | Display Multiple Tables. | 17th Feb 2025 |
-| 5 | Check if the given number is Prime or not. | 20th Feb 2025 |
-| 6 | Implement a Sequential Search. | 20th Feb 2025 |
-| 7 | Create a Calculator | 24th Feb 2025 |
-| 8 | Explore String Functions | 24th Feb 2025 |
-| 9 | Implement Selection Sort. | 3rd March 2025 |
-| 10 | Implement Stack. | 3rd March 2025 |
+| 3 | * Find the Sum of n Natural number. | 17th Feb 2025 |
+| 4 | * Display Multiple Tables. | 17th Feb 2025 |
+| 5 | * Check if the given number is Prime or not. | 20th Feb 2025 |
+| 6 | * Implement a Sequential Search. | 20th Feb 2025 |
+| 7 | * Create a Calculator | 24th Feb 2025 |
+| 8 | * Explore String Functions | 24th Feb 2025 |
+| 9 | * Implement Selection Sort. | 3rd March 2025 |
+| 10 | * Implement Stack. | 3rd March 2025 |
 | 11 | Read and Write into a File | 3rd March 2025 |
 | Part B | --- | --- |
-| 1 | Demonstrate use of Basic Regular Expressions | 4th March 2025 |
+| 1 | * Demonstrate use of Basic Regular Expressions | 4th March 2025 |
 | 2 | Demonstrate use of Advanced Regular Expressions | 4th March 2025 |
-| 3 | Demonstrate use of List | 10th March 2025 |
-| 4 | Demonstrate use of Dictionaries | 10th March 2025 |
-| 5 | Create SQLite Database and Perform Operations | 19th March 2025 |
+| 3 | * Demonstrate use of List | 10th March 2025 |
+| 4 | * Demonstrate use of Dictionaries | 10th March 2025 |
+| 5 | * Create SQLite Database and Perform Operations | 19th March 2025 |
 | 6 | Create GUI using Tkinter Module | 19th March 2025 |
-| 7 | Demonstrate exceptions in Python | 20th March 2025 |
-| 8 | Drawing Line Chart and Bar Chart using Matplotlib | 20th March 2025 |
-| 9 | Drawing Histograms and Pie Chart using Matplotlib | 7th April 2025 |
+| 7 | * Demonstrate exceptions in Python | 20th March 2025 |
+| 8 | * Drawing Line Chart and Bar Chart using Matplotlib | 20th March 2025 |
+| 9 | * Drawing Histograms and Pie Chart using Matplotlib | 7th April 2025 |
 | 10 | Create array using Numpy and Perform Operations | 7th April 2025 |
 | 11 | Create Data Frame from Excel | 23rd April 2025 |
+
+::: details Important Questions
+Questions Marked with '*' are considered Important
+
+Part A 
+1,3,4,5,6,7,8,9,10
+
+Part-B
+1,3,4,5,7,8,9
+:::
 
 ## Use Python in Web
 

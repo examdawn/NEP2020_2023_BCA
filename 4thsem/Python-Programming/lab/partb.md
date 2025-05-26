@@ -24,7 +24,7 @@ Some examples are run with [JupyterLite](https://jupyterlite.github.io) instead 
 
 -->
 
-## Program 1: Demonstrate use of Basic Regular Expressions
+## Program 1: Demonstrate use of Basic Regular Expressions *
 
 ```python
 import re 
@@ -149,7 +149,7 @@ validate_data()
 :::
 
 
-## Program 3: Demonstrate use of List
+## Program 3: Demonstrate use of List *
 
 ```python
 my_list = [10, 20, 30, 3.142, 'Python', 'BCA']
@@ -243,7 +243,7 @@ print("List after clearing: ", my_list)
 <Editor id="list-prg3-b" />
 :::
 
-## Program 4: Demonstrate use of Dictionaries
+## Program 4: Demonstrate use of Dictionaries *
 ```python
 my_dict = {'name': 'Souhrud', 'age': 19, 'city': 'Bangalore'}
 print("Initial dictionary:", my_dict)
@@ -347,7 +347,7 @@ print("Dictionary after clearing:", my_dict)
 ```
 :::
 
-## Program 5: Create SQLite Database and Perform Operations on tables
+## Program 5: Create SQLite Database and Perform Operations on tables *
 ```python
 import sqlite3
 
@@ -454,7 +454,7 @@ root.mainloop()
 
 :::
 
-## Program 7: Demonstrate exceptions in Python
+## Program 7: Demonstrate exceptions in Python *
 ```python
 try: 
     num = int(input("Enter a number: ")) 
@@ -487,7 +487,7 @@ finally:
     print("This statement is always executed.")
 ```
 :::
-## Program 8: Drawing Line Chart and Bar Chart using Matplotlib
+## Program 8: Drawing Line Chart and Bar Chart using Matplotlib *
 
 #### Line Chart
 
@@ -537,7 +537,7 @@ plt.show()
 :::
 
 
-## Program 9: Drawing Histograms and Pie Chart using Matplotlib
+## Program 9: Drawing Histograms and Pie Chart using Matplotlib *
 
 #### Histogram
 ```python
