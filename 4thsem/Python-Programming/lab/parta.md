@@ -34,7 +34,7 @@ print("Hello world")
 
 
 -->
-## Program 1: Program to check if a given number belongs to the Fibonacci sequence
+## Program 1: Program to check if a given number belongs to the Fibonacci sequence *
 
 ```python
 def fabo(n):
