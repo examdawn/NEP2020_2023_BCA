@@ -60,7 +60,7 @@ title: CMA Lab - Part A
 <title>Font Example</title>
 </head>
 
-<body>
+<body style="font-family:monospace;">
 <p>Normal Paragraph</p>
 <p style="font-weight:bold;">Bold Paragraph</p>
 <p style="font-style:italic;">Italic Paragraph</p>
@@ -222,13 +222,13 @@ title: CMA Lab - Part A
 </html>
 ```
 
-::: details Show output
+:::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/short-a/prg2)
 
 <iframe src="https://sounddrill31.github.io/html-demos/short-a/prg2" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
 
-:::
+::::
 
 :::
 
@@ -349,13 +349,13 @@ title: CMA Lab - Part A
 </html>
 ```
 
-::: details Show output
+:::: details Show output
 
 [View Webpage](https://sounddrill31.github.io/html-demos/short-a/prg4)
 
 <iframe src="https://sounddrill31.github.io/html-demos/short-a/prg4" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
 
-:::
+::::
 
 :::
 
