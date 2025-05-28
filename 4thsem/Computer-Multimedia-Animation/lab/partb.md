@@ -4,7 +4,7 @@ title: CMA Lab - Part B
 ---
 # Computer Multimedia and Animation - Lab Part B
 
-## Q1. Write an HTML/5 program to draw shapes using SVG like rectangle, line, polygon, polyline
+## Q1. Write an HTML/5 program to draw shapes using SVG like rectangle, line, polygon, polyline *
 
 ::: details See code {open}
 ```html
@@ -34,7 +34,7 @@ title: CMA Lab - Part B
 
 :::
 
-## Q2. Write an HTML/5 program to draw linear and radial gradient ellipse using SVG
+## Q2. Write an HTML/5 program to draw linear and radial gradient ellipse using SVG *
 
 ::: details See code {open}
 ```html
@@ -74,7 +74,7 @@ title: CMA Lab - Part B
 :::
 
 
-## Q3. Write an HTML/5 program to draw a star using SVG
+## Q3. Write an HTML/5 program to draw a star using SVG *
 
 ::: details See code {open}
 ```html
@@ -167,7 +167,7 @@ title: CMA Lab - Part B
 <iframe src="https://sounddrill31.github.io/html-demos/partb/prg4/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
 
 :::
-## Q5. Write an HTML/5 program to demonstrate translation, rotation, scaling, and transform using Canvas
+## Q5. Write an HTML/5 program to demonstrate translation, rotation, scaling, and transform using Canvas *
 
 ::: details See code {open}
 ```html
@@ -221,7 +221,7 @@ title: CMA Lab - Part B
 <iframe src="https://sounddrill31.github.io/html-demos/partb/prg5/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="600px" allowfullscreen></iframe>
 
 :::
-## Q6. Write an HTML/5 program to demonstrate Bezier Curves and Quadratic Equations
+## Q6. Write an HTML/5 program to demonstrate Bezier Curves and Quadratic Equations *
 
 ::: details See code {open}
 ```html
@@ -354,7 +354,7 @@ title: CMA Lab - Part B
 :::
 
 
-## Q8. Write an HTML/5 program to add random size obstacles with a red square controller box
+## Q8. Write an HTML/5 program to add random size obstacles with a red square controller box *
 
 ::: details See code {open}
 ```html
