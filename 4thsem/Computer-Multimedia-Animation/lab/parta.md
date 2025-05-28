@@ -51,6 +51,33 @@ title: CMA Lab - Part A
 
 :::
 
+::: details Shortened Code
+```html
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Font Example</title>
+</head>
+
+<body>
+<p>Normal Paragraph</p>
+<p style="font-weight:bold;">Bold Paragraph</p>
+<p style="font-style:italic;">Italic Paragraph</p>
+<p style="font-variant:small-caps;">Small Caps Paragraph</p>
+</body>
+</html>
+```
+
+::: details Show output
+
+[View Webpage](https://sounddrill31.github.io/html-demos/short-a/prg1)
+
+<iframe src="https://sounddrill31.github.io/html-demos/short-a/prg1" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+:::
+:::
+
 ## Q2. Write an HTML/5 program to display random contents using list properties: *
 1. ordered list 
 2. Unordered list 
@@ -157,6 +184,54 @@ title: CMA Lab - Part A
 
 :::
 
+
+::: details Shortened Code
+```html
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Lists</title>
+</head>
+<body>
+
+<h2>Ordered</h2>
+<h3>Numbers</h3>
+<ol>
+	<li>Mango</li>
+    <li>Guava</li>
+</ol>
+<h3>Roman</h3>
+<ol type="i">
+	<li>Mango</li>
+    <li>Guava</li>	
+</ol>
+<h2>Unordered</h2>
+<h3>Circles</h3>
+<ul type="circle">
+	<li>Mango</li>
+    <li>Guava</li>
+</ul>
+<h3>Discs</h3>
+<ul type="disc">
+	<li>Mango</li>
+    <li>Guava</li>
+</ul>
+
+</body>
+</html>
+```
+
+::: details Show output
+
+[View Webpage](https://sounddrill31.github.io/html-demos/short-a/prg2)
+
+<iframe src="https://sounddrill31.github.io/html-demos/short-a/prg2" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+:::
+
+:::
+
 ## Q3. Write an HTML/5 program to create gradient using css. *
 
 ::: details See Code
@@ -244,6 +319,46 @@ title: CMA Lab - Part A
 
 :::
 
+::: details Shortened Code
+```html
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+	.box {
+   		width:100px;height:100px;
+        background:red;
+        animation: move 1s alternate 1s infinite;
+    }
+    @keyframes move {
+    	from {
+        	transform: translateX(0px);
+        }
+        to {
+        	transform: translateX(200px);
+        }
+    }
+</style>
+</head>
+<body>
+<div class="box"></div>
+
+</body>
+</html>
+```
+
+::: details Show output
+
+[View Webpage](https://sounddrill31.github.io/html-demos/short-a/prg4)
+
+<iframe src="https://sounddrill31.github.io/html-demos/short-a/prg4" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
+
+:::
+
+:::
+
 ## Q5. Write an HTML/5 program to demonstrate key frames *
 
 [View Webpage](https://sounddrill31.github.io/html-demos/prg5/)
@@ -294,6 +409,8 @@ title: CMA Lab - Part A
 
 :::
 
+([Prg 4](./parta.md#q4-write-an-html5-code-to-demonstrate-following-css-animation-properties-) is also an appropriate example)
+
 ## Q6. Write an HTML/5 code to demonstrate CSS transition and transformation. *
 
 ::: details See code
@@ -329,6 +446,8 @@ title: CMA Lab - Part A
 <iframe src="https://sounddrill31.github.io/html-demos/prg6/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="200px" allowfullscreen></iframe>
 
 :::
+
+
 ## Q7. Write an HTML/5 program to turn on/off a light bulb using JavaScript. 
 Make use of image and buttons. 
 
