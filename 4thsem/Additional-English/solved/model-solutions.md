@@ -165,6 +165,7 @@ graph TD
 
 ## A. Answer any FIVE questions of the following: (2 Marks x 5 = 10)
 ### Q1. What are strange contrasts in one human face according to Wordsworth?
+The Strange contrasts in a human face are contradictory and coexistence of emotions and states, such as "thought and no thought," "paleness and bloom," and "bustle and sluggishness."
 ### Q2. Name the factory the unknown citizen worked for?
 Citizen "JS/07 M 378" worked in Fudge Motors Inc. where he never got fired. Even the Union reported that he paid his dues. 
 ### Q3. What is the central theme of the poem ‘Invictus’?
@@ -172,12 +173,27 @@ The central theme of the poem is around perseverance in the face of any danger, 
 ### Q4. What was the self-confession made by the poet Wole Soyinka?
 The Poet's self-confession was that he was African. This flipped the conversation from a potential sale being made to the woman trying to confirm the buyer's skin color as it highlighted her disdain towards colored people.  
 ### Q5. Who is he referring to in the poem ‘White Paper’?
+He is addressing the high cast people in the society who are denying even the basic rights of Dalits.
 ### Q6. What is the teacher’s scolding words compared to by the poet Kamala Das?
+The teacher's scolding words are compared to "pots and pans" through the metaphor "throwing Words at me like pots and pans." 
 ### Q7. List the things that Jack and Jill have purchased in the play ‘Never Never Nest’.
+The things that Jack and Jill have purchased were:
+  1. The furniture
+  2. The Car
+  3. ThePiano
+  4. The Refrigerator
+  5. The Radio.
 ## B. Answer any FOUR questions of the following in a paragraph: (5 Marks x 4 = 20)
 ### Q1. “Nothing could change the Philosopher’s ease’”. Explain this with reference to second stanza of the poem ‘A Character’
+They last line is about understanding the reason for why our temper is "soft to disease" or  is punctured by suffering. Philosophers are at ease when they are able to rationalize or make sense of the reason, something is happening. The human character's mind is at peace from understanding that it is our own weaknesses that have caused the pain to get to us and has caused the suffering.
 ### Q2. List all the information you can gather about the unknown citizen. What impression does it create about him?
+The citizen worked at Fudge Motors Inc. without being fired, paid union dues, was popular with coworkers, and liked drinking. He bought newspapers daily, responded to advertisements, held full insurance, owned modern appliances (radio, car, refrigerator), and used installment plans. He supported peace during peacetime and war during wartime. He was married with five children (the "right" number according to Eugenist), had one hospital visit, and never questioned their education.
+
+The citizen appears as the perfect conformist—completely obedient to social expectations and government standards. However, this creates a disturbing impression of someone lacking individuality, critical thinking, or personal agency. He seems more like a statistical data point than a real person, suggesting a dehumanizing society that values blind conformity over human individuality and authentic thought.
 ### Q3. How ‘courage in the face of death’ is discussed in the poem ‘Invictus”?
+The speaker confronts death with defiant courage, refusing to surrender despite life's darkness and suffering. The phrase "unconquerable soul" shows that while death may claim the body, the human spirit remains undefeated.
+The famous declaration "I am the master of my fate, I am the captain of my soul" demonstrates ultimate courage by asserting complete control over one's response to mortality. Rather than begging or cowering, the speaker maintains dignity and self-determination.
+The title "Invictus" (unconquered) reinforces that death cannot conquer a courageous spirit. The poem presents courage as choosing defiance over despair, showing that true bravery lies in maintaining inner strength when facing life's ultimate challenge. Death may destroy the physical self, but cannot defeat a determined, courageous soul.
 ### Q4. Why is the landlady averse to renting out the accommodation to the prospective tenant in the poem ‘Telephone Conversation’?
 The landlady is ready to sell the location to the protagonist, but wanted to clarify if he was black or not. 
 
@@ -185,6 +201,7 @@ She asked him rude questions like "How dark?" and "Are you light or very dark?" 
 
 She refused to continue the conversation further because the Poet was dark skinned, which has no bearing in real estate.
 ### Q5. In the poem ‘Punishment in Kindergarten’ what does the poet mean by ‘beloved halts’? Why were they beloved?
+
 ### Q6. What was Jack's justification for buying a house on installments? Do you agree?
 Jack's justification for buying a house on installments instead of renting is that after enough money equivalent to installments, they become owners of the property, which is more economical in the long run compared to renting a house forever, with no hopes of ever owning it - you'll have to listen to the landlord's every demand.
 
