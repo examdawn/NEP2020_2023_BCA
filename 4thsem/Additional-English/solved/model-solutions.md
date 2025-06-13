@@ -111,10 +111,20 @@ consequences add these substances to food without our knowledge.
 ### Q6. What was Jack's justification for buying a house on installments? Do you agree?
 ## C. Answer any TWO questions of the following in about two pages: (10 Marks x 2 = 20)
 ### 1. The poem “A Character” brings out the dynamics of contrasting personality between man, listener and himself. Explain.
+
 ### 2. Briefly explain how the trauma faced by William Ernest Henley has taken a toll on his life. How has he overcome the situation?
+William Ernest Heley was  poet, critic and author from the late Victorian era. At the age of 12, he was diagnosed with tuberculosis of the bone, leading to the amputation of his left leg below the knee a few years later. His other leg was also affected by tuberculosis, but the innovative treatment at the Edinburgh Royal Infirmary saved him from amputation. 
+
+The Poem we're referring to is called Invictus, which could mean unconquerable or undefeated, referring to the poet's struggles in the hospital and how he survived with an undefeatable soul without even wincing or crying aloud, no matter how heavy the punishments feel, he was the master of his fate - he faces his pain and fears unafraid of what's to come.
 ### 3. Write an essay on the racial discrimination as represented in the ‘Telephone Conversation’.
+
+
 ### 4. Justify the title of the play “Never Never Nest”
 
-The title 'Never Never Nest' implies that the home(nest) is never truly owned or settled in. This is extremely appropriate because Jack and Jill prefer to be perpetually in debt by taking on more financial responsibilities than they can affrd. 
+The title 'Never Never Nest' implies that the home(nest) is never truly owned or settled in. This is extremely appropriate because Jack and Jill prefer to be perpetually in debt by taking on more financial responsibilities than they can afford. 
 
-The story unfolds as Aunt Jane visits their Villa at New Hampstead, asks them about their posessions(house, car, piano, radiogram). TODO: Finish
+The story unfolds as Aunt Jane visits their Villa at New Hampstead, asks them about their posessions(house, car, piano, radiogram). They recall that Aunt Jane only gave them a check for Two Hundred Pounds as the wedding present - which shouldn't be enough to buy all this.
+
+We find out that they have used that money as down payment for a bunch of small purchases instead, strapping them into debt. Jack tried to justify this by saying "we realized how uneconomic it is to go on paying rent year after year, when you can buy and enjoy a home of your own for ten pounds—and a few quarterly payments, of course. Why be Mr. Tenant when you can be Mr. Owner?". The same thing applies to the car, piano, furniture, etc as they own only parts of it. 
+
+They then reveal that they earn six pounds put together, while the spending on installments is seven pounds 8 pence. They planned to borrow the missing money from the Thrift and Providence Trust Corporation who will give them money in-hand. Eventually, Aunt Jane offers to provide some money(10 Pounds) so they could truly own *something*. Jill spends this money on medical treatment for a baby, claiming "just one more installment and BABY'S REALLY OURS!"
