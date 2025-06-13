@@ -4,3 +4,24 @@ title: Additional English - Syllabus
 ---
 
 # Additional English
+
+### Poetry
+1. Character by William Wordsworth
+2. The unknown citizen by W.H. Auden
+3. Invictus by William Earnest Henley
+4. Telephone Conversation by Wole Soyinke
+5. White Paper by Sharankumar Limbale Translated by Priya Adarkar
+6. Punishment in Kindergarten by Kamala Das
+
+### One Act Play
+Never Never Nest by Cedric Mount
+
+### Writing Summary
+1. Read passage and underline points
+2. Classify Main idea and supporting points
+3. Organize or rearrange the jotted points
+4. Form a paragraph using appropriate words
+5. Give a title
+### Note Making
+A. Linear Method
+B. Diagram method
