@@ -138,7 +138,7 @@ A healthy diet is directly related to good health. Often we are unaware of detri
 substances we ingest. Sometimes well-meaning of farmers or others do not realize the
 consequences add these substances to food without our knowledge.
 
-```mermaid
+```mmd
 graph TD
     A[Food and Health] --> B[Effects of Food on Health]
 
@@ -179,8 +179,16 @@ graph TD
 ### Q2. List all the information you can gather about the unknown citizen. What impression does it create about him?
 ### Q3. How ‘courage in the face of death’ is discussed in the poem ‘Invictus”?
 ### Q4. Why is the landlady averse to renting out the accommodation to the prospective tenant in the poem ‘Telephone Conversation’?
+The landlady is ready to sell the location to the protagonist, but wanted to clarify if he was black or not. 
+
+She asked him rude questions like "How dark?" and "Are you light or very dark?" while shouting, making no effort to hide her disdain towards dark skinned people. 
+
+She refused to continue the conversation further because the Poet was dark skinned, which has no bearing in real estate.
 ### Q5. In the poem ‘Punishment in Kindergarten’ what does the poet mean by ‘beloved halts’? Why were they beloved?
 ### Q6. What was Jack's justification for buying a house on installments? Do you agree?
+Jack's justification for buying a house on installments instead of renting is that after enough money equivalent to installments, they become owners of the property, which is more economical in the long run compared to renting a house forever, with no hopes of ever owning it - you'll have to listen to the landlord's every demand.
+
+I personally do not agree with his views, as it actively enables their debt-growing habits.
 ## C. Answer any TWO questions of the following in about two pages: (10 Marks x 2 = 20)
 ### 1. The poem “A Character” brings out the dynamics of contrasting personality between man, listener and himself. Explain.
 
