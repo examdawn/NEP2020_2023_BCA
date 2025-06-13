@@ -94,23 +94,27 @@ consequences add these substances to food without our knowledge.
 
 ## Section B
 
-### A. Answer any FIVE questions of the following: (2 Marks x 5 = 10)
-1. What are strange contrasts in one human face according to Wordsworth?
-2. Name the factory the unknown citizen worked for?
-3. What is the central theme of the poem ‘Invictus’?
-4. What was the self-confession made by the poet Wole Soyinka?
-5. Who is he referring to in the poem ‘White Paper’?
-6. What is the teacher’s scolding words compared to by the poet Kamala Das?
-7. List the things that Jack and Jill have purchased in the play ‘Never Never Nest’.
-### B. Answer any FOUR questions of the following in a paragraph: (5 Marks x 4 = 20)
-1. “Nothing could change the Philosopher’s ease’”. Explain this with reference to second stanza of the poem ‘A Character’
-2. List all the information you can gather about the unknown citizen. What impression does it create about him?
-3. How ‘courage in the face of death’ is discussed in the poem ‘Invictus”?
-4. Why is the landlady averse to renting out the accommodation to the prospective tenant in the poem ‘Telephone Conversation’?
-5. In the poem ‘Punishment in Kindergarten’ what does the poet mean by ‘beloved halts’? Why were they beloved?
-6. What was Jack's justification for buying a house on installments? Do you agree?
-### C. Answer any TWO questions of the following in about two pages: (10 Marks x 2 = 20)
-1. The poem “A Character” brings out the dynamics of contrasting personality between man, listener and himself. Explain.
-2. Briefly explain how the trauma faced by William Ernest Henley has taken a toll on his life. How has he overcome the situation?
-3. Write an essay on the racial discrimination as represented in the ‘Telephone Conversation’.
-4. Justify the title of the play “Never Never Nest”
+## A. Answer any FIVE questions of the following: (2 Marks x 5 = 10)
+### Q1. What are strange contrasts in one human face according to Wordsworth?
+### Q2. Name the factory the unknown citizen worked for?
+### Q3. What is the central theme of the poem ‘Invictus’?
+### Q4. What was the self-confession made by the poet Wole Soyinka?
+### Q5. Who is he referring to in the poem ‘White Paper’?
+### Q6. What is the teacher’s scolding words compared to by the poet Kamala Das?
+### Q7. List the things that Jack and Jill have purchased in the play ‘Never Never Nest’.
+## B. Answer any FOUR questions of the following in a paragraph: (5 Marks x 4 = 20)
+### Q1. “Nothing could change the Philosopher’s ease’”. Explain this with reference to second stanza of the poem ‘A Character’
+### Q2. List all the information you can gather about the unknown citizen. What impression does it create about him?
+### Q3. How ‘courage in the face of death’ is discussed in the poem ‘Invictus”?
+### Q4. Why is the landlady averse to renting out the accommodation to the prospective tenant in the poem ‘Telephone Conversation’?
+### Q5. In the poem ‘Punishment in Kindergarten’ what does the poet mean by ‘beloved halts’? Why were they beloved?
+### Q6. What was Jack's justification for buying a house on installments? Do you agree?
+## C. Answer any TWO questions of the following in about two pages: (10 Marks x 2 = 20)
+### 1. The poem “A Character” brings out the dynamics of contrasting personality between man, listener and himself. Explain.
+### 2. Briefly explain how the trauma faced by William Ernest Henley has taken a toll on his life. How has he overcome the situation?
+### 3. Write an essay on the racial discrimination as represented in the ‘Telephone Conversation’.
+### 4. Justify the title of the play “Never Never Nest”
+
+The title 'Never Never Nest' implies that the home(nest) is never truly owned or settled in. This is extremely appropriate because Jack and Jill prefer to be perpetually in debt by taking on more financial responsibilities than they can affrd. 
+
+The story unfolds as Aunt Jane visits their Villa at New Hampstead, asks them about their posessions(house, car, piano, radiogram). TODO: Finish
