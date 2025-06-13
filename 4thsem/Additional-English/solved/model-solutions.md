@@ -225,8 +225,8 @@ In “A Character,” Wordsworth sketches the portrait of a man whose inner worl
     - This leads to a disconnect between how the man is perceived and who he truly is.
 
 3. The Poet Himself
-- Insight: The poet, acting as an observer and interpreter, sympathizes with the subject. Wordsworth recognizes the man’s depth and complexity, understanding that his quiet demeanor masks a vibrant inner life.
-- Empathy: The poet bridges the gap between the man and the listener, inviting the reader to look beyond surface impressions and appreciate the nuances of character.
+    - Insight: The poet, acting as an observer and interpreter, sympathizes with the subject. Wordsworth recognizes the man’s depth and complexity, understanding that his quiet demeanor masks a vibrant inner life.
+    - Empathy: The poet bridges the gap between the man and the listener, inviting the reader to look beyond surface impressions and appreciate the nuances of character.
 
 ### 2. Briefly explain how the trauma faced by William Ernest Henley has taken a toll on his life. How has he overcome the situation?
 William Ernest Heley was  poet, critic and author from the late Victorian era. At the age of 12, he was diagnosed with tuberculosis of the bone, leading to the amputation of his left leg below the knee a few years later. His other leg was also affected by tuberculosis, but the innovative treatment at the Edinburgh Royal Infirmary saved him from amputation. 
