@@ -140,27 +140,24 @@ consequences add these substances to food without our knowledge.
 
 ```mermaid
 graph TD
-    A[Food and Health] --> B[Effects of Food on Health]
-
+    A[Food and Health]
+    A --> B[Profound Effects on Health]
     B --> C[Diet-Related Illnesses]
-    C --> C1[80% of human illnesses related to diet]
-    C --> C2[40% of cancers, especially colon, related to diet]
-    C --> C3[Cultural diets influence illness prevalence]
-
-    B --> D[Harmful Food Additives]
-    D --> D1[Nitrites and nitrates used to preserve meat color]
-    D --> D2[Carcinogenic effects established since 1945]
-    D --> D3[Difficulty identifying harmful ingredients on labels]
-
+    C --> C1[80% illnesses diet-related]
+    C1 --> C2[40% cancers diet-related]
+    C2 --> C3[Cultural diets influence illness]
+    B --> D[Harmful Additives]
+    D --> D1[Nitrites/nitrates in meat]
+    D1 -->|"commonly used to preserve colour in meat"| D2[Carcinogenic since 1945]
+    D2 --> D3[Hard to identify on labels]
     B --> E[Antibiotics in Animal Food]
-    E --> E1[Penicillin given to cattle and poultry]
-    E --> E2[Used for fattening animals for profit]
-    E --> E3[Practices continue despite FDA regulations]
-
+    E --> E1[Penicillin in cattle/poultry]
+    E1 --> E2[Used for fattening]
+    E2 --> E3[Continues despite FDA]
     B --> F[Importance of Healthy Diet]
-    F --> F1[Direct link between diet and good health]
-    F --> F2[Often unaware of harmful substances ingested]
-    F --> F3[Unintentional addition of harmful substances by farmers or others]
+    F --> F1[Diet linked to health]
+    F1 --> F2[Unaware of harmful substances]
+    F2 --> F3[Farmers add unintentionally]
 ```
 
 
