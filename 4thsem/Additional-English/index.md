@@ -5,6 +5,8 @@ title: Additional English - Syllabus
 
 # Additional English
 
+## Syllabus
+
 ### Poetry
 1. Character by William Wordsworth
 2. The unknown citizen by W.H. Auden
@@ -25,3 +27,7 @@ Never Never Nest by Cedric Mount
 ### Note Making
 A. Linear Method
 B. Diagram method
+
+## Links
+1. [Notes From Faculty(and other sources)](./notes.md)
+2. [Textbook Link](https://drive.google.com/file/d/1JyGaoLULUAatQSKDMN-Cl4qhh1fnClen/view?usp=drive_link)

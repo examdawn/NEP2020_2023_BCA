@@ -3,6 +3,4 @@
 ## Subjects:
 
 ## Additional English
-(Open Full)[./Additional-English/notes]
-<!--@include: ./Additional-English/notes.md{8,}-->
-
+[Open Full](./Additional-English/notes)

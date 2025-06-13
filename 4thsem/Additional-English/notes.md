@@ -7,6 +7,9 @@ title: Additional English - Notes
 
 Folder: https://drive.google.com/drive/folders/1wM2vZcGopw-dKh1txeUPx8qkYHtziuE4?usp=sharing
 
+## Textbook Link
+https://drive.google.com/file/d/1JyGaoLULUAatQSKDMN-Cl4qhh1fnClen/view?usp=drive_link
+
 ## Poetry
 1. Character by William Wordsworth
     - [Notes: https://drive.google.com/file/d/1rHq5XhcPfh_8WdKkCRI7nyt8KyJfud-Q/view?usp=drive_link](https://drive.google.com/file/d/1rHq5XhcPfh_8WdKkCRI7nyt8KyJfud-Q/view?usp=drive_link)
