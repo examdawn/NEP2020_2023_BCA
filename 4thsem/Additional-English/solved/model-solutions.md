@@ -23,7 +23,7 @@ Depression, regulations that were unfavourable to operators—but perhaps the pr
 cause was having a group of powerful men from rival sectors of the auto industry working
 together to ensure its destruction.
 
-- Title: The Decline of Electric Trolley Cars in America
+### Title: The Decline of Electric Trolley Cars in America
 - Electric trolley cars or trams were once the chief mode of public transportation in the United States. These trolley cars, which required tracks and electric cables, were known for being clean and comfortable. However, in 1922, General Motors established a unit aimed at replacing electric trolleys with cars, trucks, and buses. Over the following decade, this group successfully lobbied for laws and regulations that made tram operations increasingly difficult and less profitable. By 1936, General Motors had created several front companies to purchase and dismantle the trolley car system, receiving significant investments from companies like Firestone Tire and Standard Oil. There are suspicions that these parties aimed to replace trolley cars with buses to make public transportation less appealing, thereby boosting automobile sales. While the decline of the tram system can be linked to various factors such as labor strikes and the Great Depression, the primary cause was likely the coordinated efforts of influential figures in the automotive industry to ensure its downfall.
 
 OR
@@ -40,7 +40,7 @@ threatened at every turn. They faced cattle rustlers, stampedes and extreme weat
 kept pushing those steers to the train station. By the turn of the century, barbed wire killed
 the open range and some may say the cowboy too, but it was the train that birthed him.
 
-- Title: The Impact of Railroads on Cattle Ranching in the 1800s
+### Title: The Impact of Railroads on Cattle Ranching in the 1800s
 - In the Southwest during the early half of the 1800s, cows were only worth 2 or 3 dollars apiece. Initially, cows roamed wild and grazed freely on the open range, making them abundant. However, the construction of railroads midway through the century transformed the cattle industry by connecting the nation. This development allowed for the shipment of cattle via freight trains to the Northeast, where demand for beef was increasing. Consequently, cows that were once valued at a few dollars could now be sold for between twenty and forty dollars each, provided they reached the train station. This shift made it profitable to round up cattle and herd them to train towns, although it was fraught with danger. Cowboys faced numerous threats, including cattle rustlers, stampedes, and harsh weather conditions, yet they persevered in driving the cattle to the train stations. By the turn of the century, the introduction of barbed wire ended the open range, which some argue also marked the decline of the cowboy, but it was the railroad that ultimately gave rise to the cowboy era.
 
 ### B) Make Notes for any one of the passages given below giving a suitable title using linear or diagram method(10 Marks)
@@ -75,6 +75,46 @@ Many people are being kept alive with tiny battery operated pacemakers; none of 
 repairs could have been made without the heart – lung machine. But valuable as it is to the
 surgeons, the heart lung machine has certain limitations. It can be used only for a few
 hours at a time because its pumping gradually damages the bloods cells.
+### **Title: The Function and Importance of the Heart**
+
+1. **Heart Function**
+   - Continuous operation is essential.
+   - Keeps oxygen-rich blood flowing throughout the body.
+   - All cells, especially brain cells, require a constant supply of oxygen.
+   - Brain cells can survive only 4-5 minutes without oxygen.
+2. **Structure of the Heart**
+   - Specialized muscle functioning as a pump.
+   - Divided into four chambers:- Right Atrium
+     - Right Ventricle
+     - Left Atrium
+     - Left Ventricle
+   - Chambers connected by valves (tiny doors).
+3. **Blood Circulation Process**
+   - Blood returns to the **Right Atrium** (deoxygenated).
+   - Flows through **Tricuspid Valve** to **Right Ventricle**.
+   - Right Ventricle contracts, pushing blood through **Pulmonary Artery** to lungs.
+   - In lungs:- Releases carbon dioxide.
+     - Picks up fresh oxygen.
+   - Blood travels to **Left Atrium**.
+   - Flows through valve to **Left Ventricle**.
+   - Pushed into **Aorta** and distributed via arteries.
+4. **Heart Disease**
+   - Causes:- Damage to heart muscle.
+     - Valve dysfunction.
+     - Pacemaker issues.
+   - Consequences:- Impaired pumping ability.
+     - Abnormal blood flow.
+     - Uncoordinated contractions.
+5. **Advancements in Heart Surgery**
+   - Historical reluctance to operate on the heart until the 20th century.
+   - Dr. John Gibbon's invention of the heart-lung machine (1953).- Allows temporary bypass of heart and lungs.
+     - Enables surgeons to perform open-heart surgery.
+   - Common procedures:- Repair or replacement of defective hearts.
+     - Insertion of plastic valves.
+     - Use of battery-operated pacemakers.
+6. **Limitations of Heart-Lung Machine**
+   - Can only be used for a few hours.
+   - Gradual damage to blood cells during operation.
 
 OR
 
@@ -97,6 +137,32 @@ market. In spite of the food and drug administration, the practices continue.
 A healthy diet is directly related to good health. Often we are unaware of detrimental
 substances we ingest. Sometimes well-meaning of farmers or others do not realize the
 consequences add these substances to food without our knowledge.
+
+```mermaid
+graph TD
+    A[Food and Health] --> B[Effects of Food on Health]
+
+    B --> C[Diet-Related Illnesses]
+    C --> C1[80% of human illnesses related to diet]
+    C --> C2[40% of cancers (especially colon) related to diet]
+    C --> C3[Cultural diets influence illness prevalence]
+
+    B --> D[Harmful Food Additives]
+    D --> D1[Nitrites and nitrates used to preserve meat color]
+    D --> D2[Carcinogenic effects established since 1945]
+    D --> D3[Difficulty identifying harmful ingredients on labels]
+
+    B --> E[Antibiotics in Animal Food]
+    E --> E1[Penicillin given to cattle and poultry]
+    E --> E2[Used for fattening animals for profit]
+    E --> E3[Practices continue despite FDA regulations]
+
+    B --> F[Importance of Healthy Diet]
+    F --> F1[Direct link between diet and good health]
+    F --> F2[Often unaware of harmful substances ingested]
+    F --> F3[Unintentional addition of harmful substances by farmers or others]
+```
+
 
 ## Section B
 
