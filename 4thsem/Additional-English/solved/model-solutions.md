@@ -6,6 +6,8 @@ title: Additional English - Model Paper
 
 ## Section A 
 
+## Summary
+
 ### A) Summarise any one of the passages given below, give a suitable title and underline the topic sentence (10 Marks)
 Electric trolley cars or trams were once the chief mode of public transportation in the
 United States. Though they required tracks and electric cables to run, these trolley cars
@@ -43,6 +45,8 @@ the open range and some may say the cowboy too, but it was the train that birthe
 ### Title: The Impact of Railroads on Cattle Ranching in the 1800s
 - In the Southwest during the early half of the 1800s, cows were only worth 2 or 3 dollars apiece. Initially, cows roamed wild and grazed freely on the open range, making them abundant. However, the construction of railroads midway through the century transformed the cattle industry by connecting the nation. This development allowed for the shipment of cattle via freight trains to the Northeast, where demand for beef was increasing. Consequently, cows that were once valued at a few dollars could now be sold for between twenty and forty dollars each, provided they reached the train station. This shift made it profitable to round up cattle and herd them to train towns, although it was fraught with danger. Cowboys faced numerous threats, including cattle rustlers, stampedes, and harsh weather conditions, yet they persevered in driving the cattle to the train stations. By the turn of the century, the introduction of barbed wire ended the open range, which some argue also marked the decline of the cowboy, but it was the railroad that ultimately gave rise to the cowboy era.
 
+
+## Note Taking
 ### B) Make Notes for any one of the passages given below giving a suitable title using linear or diagram method(10 Marks)
 The work of the heart can never be interrupted. The heart’s job is to keep oxygen rich
 blood, flowing through the body. All the body’s cells need a constant supply of Oxygen,
