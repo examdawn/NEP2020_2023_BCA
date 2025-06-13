@@ -169,8 +169,11 @@ graph TD
 ## A. Answer any FIVE questions of the following: (2 Marks x 5 = 10)
 ### Q1. What are strange contrasts in one human face according to Wordsworth?
 ### Q2. Name the factory the unknown citizen worked for?
+Citizen "JS/07 M 378" worked in Fudge Motors Inc. where he never got fired. Even the Union reported that he paid his dues. 
 ### Q3. What is the central theme of the poem ‘Invictus’?
+The central theme of the poem is around perseverance in the face of any danger, be it internal or external. For the poet, it was about surviving life in the hospital as he underwent treatment for tuberculosis of the bone.
 ### Q4. What was the self-confession made by the poet Wole Soyinka?
+The Poet's self-confession was that he was African. This flipped the conversation from a potential sale being made to the woman trying to confirm the buyer's skin color as it highlighted her disdain towards colored people.  
 ### Q5. Who is he referring to in the poem ‘White Paper’?
 ### Q6. What is the teacher’s scolding words compared to by the poet Kamala Das?
 ### Q7. List the things that Jack and Jill have purchased in the play ‘Never Never Nest’.
