@@ -144,7 +144,7 @@ graph TD
 
     B --> C[Diet-Related Illnesses]
     C --> C1[80% of human illnesses related to diet]
-    C --> C2[40% of cancers (especially colon) related to diet]
+    C --> C2[40% of cancers, especially colon, related to diet]
     C --> C3[Cultural diets influence illness prevalence]
 
     B --> D[Harmful Food Additives]
