@@ -201,13 +201,32 @@ She asked him rude questions like "How dark?" and "Are you light or very dark?" 
 
 She refused to continue the conversation further because the Poet was dark skinned, which has no bearing in real estate.
 ### Q5. In the poem ‘Punishment in Kindergarten’ what does the poet mean by ‘beloved halts’? Why were they beloved?
+Beloved halts refer to the poet, Kamala Das's cherished moments in childhood, where she would hide away from others, like in the poem where she hides in the hedge and smells the flowers. This makes her day just a little bit better than before, where she was laughed at by the other children after her teacher threw a careless remark at her. 
 
+These moments provided her with a sense of comfort and a short escape from the cruelty of other people, which is why she refers to them as "beloved halts".
 ### Q6. What was Jack's justification for buying a house on installments? Do you agree?
 Jack's justification for buying a house on installments instead of renting is that after enough money equivalent to installments, they become owners of the property, which is more economical in the long run compared to renting a house forever, with no hopes of ever owning it - you'll have to listen to the landlord's every demand.
 
 I personally do not agree with his views, as it actively enables their debt-growing habits.
 ## C. Answer any TWO questions of the following in about two pages: (10 Marks x 2 = 20)
 ### 1. The poem “A Character” brings out the dynamics of contrasting personality between man, listener and himself. Explain.
+In “A Character,” Wordsworth sketches the portrait of a man whose inner world is at odds with his outward appearance. The poem explores the complexities of human nature, focusing on the contrast between what a person truly is (his character), how he presents himself to others (the listener), and how he perceives himself.
+
+1. The Man (Subject of the Poem)
+    - Inner Nature: The man described in the poem is thoughtful, perhaps melancholic, and deeply sensitive. 
+    - He is not easily swayed by the opinions of others and maintains a private, internal world.
+    - Outward Behavior: Despite his rich inner life, he appears reserved, even indifferent, to those around him. 
+    - He does not seek attention or approval, and his actions may seem puzzling or aloof to others.
+
+2. The Listener (Society or the Reader)
+    - Perception: The listener, representing society or the reader, often misunderstands or misjudges the man. 
+    - Because the man does not conform to social expectations or express himself openly, the listener may see him as cold, proud, or unsociable.
+    - Expectations: The listener expects conformity, sociability, and openness—qualities the man does not display.
+    - This leads to a disconnect between how the man is perceived and who he truly is.
+
+3. The Poet Himself
+- Insight: The poet, acting as an observer and interpreter, sympathizes with the subject. Wordsworth recognizes the man’s depth and complexity, understanding that his quiet demeanor masks a vibrant inner life.
+- Empathy: The poet bridges the gap between the man and the listener, inviting the reader to look beyond surface impressions and appreciate the nuances of character.
 
 ### 2. Briefly explain how the trauma faced by William Ernest Henley has taken a toll on his life. How has he overcome the situation?
 William Ernest Heley was  poet, critic and author from the late Victorian era. At the age of 12, he was diagnosed with tuberculosis of the bone, leading to the amputation of his left leg below the knee a few years later. His other leg was also affected by tuberculosis, but the innovative treatment at the Edinburgh Royal Infirmary saved him from amputation. 
