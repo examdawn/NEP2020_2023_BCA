@@ -138,7 +138,7 @@ A healthy diet is directly related to good health. Often we are unaware of detri
 substances we ingest. Sometimes well-meaning of farmers or others do not realize the
 consequences add these substances to food without our knowledge.
 
-```mmd
+```mermaid
 graph TD
     A[Food and Health] --> B[Effects of Food on Health]
 
