@@ -5,7 +5,7 @@ title: Generic English - Notes
 
 # Generic English Notes
 
-Folder: https://drive.google.com/drive/folders/1wM2vZcGopw-dKh1txeUPx8qkYHtziuE4?usp=sharing
+Folder: 
 
 ## Textbook Link
 
