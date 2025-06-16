@@ -5,18 +5,4 @@ title: Generic English - Notes
 
 # Generic English Notes
 
-Folder: 
-
-## Textbook Link
-
-## Novella
-
-## Poems
-
-## TED Talks
-
-## Speaking Skills
-
-## Writing Skills
-
-## Correspondence/Content Writing
+Folder: https://drive.google.com/drive/folders/1Bve6ZWNQN7MvLgNH-u-3QMznl_Y0Y7fP?usp=sharing
