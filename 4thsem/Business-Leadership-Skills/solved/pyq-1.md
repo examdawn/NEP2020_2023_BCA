@@ -16,10 +16,25 @@ The two qualities of a good leader are:
 - Motivating
 ## Question 1c. Give the meaning of transactional leadership.
 Transactional leader brings followers together on a joint purpose of the goal. They are the managerial leaders who supervise and organize the followers in such a way that the performance of the team is not affected and the goal is achieved, for every achievement there are some reward and punishment on the failure.
-## Question 1d. What do you mean by emotional management ?
+## Question 1d. What do you mean by emotional management?
+Emotional management is a set of skills that can help you react constructively to people or events. Learning how to manage your emotions can benefit your career by helping you make rational choices and develop relationships with others. 
+
+[Indeed](https://www.indeed.com/career-advice/career-development/emotional-management-skills)
 ## Question 1e. Give the meaning of autocratic leadership.
-## Question 1f. Give the meaning of leadership value.
+An authoritarian leadership style is described as being as "leaders' behavior that asserts absolute authority and control over subordinates and [that] demands unquestionable obedience from subordinates."
+- Such a leader has full control of the team, leaving low autonomy within the group.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Authoritarian_leadership_style)
+## Question 1f. Give the meaning of leadership values.
+Leadership values are the core beliefs and principles that guide leaders and managers in their personal and professional lives and allow them to oversee, lead and manage others effectively. 
+- Your values are the things you believe are most important to achieving your goals and being happy.
+
+[Indeed](https://www.indeed.com/career-advice/career-development/leadership-values)
 ## Question 1g. Define informal leadership.
+Informal leadership refers to the influence someone has on others within an organization without holding a formal leadership position. 
+- These leaders gain respect and trust through their expertise, relationships, and positive influence, rather than through a title or hierarchical power
+    - Influence without Authority 
+    - Because of built/accumulated trust, relationships and respect
 
 # Section B
 
@@ -62,14 +77,76 @@ The traits of an ethical leader are as follows:
 #### 6. **Good Mediator**: 
 - They effectively mediate conflicts, listening to all sides and finding fair solutions that satisfy both parties.
 ## Question 4. State any four differences between manager and leader.
+![A venn diagram showing the commonalities and differences between management and leadership](https://www.proofhub.com/articles/wp-content/uploads/2024/04/leadership-vs-management-commons-and-diffences.jpg.webp)
+
+
+| Basis of Difference | Leadership | Management |
+| :--- | :--- | :--- |
+| **1. Primary Focus** | Leaders focus on the "what" and "why," establishing a vision and direction for the future | Managers concentrate on the "how" and "when," focusing on executing plans to achieve the set vision |
+| **2. Core Function** | The function of a leader is to inspire, motivate, and guide people toward a shared goal, often with an emphasis on innovation and change | A manager's function is to plan, organize, and oversee processes to achieve specific objectives by maintaining control and stability |
+| **3. Approach** | Leadership relies on personal influence, trust, and respect to encourage people to work towards a common objective | Management uses the formal authority granted by their position to direct and control others to complete tasks |
+| **4. Perspective on Change** | A leader embraces chaos and sees change as an opportunity to adapt and evolve the organization's vision | A manager seeks a stable environment and controls various factors to ensure that articulated goals are accomplished efficiently |
+| **5. Role Definition** | The role of a leader is fluid and not confined to a title; it's about creating a vision and inspiring people through action | A manager's role is formally defined with a specific job description and a fixed set of responsibilities within the organization |
+| **6. Key Skills** | Essential skills include vision, emotional intelligence, adaptability, and inspiring communication to motivate people | Key skills include organization, delegation, time management, and conflict resolution to handle day-to-day operations effectively |
+
+
+[ProofHub](https://www.proofhub.com/articles/leadership-vs-management)
 ## Question 5. Describe the importance of communication skills in leadership.
+
+When it comes to business, clear and effective communication from leadership offers a multitude of benefits to employers and employees:
+- One such benefit is that it keeps employees aware of individual and organizational goals. 
+    - When workers understand what is expected of them, they are more likely to be able to deliver the desired results, which can help increase job satisfaction, improve morale, and boost confidence.
+- Successful leaders must be able to inspire their employees. 
+    - If leaders are not strong communicators, it will negatively affect the motivation and, consequently, the productivity of their teams. 
+    - Conversely, when objectives and expectations are well-defined—and teams are collaborating to meet them—it can promote efficiency, enhance engagement, and improve overall work performance.
+- Strong leadership communication helps ensure that team members are aware of organizational challenges and opportunities
+    - This enables them to make more informed decisions that ultimately benefit the bottom line
+
+[Penn LPS](https://lpsonline.sas.upenn.edu/features/why-communication-essential-effective-leadership)
 ## Question 6. Explain any four characteristics of Laissez-faire leadership.
+> Let go. Let it be. This is what the term laissez-faire means when translated. Laissez-faire is often used to describe an laissez-faire economics or political policy, but is also used regularly in the business world to describe a leadership style. 
+
+Laissez-faire leaders have an attitude of trust and reliance on their employees. They don’t micromanage or get too involved, they don’t give too much instruction or guidance. 
+- Instead laissez-faire leaders let their employees use their creativity, resources, and experience to help them meet their goals. 
+- This kind of leadership is very hands-off—managers trust their employees and are confident in their abilities. 
+- They give guidance and take responsibility where needed, but this leadership style means that subordinates and team members have the real lead.
+
+
+There are many common characteristics of the laissez-faire leadership style including:
+- Little guidance from leaders
+- Employees have the ability to make decisions
+- People are expected to solve their own problems
+- Access to many resources and tools
+- Constructive criticism from leaders
+- Leaders take charge when necessary
+- Leaders take responsibility for overall actions and decisions
+
+These leadership characteristics may also be found in other leadership styles, and many elements of leadership are fluid and work across management styles. 
 
 # Section C
 
 (3 x 10M = 30)
 
 ## Question 7. Explain Blake and Mouton's managerial grid theory of leadership.
+
+The managerial grid model(The Blake and Mouton Managerial Grid model) is a self-assessment tool by which individuals and organizations can identify a manager's or leader's style. 
+- The grid was originally developed by Robert R. Blake and Jane S. Mouton in the 1960s and has evolved in subsequent decades.
+
+
+The Blake Mouton Grid is created using a horizontal axis and a vertical axis that meet at a right angle and are rated on a nine-point scale:
+
+- Horizontal axis -- concern for production. 
+    - A one, or low concern for production, is placed to the far left of the horizontal axis, close to the right angle; a nine, or high concern for production, is located on the far right of the horizontal line. 
+    - A high concern for production indicates that the leader prioritizes objectives, results and productivity when determining how a task should be accomplished.
+- Vertical axis -- concern for people. 
+    - A one, or low concern, falls at the bottom of the vertical line, close to the base near the right angle, while a nine, or high concern for people, is placed at the top of this vertical axis. 
+    - A high concern for people indicates that the leader prioritizes the needs and interests of people when determining how a task should be accomplished.
+
+
+![BlakeMoutonGrid](https://www.techtarget.com/rms/onlineimages/blake_mouton_grid-f.png)
+
+[TechTarget](https://www.techtarget.com/searchcio/definition/managerial-grid-model-The-Blake-and-Mouton-Managerial-Grid-model)
+
 ## Question 8. Elaborate the different roles of leadership.
 The different roles of leadership are:
 #### 1. **Coach**:
@@ -93,6 +170,17 @@ The different roles of leadership are:
 #### 10. **Innovator**:
 - As innovators, leaders seek to introduce new processes and encourage creativity within the team. They understand that innovation is essential for organizational growth and motivate employees to contribute new ideas.
 ## Question 9. Discuss the significance of communication skills in leadership.
+When it comes to business, clear and effective communication from leadership offers a multitude of benefits to employers and employees:
+- One such benefit is that it keeps employees aware of individual and organizational goals. 
+    - When workers understand what is expected of them, they are more likely to be able to deliver the desired results, which can help increase job satisfaction, improve morale, and boost confidence.
+- Successful leaders must be able to inspire their employees. 
+    - If leaders are not strong communicators, it will negatively affect the motivation and, consequently, the productivity of their teams. 
+    - Conversely, when objectives and expectations are well-defined—and teams are collaborating to meet them—it can promote efficiency, enhance engagement, and improve overall work performance.
+- Strong leadership communication helps ensure that team members are aware of organizational challenges and opportunities
+    - This enables them to make more informed decisions that ultimately benefit the bottom line
+
+[Penn LPS](https://lpsonline.sas.upenn.edu/features/why-communication-essential-effective-leadership)
+
 ## Question 10. Explain the competency and behavioural approaches to leadership.
 Leadership theories can be broadly categorized into two significant approaches: competency and behavioral approaches. Each offers unique insights into what makes an effective leader.
 
@@ -128,3 +216,49 @@ Moral leadership refers to the practice of leading with a strong ethical foundat
 - By exemplifying ethical behavior, moral leaders serve as role models for their teams. Their actions inspire others to act ethically and uphold similar values, creating a culture of integrity within the organization.
 #### 6. **Long-Term Perspective**:
 - Moral leadership focuses on long-term outcomes rather than short-term gains. Leaders prioritize sustainable practices and ethical considerations, understanding that these contribute to lasting success and reputation.
+
+## Section D
+
+(1 x 8M = 8)
+
+## Question 12. Compare and contrast formal and informal leadership
+| Basis for Comparison | Formal Leadership | Informal Leadership |
+| :--- | :--- | :--- |
+| **1. Source of Authority** | Authority is derived from an official position or title within the organization's hierarchy. | Influence stems from the trust, respect, experience, and knowledge recognized by peers, not from a formal title. |
+| **2. Role Definition** | The role is officially designated with a specific job description and a defined set of responsibilities. | The role is unofficial and not based on a formal position; they are considered leaders by their colleagues due to their actions and qualities. |
+| **3. Decision-Making** | Decisions are typically made by the leader, sometimes with input from select advisors, but the final authority rests with them. | Decision-making is often collaborative, involving input and agreement from other group members. |
+| **4. Method of Influence** | Influences others through legitimate power, commands, and the ability to reward or punish. | Influences others through charisma, expertise, open communication, and building strong interpersonal relationships. |
+| **5. Scope of Relationships**| Relationships are often limited and structured, primarily with direct reports and other leaders within the formal hierarchy. | Relationships are typically broad and span across various departments and levels of the organization. |
+| **6. Primary Focus**| The primary focus is on achieving the organization's goals, maintaining stability, and adhering to established procedures. | The focus is often on the well-being and interests of colleagues, fostering teamwork, and providing guidance and support. |
+| **7. Examples**| A CEO, a department manager, or a military officer who has been officially appointed to a position of power. | A knowledgeable colleague whom others seek for advice, or a team member who naturally motivates the group during a project. |
+
+## Question 13. Write a short note on:
+1. Democratic Leadership
+2. Autocratic Leadership
+
+### Democratic Leadership
+
+Democratic leadership, which is also commonly known as participative leadership, is about letting multiple people participate in the decision-making process. This type of leadership can be seen in a wide range of contexts, from businesses to schools to governments. 
+
+
+|  Pros | Cons | 
+| Encourages collaoration | The minority opinion is overridden |
+| Welcoming of a variety of opinions and ways of thinking | The involvement of multiple people can lead to more communication gaps and confusion |
+| Leads to higher group engagement and productivity | Can take a longer time to come to a decision |
+| Can result in more creative solutions | An unskilled or untrained group can result in more decision making |b
+| The outcome is supported by the majority | Near impossible to make everyone happy |
+
+[Torch](https://torch.io/blog/what-is-democratic-leadership/)
+
+
+
+### Autocratic Leadership
+
+![Image representation of autocratic leadership, a man is instructing many people to perform pushups](https://www.verywellmind.com/thmb/Tzmn_HpvGHV30wFyl4P4LmU-eX0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/2795314-what-is-autocratic-leadership-5b114f573037130036518e48.png)
+
+Autocratic leadership, also known as authoritarian leadership, is a leadership style characterized by individual control over all decisions and little input from group members.
+- Autocratic leaders typically make choices based on their ideas and judgments and rarely accept advice from followers. Autocratic leadership involves absolute, authoritarian control over a group.
+- Like other leadership styles, the autocratic style has both some benefits and some weaknesses. 
+- While those who rely on this approach too heavily are often seen as bossy or dictator-like, this level of control can have benefits and be useful in certain situations. 
+
+[VeryWellMind](https://www.verywellmind.com/what-is-autocratic-leadership-2795314#:~:text=Autocratic%20leadership%2C%20also%20known%20as,rarely%20accept%20advice%20from%20followers.)
