@@ -7,3 +7,6 @@
 
 ## Generic English
 [Open Generic English Notes](./Generic-English/notes)
+
+## Business Leadership Skills
+[BLS Notes](./Business-Leadership-Skills/notes)
