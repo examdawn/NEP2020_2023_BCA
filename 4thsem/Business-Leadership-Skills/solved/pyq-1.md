@@ -115,8 +115,6 @@ Leadership theories can be broadly categorized into two significant approaches: 
 4. **Research Foundations**:
 - Studies such as the Ohio State Leadership Studies and the University of Michigan Studies have identified key behaviors associated with effective leadership, such as consideration (supporting team members) and initiating structure (defining roles and tasks).
 ## Question 11. Discuss in brief about moral leadership.
-**Moral Leadership**
-
 Moral leadership refers to the practice of leading with a strong ethical foundation, prioritizing values such as integrity, fairness, and social responsibility. It emphasizes the importance of ethical behavior in decision-making and the impact of a leader's actions on their followers and the broader community. Here are some key aspects of moral leadership:
 #### 1. **Ethical Decision-Making**:
 - Moral leaders are committed to making decisions that align with ethical principles. They consider the consequences of their actions on all stakeholders, including employees, customers, and the community.
