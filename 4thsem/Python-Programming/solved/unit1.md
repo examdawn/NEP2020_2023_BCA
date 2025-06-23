@@ -119,15 +119,15 @@ Input:
 count = 0
 while (count < 5):
     count = count + 1
-    print("Ligma")
+    print("Hello World")
 ```
 Output:
 ```txt
-Ligma
-Ligma
-Ligma
-Ligma
-Ligma
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
 ```
 
 [flexiple](https://flexiple.com/python/looping-statements-in-python)
