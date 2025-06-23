@@ -2,10 +2,13 @@
 order: 5
 title: PP - Unit 4 Solved
 ---
+# Python Programming - Unit 4
+## Q1. 
 
 
 <!-- 
-Explain file types with example. 
+
+
 
 Explain types of operations performed on file with example. 
 
