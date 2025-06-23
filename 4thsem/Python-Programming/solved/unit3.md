@@ -3,17 +3,12 @@ order: 4
 title: PP - Unit 3 Solved
 ---
 # Python Programming - Unit 3
-## Q1. 
 
-<<<<<<< HEAD
 ## 1. Explain Membership Operator with an example
 The membership operators in Python help us determine whether an item is present in a given container type object, or in other words, whether an item is a member of the given container type object. Python has two membership operators: in and not in. Both return a Boolean result. The result of in operator is opposite to that of not in operator.
 ### 1. ***The `in` Operator:***
 - It's used to check whether a substring is present in a bigger string, any item is present in a list or tuple, or a sub-list or sub-tuple is included in a list or tuple. Syntax: `{value} in {sequence}:`
 
-=======
-<!--
->>>>>>> ce75db1b4aa9549ffdc1778eeb5160a569911d69
 
 EXAMPLE:
 
