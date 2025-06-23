@@ -4,9 +4,6 @@ title: PP - Unit 4 Solved
 ---
 # Python Programming - Unit 4
 
-> [!WARNING]
-> This Page is incomplete and answers will be added soon. 3/9 Remaining.
-
 ## Q1. Explain file types with example. 
 
 Text files store character data and do not have any specific encoding, which allows them to be opened and read in a standard text editor
