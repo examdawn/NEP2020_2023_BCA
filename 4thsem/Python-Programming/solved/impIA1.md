@@ -1,6 +1,7 @@
 ---
 order: 1
 title: Python IA1 Important Questions
+exclude: true
 ---
 
 > [!WARNING]
