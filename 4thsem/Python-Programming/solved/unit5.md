@@ -32,7 +32,4 @@ Mention a few matplotlib methods and some of their parameters
 
 Explain different types of Charts supported by matplotlib
 
-
-
-
 -->

@@ -15,9 +15,14 @@ Explain object oriented concepts in python.
 
 Explain python inheritance. Explain types of inheritance with example. 
 
+Explain python private, protected and public access for variables/methods. How is it related to Encapsulation?
+
 Explain about method overloading. 
 
-What is a Magic Method?
+Explain different types of Polymorphism in Python
+
+What is a Magic Method? 
+(Also Known as Special Methods)
 
 Explain constructors in python
 
