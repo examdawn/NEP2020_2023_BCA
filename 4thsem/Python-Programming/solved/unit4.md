@@ -23,5 +23,4 @@ Explain constructors in python
 
 tell() and seek() methods
 
-tk() class
 -->
