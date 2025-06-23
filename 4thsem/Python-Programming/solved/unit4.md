@@ -3,6 +3,10 @@ order: 5
 title: PP - Unit 4 Solved
 ---
 # Python Programming - Unit 4
+
+> [!WARNING]
+> This Page is incomplete and answers will be added soon. 3/9 Remaining.
+
 ## Q1. Explain file types with example. 
 
 Text files store character data and do not have any specific encoding, which allows them to be opened and read in a standard text editor
@@ -117,6 +121,67 @@ with open("file.txt", "r") as f:
 ```
 
 [mimo](https://mimo.org/glossary/python/file-handling)
+
+
+## Q3. tell() and seek() methods
+
+### tell()
+The tell() method returns the current file position in a file stream.
+
+### seek()
+You can change the current file position with the seek() method.
+
+### Example: 
+TODO
+
+
+
+## Q4. Explain object oriented concepts in python. 
+TODO
+## Q5. Explain python inheritance. Explain types of inheritance with example. 
+TODO 
+
+## Q6. Explain python private, protected and public access for variables/methods. How is it related to Encapsulation?
+
+## Q7. Explain different types of Polymorphism in Python
+
+Polymorphism in Python, derived from the Greek words "poly" (many) and "morph" (forms), refers to the ability of an entity (like a function, method, or operator) to take on different forms or behave differently depending on the context or the type of data it operates on. 
+- It is a core concept in object-oriented programming (OOP) that promotes code reusability and flexibility.
+
+### Method Overriding
+
+This is the most common way to achieve polymorphism in Python. 
+- A child class can provide a specific implementation for a method that is already defined in its parent class. 
+- When the method is called on an object of the child class, the overridden method in the child class is executed instead of the parent's method.
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+animals = [Dog(), Cat(), Animal()]
+for animal in animals:
+    animal.speak()
+```
+
+### Operator Overloading
+
+Python allows operators (like +, -, *) to be redefined for custom classes. This means the same operator can perform different actions depending on the data types involved. For example, the + operator performs addition for numbers and concatenation for strings.
+
+```python
+print(2 + 3)  # Addition for integers
+print("Hello" + "World")  # Concatenation for strings
+```
+
+## Q8. What is a Magic Method? 
+(Also Known as Special Methods)
+
+## Q9. Explain constructors in python
 
 <!-- 
 Explain file types with example. 
