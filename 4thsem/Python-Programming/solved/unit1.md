@@ -74,7 +74,8 @@ In Python, indentation is used to define blocks of code. It tells the Python int
 ## Q7. What is console input & console output in Python.
 Console (also called Shell) is basically a command line interpreter that takes input from the user with `input()` function and print output with `print()` function.
 - ***Console input*** is the method by which a program receives data from the user. 
-- ***Console output:*** is the method by which a program displays data to the user. 
+- ***Console output:*** is the method by which a program displays data to the user.  
+
 EXAMPLE:
 ```python
 name = input("Enter your name: ")
@@ -94,16 +95,17 @@ Python has three types of control structures:
 Looping simplifies complicated problems into smooth ones. It allows programmers to modify the flow of the program so that rather than writing the same code again and again, programmers are able to repeat the code a finite number of times.
 
 1. ***For Loop:***
-- The for loop is used in cases where a programmer needs to execute a part of the code until the given condition is satisfied. The for loop is also called a pre-tested loop. It is best to use a for loop if the number of iterations is known in advance.
+- The for loop is used in cases where a programmer needs to execute a part of the code until the given condition is satisfied. The for loop is also called a pre-tested loop. It is best to use a for loop if the number of iterations is known in advance.  
+
 EXAMPLE:
 
-Input:
+`Input`:
 ```python
 a = 5
 for i in range(0, a):
     print(i)
 ```
-Output:
+`Output`:
 ```txt
 0
 1
@@ -114,15 +116,17 @@ Output:
 
 2. ***While Loop:***
 - The while loop is to be used in situations where the number of iterations is unknown at first. The block of statements is executed in the while loop until the condition specified in the while loop is satisfied. It is also called a pre-tested loop. In Python, the while loop executes the statement or group of statements repeatedly while the given condition is True. And when the condition becomes false, the loop ends and moves to the next statement after the loop.
+
 EXAMPLE
-Input:
+
+`Input`:
 ```python
 count = 0
 while (count < 5):
     count = count + 1
     print("Hello World")
 ```
-Output:
+`Output`:
 ```txt
 Hello World
 Hello World
