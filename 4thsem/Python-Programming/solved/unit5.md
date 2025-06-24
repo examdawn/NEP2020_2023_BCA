@@ -22,9 +22,7 @@ Tkinter provides a variety of tools to build interactive applications. Its main 
 - **Graphic Drawing**: The Canvas widget allows for custom drawing of shapes, text, and images directly within the application window
 
 ## Q2. Name some widgets supported by Tkinter
-Here is the information converted into a Markdown table:
 
-```markdown
 | Widget        | Description                                                       |
 |---------------|-------------------------------------------------------------------|
 | Label         | Display static text or images.                                    |
@@ -37,7 +35,6 @@ Here is the information converted into a Markdown table:
 | Scrollbar     | Add scrollbars to widgets like Listbox.                          |
 | Menu          | It is used to create all kinds of menu used by an application.  |
 | Canvas        | Draw shapes, lines, text, and images.                            |
-```
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/python/what-are-widgets-in-tkinter/)
 
