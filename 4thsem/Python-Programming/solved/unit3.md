@@ -260,7 +260,7 @@ The difference between List, Tuple, Set, Dictionary and String are:
 - **Nesting Capability**: Yes
 - **Example**: `{1: "a", 2: "b", 3: "c", 4: "d", 5: "e"}`
 
-## String
+### String
 - **Description**: A sequence of characters used to represent text.
 - **Representation**: `""` or `''`
 - **Allows Duplicates**: Yes (characters can repeat)
