@@ -5,9 +5,6 @@ title: PP - Unit 5 Solved
 
 # Python Programming - Unit 5
 
-> [!WARNING]
-> This Page is incomplete and answers will be added soon. 6/11 Remaining.
-
 ## Q1. What is the Tkinter Module and tk() class? Explain features of the Tkinter Module
 The Tkinter module is Python's standard, built-in library for creating Graphical User Interfaces (GUIs) for desktop applications. 
 - As the standard Python interface to the Tcl/Tk GUI toolkit, it is lightweight, cross-platform (working on Windows, macOS, and Linux), and included with most Python installations, so no separate installation is needed.
