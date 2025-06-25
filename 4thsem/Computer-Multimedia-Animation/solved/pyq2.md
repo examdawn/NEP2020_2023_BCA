@@ -5,16 +5,43 @@ title: CMA Previous Paper 2024
 # PYQs(2024)
 
 > [!WARNING]
-> This Page is incomplete and answers will be added soon. 18/20 Remaining.
+> This Page is incomplete and answers will be added soon. 17/20 Remaining.
 
 # SECTION-A (6x2=12) 
 ## Q1. Write any two features of HTML5.
-
 <!--@include: ../assignments/assignment-1.md{36,47} -->
 ## Q2. What are the advantages of Javascript?
-TODO
+- **Open source**: Many open-source projects provide useful help for developers to add JavaScript.
+- **Programming language**: There are many available courses within the field of JavaScript, because of which you'll quickly and simply expand your knowledge of this programming language.
+- **Easy to use**: It is not difficult to start working in JavaScript. For this reason, many of us prefer to start our adventure in the IT sector by learning this language. It gives the power to make rich interfaces.
+- **Backend usage**: There are some ways to use JavaScript through Node.js servers. It is possible to develop a whole JavaScript app from front to back using only JavaScript.
+
+[GeeksForGeeks](https://www.geeksforgeeks.org/javascript/advantages-and-disadvantages-of-javascript/)
 ## Q3. Define interpolation.
-TODO
+Interpolation is a method for estimating new data points based on a set of known data points.
+- Interpolation calculates intermediate values in animations that change HTML properties such as height, width, etc. 
+- Color interpolation defines intermediate values of colors in color mixing, gradients, compositing, filters, transitions, animations, and color functions.
+
+[Mozilla Developer Docs](https://developer.mozilla.org/en-US/docs/Glossary/Interpolation)
+
+<style>
+    @keyframes moveAndChangeColor {
+        0%   { left: 5%; background-color: #3498db; } /* Start Point */
+        100% { left: 85%; background-color: #e74c3c; } /* End Point */
+    }
+    .container { 
+        position: relative; background: #f0f0f0; height: 50px; border-radius: 25px; 
+        border: 1px solid #ccc; overflow: hidden;
+    }
+    .dot {
+        position: absolute; top: 5px; height: 40px; width: 40px;
+        border-radius: 50%; animation: moveAndChangeColor 4s infinite alternate ease-in-out;
+    }
+</style>
+<div class="container">
+    <div class="dot"></div>
+</div>
+
 ## Q4. What is SVG transition?
 TODO 
 ## Q5. What are filters in SVG?

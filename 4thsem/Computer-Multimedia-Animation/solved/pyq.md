@@ -131,7 +131,7 @@ From [Assignment-1](../assignments/assignment-1.md#q2-explain-the-key-features-o
     2. ***Shorthand Properties***: It allows to specify multiple properties in a single line of code. Shorthand properties offer a more concise way to declare transition by combining multiple aspects into a single property called transition.
     - EXAMPLE:
         ```css
-        transition: width 1s case-on-out 0.2s;
+        transition: width 1s ease-in-out 0.2s;
         ```
 
     | ***Aspects*** | ***Longhand Properties*** | ***Shorthand Properties*** |

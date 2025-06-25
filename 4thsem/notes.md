@@ -1,7 +1,7 @@
 # Notes From Faculty
 (and other useful sources)
 
-> [WARNING]
+> [!WARNING]
 > These are external and are not provided by ExamDawn. This applies to every notes link.
 
 ## Subjects:
