@@ -76,10 +76,46 @@ context.scale( scalewidth, scaleheight )
 ## Q12. Write the differences between longhand and shorthand properties.
 <!--@include: ./pyq.md{120,144} -->
 ## Q13. Write a short note on SVG-Polygon.
+Polygon comes from Greek. "Poly" means "many" and "gon" means "angle".
+The `<polygon>` element is used to create a graphic that contains at least three sides.
+Polygons are made of straight lines, and the shape is "closed" (it automatically connects the last point with the first).
+The `<polygon>` element has one basic attribute that defines the points of the polygon:
+- ***`points`*** - The list of points of the polygon. Each point must contain an x coordinate and a y coordinate.
+
+[W3Schools](https://www.w3schools.com/graphics/svg_polygon.asp)
+
 ## Q14. Explain the canvas-drawing rectangles with example.
+The three most used methods for drawing rectangles in canvas are:
+1. ***`rect()` Method***: The `rect()` method is used to define a rectangle by specifying its upper-left corner coordinates, width, and height. However, it does not draw the rectangle until the `stroke()` or `fill()` method is called. For example:
+   ```javascript
+   ctx.rect(10, 10, 150, 100);
+   ctx.stroke(); // This draws the defined rectangle
+   ```
+
+2. ***`fillRect()` Method***: The `fillRect()` method draws a filled rectangle directly on the canvas. It requires the same parameters as `rect()`, and the fill color can be set using the `fillStyle` property. For example:
+   ```javascript
+   ctx.fillStyle = "pink"; // Set fill color
+   ctx.fillRect(10, 10, 150, 100); // Draw filled rectangle
+   ```
+
+3. ***`strokeRect()` Method***: The `strokeRect()` method draws an outlined rectangle. Similar to `fillRect()`, it takes the same parameters, and the stroke color can be set using the `strokeStyle` property. For example:
+   ```javascript
+   ctx.strokeRect(10, 10, 150, 100); // Draw stroked rectangle
+   ```
+
+[W3Schools](https://www.w3schools.com/graphics/canvas_rectangles.asp)
+
 ## Q15. Explain the following:
 1. Canvas rotation
 2. Canvas translation.
+
+- ***Canvas Rotation***:
+Canvas rotation refers to the transformation that allows you to rotate the drawing surface (canvas) around a specified point, typically the origin (0, 0) or the center of the canvas. This transformation affects all subsequent drawing operations, allowing you to create rotated shapes, images, or text. The rotation is usually specified in degrees or radians, and it can be applied using transformation functions provided by graphics libraries.
+- ***Canvas Translation***
+Canvas translation is the process of moving the drawing surface (canvas) along the x and y axes. This transformation shifts the origin of the canvas to a new position, allowing you to draw objects at different locations without changing their coordinates. Translation is often used to position elements on the canvas or to create animations by moving objects smoothly across the screen.
+
+[W3Schools](https://www.w3schools.com/graphics/canvas_rectangles.asp)
+
 # SECTION - C (3x8=24)
 ## Q16. Explain any two types of selectors in CSS with examples.
 | Selector Type | CSS Syntax (in .css file) | HTML Markup (in .html file) | Description & Considerations |
