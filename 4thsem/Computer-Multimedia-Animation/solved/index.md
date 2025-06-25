@@ -7,3 +7,4 @@ exclude: true
 
 Others:
 - [Previous Year Paper(2023)](pyq.md)
+- [Previous Year Paper(2024)](pyq2.md)
