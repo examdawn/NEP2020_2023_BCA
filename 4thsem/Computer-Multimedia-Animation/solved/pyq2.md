@@ -25,6 +25,7 @@ Interpolation is a method for estimating new data points based on a set of known
 [Mozilla Developer Docs](https://developer.mozilla.org/en-US/docs/Glossary/Interpolation)
 
 <InterpolationExample />
+
 ## Q4. What is SVG transition?
 TODO 
 ## Q5. What are filters in SVG?
@@ -57,9 +58,21 @@ context.scale( scalewidth, scaleheight )
 ```
 # SECTION-B (4x6=24)
 ## Q10. Explain any three HTML tags with examples.
-TODO
+| Tag | Description | Example | Common Attributes |
+|---|---|---|---|
+| **`<a>`** | Defines a hyperlink, used to link from one page to another or to a location on the same page. It's the foundation of navigation on the web. | `<a href="https://www.example.com" target="_blank">Visit Example</a>` | `href` (URL of the link), `target` (_blank, _self), `rel` (relationship to the linked document), `download` |
+| **`<img>`** | Embeds an image into an HTML document. This is a self-closing tag, meaning it doesn't need a separate closing tag like `</img>`. | `<img src="images/logo.png" alt="Company Logo" width="100" height="50">` | `src` (source URL of the image), `alt` (alternative text for accessibility), `width`, `height`, `loading` (lazy, eager) |
+| **`<div>`** | Defines a division or a section in a document. It is a generic block-level container used to group other elements for styling with CSS or manipulation with JavaScript. | `<div class="user-profile"><p>User Name</p></div>` | `id` (a unique identifier), `class` (one or more class names for styling), `style` (inline CSS) |
+| **`<p>`** | Defines a paragraph of text. Browsers automatically add some space (a margin) before and after each `<p>` element to separate them visually. | `<p>This is the first paragraph. It contains some text.</p>` | Global attributes like `id`, `class`, and `style` are the most commonly used. It has no tag-specific attributes. |
+
+
 ## Q11. Explain the features of Javascript.
-TODO
+- **Dynamic Typing**: JavaScript does not require you to declare the data type of a variable when you create it. The type is determined at runtime. 
+- **Interpreted Language**: JavaScript code is executed directly by the browser or other environments without needing a separate compilation step. 
+- **Object-Oriented**: JavaScript supports object-oriented programming principles, including the use of objects, prototypes, and classes. 
+- **Functional Programming**: JavaScript treats functions as first-class citizens, meaning they can be passed as arguments to other functions, returned from functions, and assigned to variables. 
+
+[ScholarHat](https://www.scholarhat.com/tutorial/javascript/features-of-javascript#:~:text=JavaScript%20is%20a%20lightweight%20language,Prototype%2DBased)
 ## Q12. Write the differences between longhand and shorthand properties.
 <!--@include: ./pyq.md{120,144} -->
 ## Q13. Write a short note on SVG-Polygon.
@@ -69,13 +82,25 @@ TODO
 2. Canvas translation.
 # SECTION - C (3x8=24)
 ## Q16. Explain any two types of selectors in CSS with examples.
-TODO
+| Selector Type | CSS Syntax (in .css file) | HTML Markup (in .html file) | Description & Considerations |
+|---|---|---|---|
+| **Element Selector** | `p { color: #333; }` | `<p>This is a paragraph.</p>` | Selects all HTML elements by their tag name. It's a broad selector that applies a style globally to a specific type of element. |
+| **Class Selector** | `.highlight { background: yellow; }` | `<p class="highlight">Important</p>` | Selects all elements that have a specific `class` attribute. Begins with a period (`.`). This is the most common and versatile selector, as a class can be reused on many elements. |
+| **ID Selector** | `#main-header { font-size: 32px; }` | `<header id="main-header">...</header>` | Selects one unique element with a specific `id` attribute. Begins with a hash (`#`). An ID must be unique per page, making it ideal for targeting a single, specific element. |
+| **Attribute Selector** | `a[target="_blank"] { opacity: 0.8; }` | `<a href="..." target="_blank">Link</a>` | Selects elements based on the presence or value of an attribute. Uses square brackets `[]`. Useful for styling elements with specific attributes without adding extra classes. |
+| **Pseudo-class Selector** | `button:hover { background: #555; }` | `<button>Hover over me</button>` | Selects elements based on a specific state or condition, such as being hovered over or being the first child. Begins with a colon (`:`). Essential for creating interactive and dynamic user interfaces. |
+| **Universal Selector**| `* { margin: 0; }` | (Applies to all elements) | Selects every single HTML element on the page. Represented by an asterisk (`*`). Often used in CSS resets to establish a consistent baseline for styles across different browsers. |
+| **Descendant Selector**| `article p { line-height: 1.6; }` | `<article><p>Text...</p></article>` | Selects an element that is a descendant of another specific element. A space between two selectors indicates this relationship. In the example, it only styles `<p>` tags that are inside an `<article>` tag. |
+| **Grouping Selector**| `h1, h2, h3 { font-family: 'Georgia'; }` | `<h1>Title</h1><h2>Subtitle</h2>` | Applies the same styles to multiple selectors at once. Selectors are separated by a comma (`,`). This avoids repeating the same style block for different elements. |
+
+
+[W3Schools](https://www.w3schools.com/css/css_selectors.asp)
 ## Q17. Write a HTML program to display random contents using list properties:
 1. Ordered list
 2. Unordered list.
 
 TODO
-## Q18. Explain the SVG Properties with attributes.
+## Q18. Explain SVG Properties with attributes.
 TODO
 ## Q19. Explain the canvas-linear gradients with example.
 ## Q20. Explain the canvas text and fonts with example.
