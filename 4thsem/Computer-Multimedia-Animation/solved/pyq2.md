@@ -135,8 +135,140 @@ Canvas translation is the process of moving the drawing surface (canvas) along t
 1. Ordered list
 2. Unordered list.
 
-TODO
+::: details Program
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML List Examples</title>
+</head>
+<body>
+
+    <h1>HTML List Examples</h1>
+
+    <!-- 
+        Unordered Lists (<ul>) are used for items without a specific sequence.
+        The list item marker style can be changed.
+    -->
+    <h2>Unordered Lists</h2>
+
+    <p>Default Unordered List (disc):</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <p>Unordered List with Circles:</p>
+    <!-- The list-style-type property is used to define the marker style  -->
+    <ul style="list-style-type:circle;">
+        <li>Red</li>
+        <li>Green</li>
+    </ul>
+
+    <p>Unordered List with Squares:</p>
+    <ul style="list-style-type:square;">
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+
+    <p>Unordered List with No Markers:</p>
+    <ul style="list-style-type:none;">
+        <li>First</li>
+        <li>Second</li>
+    </ul>
+
+    <!-- 
+        An ordered list (<ol>) is used when the order of items is important.
+        By default, items are marked with numbers .
+    -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Gather ingredients</li>
+        <li>Mix ingredients</li>
+        <li>Bake in oven</li>
+    </ol>
+
+</body>
+</html>
+```
+:::
+
+::: details Show Output
+
+    <h1>HTML List Examples</h1>
+
+    <h2>Unordered Lists</h2>
+
+    <p>Default Unordered List (disc):</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <p>Unordered List with Circles:</p>
+    <ul style="list-style-type:circle;">
+        <li>Red</li>
+        <li>Green</li>
+    </ul>
+
+    <p>Unordered List with Squares:</p>
+    <ul style="list-style-type:square;">
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+
+    <p>Unordered List with No Markers:</p>
+    <ul style="list-style-type:none;">
+        <li>First</li>
+        <li>Second</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Gather ingredients</li>
+        <li>Mix ingredients</li>
+        <li>Bake in oven</li>
+    </ol>
+
+:::
+
 ## Q18. Explain SVG Properties with attributes.
-TODO
+In Scalable Vector Graphics (SVG), attributes are used to modify elements, defining details about how they should be handled and rendered. 
+- These attributes control everything from an element's position and size to its color and interactivity. Many of these attributes, known as "presentation attributes," can be used interchangeably with CSS properties to style SVG elements.
+- SVG attributes can be grouped into several categories, including core, styling, and geometry attributes.
+
+| Core Attributes | --- | Core attributes are common to all SVG elements and manage fundamental properties like identification and language. |
+| Attribute | Description | Applicable Elements |
+| --- | --- | --- |
+| `id` | Provides a unique identifier for an element, used for linking, scripting, or styling with CSS. | All SVG elements. |
+| `class` | Assigns one or more class names to an element, allowing it to be targeted by CSS for styling. | All SVG elements. |
+| `style` | Specifies inline CSS styles directly on an element. | All SVG elements. |
+| `lang` / `xml:lang` | Defines the natural language of the element's content. `xml:lang` takes precedence if both are present. | All SVG elements. |
+| `tabindex` | Controls whether an element is focusable and defines its order in sequential keyboard navigation. | All SVG elements. |
+| Styling (Presentation) Attributes | --- | These attributes define the visual appearance of SVG elements, such as color, stroke, and opacity. |
+| Attribute | Description | Example Elements |
+| --- | --- | --- |
+| `fill` | Sets the color inside a shape or the color of text. | ``, ``, ``, `` |
+| `stroke` | Defines the color of an element's outline or stroke. | ``, ``, ``, `` |
+| `stroke-width` | Sets the thickness of the stroke. | ``, ``, ``, `` |
+| `stroke-dasharray` | Creates dashed or dotted outlines by specifying the length of dashes and gaps. | ``, ``, ``, `` |
+| `stroke-linecap` | Defines the shape of the ends of open paths (e.g., `butt`, `round`, `square`). | ``, ``, `` |
+| `opacity` | Specifies the overall transparency of an element, from 0.0 (fully transparent) to 1.0 (fully opaque). | Graphics and container elements like ``, `` |
+| `transform` | Applies geometric transformations like `translate`, `rotate`, `scale`, and `skew` to an element. | Graphics and container elements (``) |
+| `font-family`, `font-size` | Specifies the font family and size for text content. | Text content elements like `` and `` |
+| `text-anchor` | Aligns text horizontally (e.g., `start`, `middle`, `end`) relative to its `x` coordinate. | Text content elements |
+| `visibility` | Controls whether an element is rendered. Can be set to `visible` or `hidden`. | Graphics and text content elements |
+| Geometry Attributes | --- | Geometry attributes define the position, size, and shape of an SVG element. With the introduction of SVG 2, many of these can also be styled and animated using CSS. |
+| Attribute | Description | Specific Elements |
+| :--- | :--- | :--- |
+| `x`, `y` | Define the x and y coordinates of an element's top-left corner. | ``, ``, ``, `` |
+| `width`, `height` | Specify the width and height of an element. | ``, ``, `` |
+| `cx`, `cy` | Define the x and y coordinates of the center point. | ``, `` |
+| `r` | Specifies the radius of a circle. | `` |
+| `rx`, `ry` | Specify the horizontal and vertical radii for an ellipse or the corner radii for a rectangle. | ``, `` |
+| `d` | Defines the shape of a path using a specific command syntax for lines, curves, and arcs. | `` |
+| `points` | A list of x and y coordinates that define the vertices of a shape. | ``, `` |
+
 ## Q19. Explain the canvas-linear gradients with example.
 ## Q20. Explain the canvas text and fonts with example.
