@@ -1,5 +1,9 @@
 # Notes From Faculty
 (and other useful sources)
+
+> [WARNING]
+> These are external and are not provided by ExamDawn. This applies to every notes link.
+
 ## Subjects:
 
 ## Additional English
@@ -10,3 +14,6 @@
 
 ## Business Leadership Skills
 [BLS Notes](./Business-Leadership-Skills/notes)
+
+## Computer Multimedia and Animation
+[CMA Notes](./Computer-Multimedia-Animation/notes)
