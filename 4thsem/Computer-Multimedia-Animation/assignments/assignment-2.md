@@ -1,6 +1,7 @@
 ---
 order: 3
 title: CMA Assignment 2
+exclude: true
 ---
 # CMA Assignment 2
 ## Q1. Define Interpolation with neat diagram
