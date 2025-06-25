@@ -28,10 +28,33 @@ Interpolation is a method for estimating new data points based on a set of known
 ## Q4. What is SVG transition?
 TODO 
 ## Q5. What are filters in SVG?
+<!--@include: ./pyq.md{47,51}-->
 ## Q6. What is radial gradient?
+The `radial-gradient()` CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the `<gradient>` data type, which is a special kind of `<image>`. 
+
+[Mdn Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient)
+
 ## Q7. Mention the LineCap attributes.
+The LineCap attributes are:
+- **butt**: Stroke does not extend beyond endpoints. Zero-length subpath is not rendered. (Default)
+- **round**: Stroke ends with a half circle (diameter = stroke width). Zero-length subpath has a full circle at its point.
+- **square**: Stroke ends with a rectangle (width = half stroke width, height = stroke width). Zero-length subpath has a centered square (width = stroke width).
+
+[Mdn Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/stroke-linecap)
+
 ## Q8. Write the use of Bezier curve.
+The `bezierCurveTo()` method adds a curve to the path by using the control points that represent a cubic Bézier curve.
+Use the `stroke()` or `fill()` method to draw the path.
+A cubic bezier curve requires three points. The first two points are control points that are used in the cubic Bézier calculation and the last point is the ending point for the curve.  The starting point for the curve is the last point in the current path. If a path does not exist, use the `beginPath()` and `moveTo()` methods to define a starting point.
+
+[W3Schools](https://www.w3schools.com/jsref/canvas_beziercurveto.asp)
+
 ## Q9. What is canvas-scaling?
+The HTML canvas scale() Method is used to scale the current drawing into smaller or larger size. After scaling the drawing, all the feature of drawing scaled. It will have to define before the canvas. 
+Syntax:
+```html
+context.scale( scalewidth, scaleheight )
+```
 # SECTION-B (4x6=24)
 ## Q10. Explain any three HTML tags with examples.
 TODO
