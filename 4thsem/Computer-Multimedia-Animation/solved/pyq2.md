@@ -357,3 +357,5 @@ EXAMPLE:
    </body>
 </html>
 ```
+
+[TutorialsPoint](https://www.tutorialspoint.com/html5/canvas_text_fonts.htm)
