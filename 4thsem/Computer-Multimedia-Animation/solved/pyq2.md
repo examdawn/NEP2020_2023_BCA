@@ -271,4 +271,92 @@ In Scalable Vector Graphics (SVG), attributes are used to modify elements, defin
 | `points` | A list of x and y coordinates that define the vertices of a shape. | ``, `` |
 
 ## Q19. Explain the canvas-linear gradients with example.
+Gradients let you display smooth transitions between two or more specified colors.
+Gradients can be used to fill rectangles, circles, lines, text, etc.
+The `createLinearGradient()` method is used to define a linear gradient.
+A linear gradient changes color along a linear pattern (horizontally/vertically/diagonally).
+The `createLinearGradient()` method has the following parameters:
+- `x0` -> The x-coordinate of the start point
+- `y0` -> The y-coordinate of the start point
+- `x1` -> The x-coordinate of the end point
+- `y1` -> The y-coordinate of the end point
+
+The gradient object requires two or more color stops.
+The addColorStop() method specifies the color stops, and its position along the gradient. The positions can be anywhere between 0 and 1.
+To use the gradient, assign it to the fillStyle or strokeStyle property, then draw the shape (rectangle, circle, shape, or text).
+
+EXAMPLE:
+```javascript
+ <script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+
+// Create linear gradient
+const grad=ctx.createLinearGradient(0,0, 280,0);
+grad.addColorStop(0, "lightblue");
+grad.addColorStop(1, "darkblue");
+
+// Fill rectangle with gradient
+ctx.fillStyle = grad;
+ctx.fillRect(10,10, 280,130);
+</script> 
+```
+
+[W3Schools](https://www.w3schools.com/graphics/canvas_gradients.asp)
+
 ## Q20. Explain the canvas text and fonts with example.
+HTML5 canvas provides capabilities to create text using different font and text properties listed below −
+1. ***`font [ = value ]`***:  
+This property returns the current font settings and can be set, to change the font.
+2. ***`textAlign [ = value ]`***:  
+This property returns the current text alignment settings and can be set, to change the alignment. The possible values are start, end, left, right, and center.
+3. ***`textBaseline [ = value ]`***: 
+This property returns the current baseline alignment settings and can be set, to change the baseline alignment. The possible values are top, hanging, middle , alphabetic, ideographic and bottom.
+4. ***`fillText(text, x, y [, maxWidth ] )`***:
+This property fills the given text at the given position indicated by the given coordinates x and y.
+5. ***`strokeText(text, x, y [, maxWidth ] )`***:
+This property strokes the given text at the given position indicated by the given coordinates x and y.
+
+EXAMPLE:
+```html
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <style>
+         #test {
+            width: 100px;
+            height:100px;
+            margin: 0px auto;
+         }
+      </style>
+      <script type = "text/javascript">
+         function drawShape() {
+         
+            // get the canvas element using the DOM
+            var canvas = document.getElementById('mycanvas');
+            
+            // Make sure we don't execute when canvas isn't supported
+            if (canvas.getContext) {
+            
+               // use getContext to use the canvas for drawing
+               var ctx = canvas.getContext('2d');
+               
+               ctx.fillStyle = '#00F';
+               ctx.font = 'Italic 30px Sans-Serif';
+               
+               ctx.textBaseline = 'Top';
+               ctx.fillText('Hello world!', 40, 100);
+               
+               ctx.font = 'Bold 30px Sans-Serif';
+               ctx.strokeText('Hello world!', 40, 50);
+            } else {
+               alert('You need Safari or Firefox 1.5+ to see this demo.');
+            }
+         }
+      </script>
+   </head>
+   <body id = "test" onload = "drawShape();">
+      <canvas id = "mycanvas"></canvas>
+   </body>
+</html>
+```
