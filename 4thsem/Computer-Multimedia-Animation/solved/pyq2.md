@@ -4,9 +4,6 @@ title: CMA Previous Paper 2024
 ---
 # PYQs(2024)
 
-> [!WARNING]
-> This Page is incomplete and answers will be added soon. 3/20 Remaining.
-
 # SECTION-A (6x2=12) 
 ## Q1. Write any two features of HTML5.
 <!--@include: ../assignments/assignment-1.md{36,47} -->
