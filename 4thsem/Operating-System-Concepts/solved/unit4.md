@@ -8,9 +8,38 @@ exclude: true
 
 ## Q1. Give a brief overview on static, dynamic linking and dynamic loading in the context of memory management
 ## Q2. Explain the functions of Memory Management along with Hardware, Address Spaces
+- ***Functions of Memory Management***
+    - **Allocation & Deallocation**:  
+        - Allocates memory to processes when requested (`malloc()`, `new`).  
+   - Releases memory after process completion (`free()`, garbage collection).  
+    - **Protection & Sharing**:  
+        - Prevents unauthorized access using **base-limit registers** (MMU).  
+   - Allows shared memory (e.g., IPC, libraries like `glibc`).  
+    - **Virtualization & Swapping**:  
+        - Extends RAM via disk (**paging**, **swap space**).  
+   - Uses **demand paging** (load pages only when needed).  
+    - **Fragmentation Handling**:  
+        - Solves **external fragmentation** (compaction, paging).  
+   - Minimizes **internal fragmentation** (best-fit allocation).  
+
+-  ***Hardware & Address Spaces***:   
+    - **Key Hardware**:  
+      - **CPU + MMU**: Translates **logical → physical addresses** (TLB cache).  
+      - **Registers**: MAR (address), MBR (data), base-limit (protection).  
+    - **Logical vs. Physical Address**:  
+      - **Logical (Virtual)**: Process-generated (e.g., `0x00400000`).  
+      - **Physical**: Actual RAM location (handled by **MMU**).  
+    - **Memory Hierarchy**:  
+      - **Cache → RAM → Disk** (swapping for virtual memory).  
+    - **Address Binding**:  
+      - **Compile-time** (static), **Load-time** (relocatable), **Runtime** (MMU).  
+
+- **Example**:  
+`Paging divides processes into fixed-size pages (e.g., 4KB) mapped to RAM frames, avoiding external fragmentation.`
+
+
 ## Q3. Explain Shared Pages, Swap and Zram <!--(f--k the syllabus, we ball here)-->
-## Q4. Explain memory partition schemes
-### Explain Memory Partition Schemes
+## Q4. Explain Memory Partition Schemes.
 Memory partition schemes are methods used to allocate memory to processes in a computer system. The two common approaches are the **Fixed Size Partition Scheme** and the **Variable Size Partition Scheme**. Each scheme has its own advantages and disadvantages, impacting how efficiently memory is utilized.
 #### 1. ***Fixed Size Partition Scheme***:  
 In the **Fixed Size Partition Scheme**, memory is divided into fixed-sized partitions, and each process is assigned one partition, regardless of its size. All partitions are of equal size.
@@ -48,7 +77,27 @@ In the **Variable Size Partition Scheme**, memory is divided into partitions of 
 ## Q5. Explain First-Fit, Best-Fit and Worst-Fit Memory Allocation Strategies with advantages and disadvantages 
 ## Q6. Explanation Fragmentation, Segmentation and Paging (quick advantages vs disadvantages too pliz)
 ## Q7. Explain Frame Allocation
+Frame allocation refers to the process of assigning physical memory frames (blocks of memory in RAM) to processes that are running in an operating system. Since physical memory is limited, frame allocation determines how memory is divided and assigned to different processes, which is critical for efficient system performance and memory utilization.  
 
+In virtual memory systems, a process does not directly access physical memory but instead uses pages of data. These pages are mapped to physical frames in RAM. The operating system manages the allocation of these frames to processes. 
+
+Example of Frame Allocation:
+Imagine a system with 100 frames of physical memory and 4 processes. The operating system needs to
+decide how to allocate these frames to the processes. Here are a few methods of allocation:
+- Fixed Frame Allocation:
+    - The operating system assigns a fixed number of frames to each process.
+    - Example: If the system has 100 frames and 4 processes, the OS may allocate 25 frames to each process.
+        - Process 1: 25 frames
+        - Process 2: 25 frames
+        - Process 3: 25 frames
+        - Process 4: 25 frames
+- Dynamic Frame Allocation:
+    - The number of frames allocated to each process can change dynamically based on the process's needs.
+    - Example: If Process 1 starts with 20 frames but later needs more memory, it might be
+allocated 30 frames, while Process 2 might be reduced from 30 to 20 frames.
+- Proportional Allocation:
+    - Frames are allocated based on the size or priority of each process.
+    - Example: The system may allocate frames proportional to the process size. If Process 1 is larger and needs more memory, it might get 60 frames, while Process 2 gets 40 frames.
 <!--
 Walk a homie through Page Replacement, why it is needed and its algorithms(FIFO, LIFO, LRU) with neat hood-ready diagrams
 -->
