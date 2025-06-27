@@ -4,12 +4,21 @@ title: OSC - Unit 4 Solved
 ---
 
 > [!WARNING]
-> This Page is incomplete and answers will be added soon. 4/7 Remaining.
+> This Page is incomplete and answers will be added soon. 1/7 Remaining.
 
 # Operating System Concepts - Unit 4 Solved
 
 ## Q1. Give a brief overview on static, dynamic linking and dynamic loading in the context of memory management
-TODO
+### Static Linking
+
+Static linking is the process where all necessary library modules and code are copied directly into the final executable file at compile time
+- This creates a standalone binary that does not require external libraries to run, as all dependencies are integrated within it
+
+### Dynamic Linking
+
+Dynamic linking, in contrast, links library code with the executable at runtime rather than compile time
+- The executable only contains references to the shared library modules
+- The operating system resolves these external symbols by loading the required libraries into memory when they are first needed
 
 ## Q2. Explain the functions of Memory Management along with Hardware, Address Spaces
 - ***Functions of Memory Management***
@@ -42,7 +51,24 @@ TODO
 `Paging divides processes into fixed-size pages (e.g., 4KB) mapped to RAM frames, avoiding external fragmentation.`
 
 ## Q3. Explain Shared Pages, Swap and Zram <!--(f--k the syllabus, we ball here)-->
-TODO
+### Shared Pages
+
+Multiple processes access the same physical memory pages, sharing common code or data. This saves RAM by avoiding duplication and speeds up inter-process communication.
+
+### Swap
+
+Uses a dedicated space on disk to temporarily store inactive memory pages when RAM is full. This extends virtual memory but is much slower than RAM, potentially causing performance bottlenecks.
+
+### Zram
+
+A Linux feature that creates a compressed swap space within RAM itself. It compresses inactive memory pages and keeps them in RAM, offering much faster performance than disk-based swap, though with some CPU overhead.
+
+
+| Feature        | What it does                                  | Main Benefit                 | Main Drawback                 |
+| :------------- | :-------------------------------------------- | :--------------------------- | :---------------------------- |
+| **Shared Pages** | Multiple processes use same physical memory   | Saves RAM, faster IPC        | Requires reentrant data       |
+| **Swap**       | Offloads inactive RAM to disk                 | Extends memory capacity      | Very slow, can cause "thrashing" |
+| **Zram**       | Compresses inactive RAM pages *in* RAM        | Faster than disk swap        | Uses CPU, still limited by RAM |
 
 ## Q4. Explain Memory Partition Schemes.
 Memory partition schemes are methods used to allocate memory to processes in a computer system. The two common approaches are the **Fixed Size Partition Scheme** and the **Variable Size Partition Scheme**. Each scheme has its own advantages and disadvantages, impacting how efficiently memory is utilized.
@@ -82,8 +108,51 @@ In the **Variable Size Partition Scheme**, memory is divided into partitions of 
 ## Q5. Explain First-Fit, Best-Fit and Worst-Fit Memory Allocation Strategies with advantages and disadvantages 
 TODO
 
-## Q6. Explanation Fragmentation, Segmentation and Paging (quick advantages vs disadvantages too pliz)
-TODO
+## Q6. Explanation Fragmentation, Segmentation and Paging
+
+### Fragmentation
+- **Definition:** Fragmentation occurs when free memory is broken into small pieces, making it difficult to allocate contiguous blocks.
+- **Types:**
+  - *External Fragmentation:* Free memory is scattered in small chunks, causing inefficient use of memory.
+  - *Internal Fragmentation:* Allocated memory blocks have unused space inside them (e.g., unused space in a fixed-size page).
+- **Advantages:** None inherently; it is a problem to be managed.
+- **Disadvantages:** Leads to wasted memory space and inefficient memory utilization.
+
+### Segmentation
+- **Definition:** Memory is divided into variable-sized segments based on the logical divisions of a program (e.g., functions, data structures). Each segment is a contiguous block.
+- **Advantages:**
+  - No internal fragmentation (segments are exactly sized).
+  - Logical view matches program structure, aiding protection and sharing.
+  - Easier to relocate segments than entire address spaces.
+  - Supports sharing of code/data between processes.
+- **Disadvantages:**
+  - Suffers from external fragmentation.
+  - Difficult to allocate contiguous memory for variable-sized segments.
+  - More complex and costly memory management.
+
+### Paging
+- **Definition:** Memory is divided into fixed-size blocks called pages (logical) and frames (physical). Pages can be mapped non-contiguously to frames.
+- **Advantages:**
+  - Eliminates external fragmentation.
+  - Simple hardware-based management and fast address translation.
+  - Easier to allocate and manage fixed-size pages.
+  - Supports virtual memory and swapping efficiently.
+- **Disadvantages:**
+  - Causes internal fragmentation (unused space within pages).
+  - Requires maintaining page tables, adding overhead.
+  - Fixed page size reduces flexibility compared to segmentation.
+
+
+
+| Aspect            | Fragmentation                 | Segmentation                         | Paging                                |
+|-------------------|------------------------------|------------------------------------|-------------------------------------|
+| Memory Division   | N/A                          | Variable-sized segments             | Fixed-size pages                    |
+| Fragmentation Type | External & Internal           | External only                      | Internal only                      |
+| Memory Allocation | Contiguous for segments       | Contiguous for segments             | Non-contiguous for pages            |
+| Management        | Problem to solve              | Complex, software-managed           | Simple, hardware-assisted           |
+| Advantages        | —                            | Logical view, no internal frag., sharing | No external frag., simple management |
+| Disadvantages     | Wasted memory                | External fragmentation, complex    | Internal fragmentation, overhead    |
+
 
 ## Q7. Explain Frame Allocation
 Frame allocation refers to the process of assigning physical memory frames (blocks of memory in RAM) to processes that are running in an operating system. Since physical memory is limited, frame allocation determines how memory is divided and assigned to different processes, which is critical for efficient system performance and memory utilization.  
