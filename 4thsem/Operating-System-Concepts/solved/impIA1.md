@@ -1,6 +1,6 @@
 ---
 order: 1
-title: OSC IA1 Important Questions
+title: OSC IA1 Qns.
 ---
 
 > [!WARNING]
