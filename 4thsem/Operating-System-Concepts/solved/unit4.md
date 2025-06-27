@@ -16,28 +16,28 @@ TODO
 - ***Functions of Memory Management***
     - **Allocation & Deallocation**:  
         - Allocates memory to processes when requested (`malloc()`, `new`).  
-   - Releases memory after process completion (`free()`, garbage collection).  
+        - Releases memory after process completion (`free()`, garbage collection).  
     - **Protection & Sharing**:  
         - Prevents unauthorized access using **base-limit registers** (MMU).  
-   - Allows shared memory (e.g., IPC, libraries like `glibc`).  
+        - Allows shared memory (e.g., IPC, libraries like `glibc`).  
     - **Virtualization & Swapping**:  
         - Extends RAM via disk (**paging**, **swap space**).  
-   - Uses **demand paging** (load pages only when needed).  
+        - Uses **demand paging** (load pages only when needed).  
     - **Fragmentation Handling**:  
         - Solves **external fragmentation** (compaction, paging).  
-   - Minimizes **internal fragmentation** (best-fit allocation).  
+        - Minimizes **internal fragmentation** (best-fit allocation).  
 
 -  ***Hardware & Address Spaces***:   
     - **Key Hardware**:  
-      - **CPU + MMU**: Translates **logical → physical addresses** (TLB cache).  
-      - **Registers**: MAR (address), MBR (data), base-limit (protection).  
+        - **CPU + MMU**: Translates **logical → physical addresses** (TLB cache).  
+        - **Registers**: MAR (address), MBR (data), base-limit (protection).  
     - **Logical vs. Physical Address**:  
-      - **Logical (Virtual)**: Process-generated (e.g., `0x00400000`).  
-      - **Physical**: Actual RAM location (handled by **MMU**).  
+        - **Logical (Virtual)**: Process-generated (e.g., `0x00400000`).  
+        - **Physical**: Actual RAM location (handled by **MMU**).  
     - **Memory Hierarchy**:  
-      - **Cache → RAM → Disk** (swapping for virtual memory).  
+        - **Cache → RAM → Disk** (swapping for virtual memory).  
     - **Address Binding**:  
-      - **Compile-time** (static), **Load-time** (relocatable), **Runtime** (MMU).  
+        - **Compile-time** (static), **Load-time** (relocatable), **Runtime** (MMU).  
 
 - **Example**:  
 `Paging divides processes into fixed-size pages (e.g., 4KB) mapped to RAM frames, avoiding external fragmentation.`
