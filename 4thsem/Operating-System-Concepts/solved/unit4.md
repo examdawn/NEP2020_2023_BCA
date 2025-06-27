@@ -1,7 +1,6 @@
 ---
 order: 5
 title: OSC - Unit 4 Solved
-exclude: true
 ---
 
 > [!WARNING]
