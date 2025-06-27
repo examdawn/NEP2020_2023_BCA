@@ -186,6 +186,66 @@ It also provides information on all instances of all resources, whether availabl
 ![Vertices and Edges Demo RAG](https://cdn1.byjus.com/wp-content/uploads/2022/08/resource-allocation-graph-in-operating-system.png)
 
 [Byjus](https://byjus.com/gate/resource-allocation-graph-in-operating-system-notes/)
+
+
+## Q8. Explain Deadlock, Conditions Required for a Deadlock and Deadlock Recovery
+
+### Deadlock
+
+A deadlock is a critical situation in an operating system where two or more processes become blocked indefinitely. 
+- This occurs because each process involved is holding onto a resource that another process in the set needs, while simultaneously waiting for a resource held by another process in the same set
+- This creates a cycle of dependencies, preventing any of the involved processes from proceeding with their execution
+- Deadlocks can lead to system performance degradation, unresponsiveness, and even complete system failure if not handled properly
+
+For instance, consider two processes, `Process 1` and `Process 2`, and two resources, `Resource A` and `Resource B`. If `Process 1` holds `Resource A` and requests `Resource B`, while `Process 2` holds `Resource B` and requests `Resource A`, both processes will be stuck in a deadlock, unable to proceed
+
+### Conditions Required for a Deadlock
+
+For a deadlock to occur, four specific conditions, often referred to as the Coffman conditions, must simultaneously be met:
+
+*   **Mutual Exclusion**: 
+    - At least one resource involved must be non-shareable, meaning that only one process can use it at any given time. 
+    - If another process requests the same resource, it must wait until the resource is released. For example, a printer can only be used by one process at a time.
+*   **Hold and Wait**: 
+    - A process is currently holding at least one resource and is simultaneously waiting to acquire additional resources that are being held by other processes. 
+    - This means a process does not release its held resources while waiting for new ones.
+*   **No Preemption**: 
+    - Resources cannot be forcibly taken away from a process that is holding them. 
+    - A resource can only be released voluntarily by the process that is holding it, once it has finished using it. 
+    - The operating system cannot force a process to give up a resource it holds, even if another process needs it.
+*   **Circular Wait**: 
+    - A set of processes forms a circular chain where each process in the set is waiting for a resource held by the next process in the chain. 
+    - For example, Process A waits for a resource held by Process B, Process B waits for a resource held by Process C, and Process C waits for a resource held by Process A, forming a closed loop.
+
+## Deadlock Recovery
+
+Once a deadlock is detected, recovery techniques are implemented to break the deadlock and restore the system to a functional state. Recovery strategies generally involve either terminating processes or preempting resources.
+
+Common deadlock recovery methods include:
+
+*   **Process Termination**:
+    *   **Kill one process**: 
+        - One or more processes involved in the deadlock are terminated to release their held resources. 
+        - The goal is to choose a process whose termination has the least impact or cost to the system. 
+        - After termination, the system checks if the deadlock is resolved; if not, another process may be terminated.
+    *   **Kill all processes**: 
+        - All processes involved in the deadlock are terminated. 
+        - This is often a last resort, applied when it's difficult to determine which specific process to terminate or when immediate recovery is necessary. 
+        - However, it can lead to significant system inefficiencies as all processes will need to restart.
+*   **Resource Preemption**:
+    *   Resources are forcibly taken away from a process that holds them and allocated to a waiting process. 
+        - This breaks the "no preemption" condition and helps resolve the circular wait. 
+        - This method requires careful consideration to avoid disrupting the executing processes.
+*   **Process Rollback**:
+    *   A deadlocked process is returned to a previously saved safe state (e.g., via checkpoints) where it did not hold the resources causing the deadlock. 
+        - This involves the process releasing all resources acquired after that saved state, which can then be allocated to other waiting processes. 
+        - Rollback can be resource-intensive and may not be feasible for all applications.
+*   **Wait-Die and Wound-Wait Schemes**:
+    *   These are more specific strategies where processes are preempted based on their age. 
+        - In the **Wait-Die** scheme, an older process requesting a resource held by a younger process will wait, but a younger process requesting a resource held by an older process will be terminated (die). 
+        - In the **Wound-Wait** scheme, an older process requesting a resource held by a younger process will preempt (wound) the younger process, forcing it to release the resource, while a younger process requesting a resource held by an older process will wait.
+
+
 <!-- Bag of questions
 
 
@@ -195,7 +255,4 @@ Explain Peterson's Solution, Dining Philosopher's Solution and Banker's Solution
 (use semaphores for dining)
 
 
-Explain Deadlock, Conditions Required for a Deadlock and Deadlock Recovery
-
-Give an overview on resource allocation graph
 -->
