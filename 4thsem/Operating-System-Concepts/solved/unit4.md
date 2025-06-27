@@ -106,7 +106,68 @@ In the **Variable Size Partition Scheme**, memory is divided into partitions of 
 - **Example**:   
 `A system with 1GB of RAM may allocate a 300MB partition to one process, a 500MB partition to another, and a 200MB partition to a third. In this case, the allocation is based on the actual process size, so no memory is wasted within each partition.`
 ## Q5. Explain First-Fit, Best-Fit and Worst-Fit Memory Allocation Strategies with advantages and disadvantages 
-TODO
+Of course. Here is a shorter, section-wise explanation of the First-Fit, Best-Fit, and Worst-Fit memory allocation strategies.
+
+### First-Fit
+The First-Fit algorithm scans the memory from the beginning and allocates the **first** free block that is large enough to accommodate the process's request.
+
+*   **Advantages:**
+    *   **Fast:** It is quick because it doesn't need to search the entire list of free blocks.
+    *   **Simple:** Easy to implement and manage.
+*   **Disadvantages:**
+    *   **External Fragmentation:** Can lead to an accumulation of small, unusable memory holes at the beginning of the memory space.
+    *   **Inefficient Use:** May not be the most efficient use of memory space.
+
+```mermaid
+graph TD
+    subgraph First-Fit
+        A[Request] --> B{Find first block >= size};
+        B --> C[Allocate];
+    end
+```
+### Best-Fit
+The Best-Fit algorithm searches the entire list of free blocks and allocates the **smallest** block that is large enough for the process. This minimizes the size of the leftover free partition.
+
+*   **Advantages:**
+    *   **Memory Efficient:** Wastes the least amount of memory within an allocated block.
+    *   **Saves Large Blocks:** Preserves larger blocks for larger processes.
+*   **Disadvantages:**
+    *   **Slow:** Requires searching the entire list of free blocks for every allocation.
+    *   **External Fragmentation:** Tends to create many tiny, unusable memory fragments.
+
+```mermaid
+graph TD
+    subgraph Best-Fit
+        D[Request] --> E{Find smallest block >= size};
+        E --> F[Allocate];
+    end
+```
+### Worst-Fit
+The Worst-Fit algorithm searches the entire list of free blocks and allocates the **largest** available block to the process. The idea is to leave a leftover block that is large enough to be useful for future allocations.
+
+*   **Advantages:**
+    *   **Reduces Small Fragments:** Avoids creating tiny, unusable memory holes.
+*   **Disadvantages:**
+    *   **Slow:** Must search the entire list to find the largest block.
+    *   **Wastes Large Blocks:** Quickly consumes the largest memory partitions, which may be needed for future large processes.
+
+```mermaid
+graph TD
+    subgraph Worst-Fit
+        G[Request] --> H{Find largest block};
+        H --> I[Allocate];
+    end
+```
+
+
+| Feature                 | First-Fit                               | Best-Fit                                     | Worst-Fit                                      |
+| :---------------------- | :-------------------------------------- | :------------------------------------------- | :--------------------------------------------- |
+| **Allocation Logic**    | First sufficient block found            | Smallest sufficient block found               | Largest sufficient block found                 |
+| **Speed**               | Fast                                    | Slow (scans entire list)                     | Slow (scans entire list)                       |
+| **External Fragmentation** | Can be high                             | High (many tiny fragments)                   | Lower (leaves large fragments)                 |
+| **Memory Utilization**  | Good, but can be inefficient            | Best, minimizes wasted space                 | Poor, leaves large unused internal fragments  |
+
+
 
 ## Q6. Explanation Fragmentation, Segmentation and Paging
 
