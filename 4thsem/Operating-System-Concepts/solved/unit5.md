@@ -32,7 +32,6 @@ In the two-level directory structure, there is a main directory and a subdirecto
 - **Disadvantages**:
     - Limited Flexibility: Still a basic structure that may not work well with complex file systems or multiple levels of organization.
     - File Duplication: Different users may end up duplicating the same file (e.g., both users having the same report), leading to inefficiency.
-
 3. ***Acyclic-Graph Directory***:
 An acyclic-graph directory allows for a more flexible file structure where directories can point to other directories or files. Multiple paths can be created for the same file, which can be useful in shared systems or when the same file needs to be accessed from different locations.
 - **Example**: `/documents -> /shared/documents`
@@ -43,7 +42,7 @@ An acyclic-graph directory allows for a more flexible file structure where direc
     - Complexity: Managing links can be difficult and lead to issues if not properly handled.
     - Path Conflicts: There is a risk of cyclic dependencies if links are mismanaged (i.e., a loop that
 causes infinite references).
-4. **General Graph Directory**:
+4. ***General Graph Directory***:
 A general graph directory allows cyclic links, meaning a directory can have multiple references, potentially forming cycles. This type of structure provides maximum flexibility but is difficult to manage and may cause data integrity issues if not carefully controlled.
 - Example: 
     - `/user1/documents -> /shared/documents`
@@ -55,35 +54,29 @@ A general graph directory allows cyclic links, meaning a directory can have mult
 - Data Integrity Issues: Cyclic references can cause problems in data retrieval or cause systems to hang.
 - Difficult to Manage: Requires sophisticated algorithms to handle links and cycles.
 - Risk of Infinite Loops: Without careful management, cycles can lead to infinite loops or confusion in file navigation.
----
+
 ## Q2. Explain File Access Methods with Access Control
-
 **File Access Methods** define how data is read from and written to a file. The main types of file access methods are:
-
-1. **Sequential Access**: 
+1. ***Sequential Access***: 
    - Data is accessed in a linear order, from the beginning to the end of the file. 
    - Example: Reading a log file where each entry is processed one by one.
    - **Advantages**: Simple to implement and efficient for ordered data processing.
    - **Disadvantages**: Slow for accessing specific data or jumping to a point in the file.
-
-2. **Direct Access (Random Access)**: 
+2. ***Direct Access (Random Access)***: 
    - Allows reading or writing data at any arbitrary position within a file without needing to process it sequentially.
    - Example: Accessing a specific record in a database file.
    - **Advantages**: Fast data retrieval and efficient for large files.
    - **Disadvantages**: More complex implementation and higher overhead.
-
-3. **Indexed Access**: 
+3. ***Indexed Access***: 
    - Uses an index to quickly locate data within a file. The index maps keys to specific locations in the data file.
    - Example: Searching for a student record by Student ID in a database.
    - **Advantages**: Faster searches and efficient access to records.
    - **Disadvantages**: Requires maintenance during data updates and additional storage for the index.
-
+   
 **Access Control** refers to the mechanisms that regulate who can access resources and what operations they can perform. It ensures that only authorized users can access or modify files. Key components of access control include:
-
 - **Authentication**: Verifying the identity of users.
 - **Authorization**: Determining what actions authenticated users can perform.
 - **Access Control Lists (ACLs)**: Define permissions for users or groups on specific files.
----
 
 ### Explain Layered File System (Device Layer, I/O Control Layer, Basic FS Layer, File Org Module Layer, Logical File System Layer, Application Programs Layer)
 A **Layered File System** is an architectural design that separates various components or functions into different layers, each responsible for specific tasks. The main layers are:
@@ -105,10 +98,8 @@ A **Layered File System** is an architectural design that separates various comp
 6. ***Application Program Layer***: 
    - Interfaces between user applications and the underlying file system.
    - Contains system calls or APIs that allow applications to interact with the file system for tasks like reading and writing files.
----
 
 ## Q3. Explain Different Allocation Methods (Contiguous Allocation, Linked List Allocation, Indexed)
-
 **File Allocation Methods** define how files are stored in physical storage. The main methods are:
 1. ***Contiguous Allocation***: 
    - Each file is stored in a set of consecutive blocks on the disk.
@@ -122,7 +113,6 @@ A **Layered File System** is an architectural design that separates various comp
    - A special index block contains pointers to all the blocks of a file, allowing for efficient random access.
    - **Advantages**: No fragmentation and efficient random access.
    - **Disadvantages**: Requires space for the index block and overhead for maintaining it.
----
 
 ## Q4. Explain Free Space Management with Example and Advantages/Disadvantages (Bitmap, Linked List, Grouping, Counting)
 **Free Space Management** refers to tracking and managing unused disk blocks in a file system. Efficient management is crucial for optimizing disk space usage. The main methods are:
@@ -146,4 +136,3 @@ A **Layered File System** is an architectural design that separates various comp
    - **Advantages**: Compact representation and efficient for large block allocations.
    - **Disadvantages**: Inefficient for small files and harder to update.
    **Example**: Instead of listing individual free blocks, the system might record ranges like `[Block 5-9, Block 20-30]`.
----
