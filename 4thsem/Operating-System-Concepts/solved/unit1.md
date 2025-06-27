@@ -1,7 +1,6 @@
 ---
 order: 2
 title: OSC - Unit 1 Solved
-exclude: true
 ---
 
 # Operating System Concepts - Unit 1 Solved
