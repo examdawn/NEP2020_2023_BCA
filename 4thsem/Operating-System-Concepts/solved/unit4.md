@@ -4,9 +4,14 @@ title: OSC - Unit 4 Solved
 exclude: true
 ---
 
+> [!WARNING]
+> This Page is incomplete and answers will be added soon. 4/7 Remaining.
+
 # Operating System Concepts - Unit 4 Solved
 
 ## Q1. Give a brief overview on static, dynamic linking and dynamic loading in the context of memory management
+TODO
+
 ## Q2. Explain the functions of Memory Management along with Hardware, Address Spaces
 - ***Functions of Memory Management***
     - **Allocation & Deallocation**:  
@@ -37,8 +42,9 @@ exclude: true
 - **Example**:  
 `Paging divides processes into fixed-size pages (e.g., 4KB) mapped to RAM frames, avoiding external fragmentation.`
 
-
 ## Q3. Explain Shared Pages, Swap and Zram <!--(f--k the syllabus, we ball here)-->
+TODO
+
 ## Q4. Explain Memory Partition Schemes.
 Memory partition schemes are methods used to allocate memory to processes in a computer system. The two common approaches are the **Fixed Size Partition Scheme** and the **Variable Size Partition Scheme**. Each scheme has its own advantages and disadvantages, impacting how efficiently memory is utilized.
 #### 1. ***Fixed Size Partition Scheme***:  
@@ -75,7 +81,11 @@ In the **Variable Size Partition Scheme**, memory is divided into partitions of 
 - **Example**:   
 `A system with 1GB of RAM may allocate a 300MB partition to one process, a 500MB partition to another, and a 200MB partition to a third. In this case, the allocation is based on the actual process size, so no memory is wasted within each partition.`
 ## Q5. Explain First-Fit, Best-Fit and Worst-Fit Memory Allocation Strategies with advantages and disadvantages 
+TODO
+
 ## Q6. Explanation Fragmentation, Segmentation and Paging (quick advantages vs disadvantages too pliz)
+TODO
+
 ## Q7. Explain Frame Allocation
 Frame allocation refers to the process of assigning physical memory frames (blocks of memory in RAM) to processes that are running in an operating system. Since physical memory is limited, frame allocation determines how memory is divided and assigned to different processes, which is critical for efficient system performance and memory utilization.  
 
