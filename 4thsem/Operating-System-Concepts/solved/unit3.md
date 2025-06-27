@@ -95,13 +95,100 @@ Any valid solution to the critical section problem must satisfy three essential 
         - They are manipulated using two atomic operations: `wait()` (which decrements the semaphore value, potentially blocking the process if the value becomes negative) and `signal()` (which increments the value, potentially unblocking a waiting process)
         - A mutex is often considered a binary semaphore.
 [Dev.to](https://dev.to/harshm03/critical-section-problem-process-synchronization-310d)
+
+## Q5. What is the Producer/Consumer problem? How to solve it with semaphores?
+### Producer/Consumer Problem
+
+The Producer-Consumer problem is a classic synchronization issue in operating systems. 
+- It involves two types of processes: `producers`, which generate data, and `consumers`, which process that data. 
+- Both share a common buffer. The challenge is to ensure that the producer doesn't add data to a full buffer and the consumer doesn't remove data from an empty buffer while avoiding conflicts when accessing the buffer. 
+
+
+### Problem Statement
+- We have a buffer of fixed size. A producer can produce an item and can place it in the buffer. 
+- A consumer can pick items and consume them. We need to ensure that when a producer is placing an item in the buffer, then at the same time consumer should not consume any item. 
+- In this problem, the buffer is the critical section. 
+
+### Solution for Producer
+To solve this problem, we need two counting semaphores - `Full` and `Empty`. "Full" keeps track of some items in the buffer at any given time and "Empty" keeps track of many unoccupied slots. 
+
+```
+mutex = 1 
+Full = 0 // Initially, all slots are empty. Thus full slots are 0 
+Empty = n // All slots are empty initially 
+```
+
+```pseudocode
+do{
+
+//produce an item
+
+wait(empty);
+wait(mutex);
+
+//place in buffer
+
+signal(mutex);
+signal(full);
+
+}
+while(true)
+```
+When producer produces an item then the value of "empty" is reduced by 1 because one slot will be filled now. The value of mutex is also reduced to prevent consumer to access the buffer. Now, the producer has placed the item and thus the value of "full" is increased by 1. The value of mutex is also increased by 1 because the task of producer has been completed and consumer can access the buffer. 
+### Solution for Consumer
+
+```pseudocode
+do{
+
+wait(full);
+wait(mutex);
+
+// consume item from buffer
+
+signal(mutex);
+signal(empty);
+
+
+}while(true)
+```
+
+As the consumer is removing an item from buffer, therefore the value of "full" is reduced by 1 and the value is mutex is also reduced so that the producer cannot access the buffer at this moment. 
+
+Now, the consumer has consumed the item, thus increasing the value of "empty" by 1. The value of mutex is also increased so that producer can access the buffer now. 
+
+[GeeksForGeeks](https://www.geeksforgeeks.org/operating-systems/producer-consumer-problem-using-semaphores-set-1/)
+
+
+## Q6. Explain the difference between a pre-emptive and non-pre-emptive kernel
+
+
+
+| Aspect                         | Preemptive Kernel                                                                 | Non-Preemptive Kernel                                                      |
+|-------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **Definition**                | Allows a process running in kernel mode to be interrupted and replaced by another process | Does not allow a process running in kernel mode to be interrupted; runs until it exits kernel mode, blocks, or yields CPU |
+| **Process Scheduling**        | Scheduler can forcibly preempt a running process to allocate CPU to higher priority tasks | A running process keeps the CPU until it voluntarily releases it or blocks |
+| **Responsiveness**            | More responsive; suitable for real-time systems where deadlines are critical      | Less responsive; may cause delays if a process runs for a long time without yielding |
+| **Complexity**                | More complex to design due to need for fine-grained locking and handling race conditions | Simpler to design; fewer race conditions on kernel data as only one process runs in kernel at a time |
+| **Race Condition Risk**       | Higher risk of race conditions in kernel data structures; requires careful synchronization | Lower risk of race conditions since kernel code is not preempted mid-execution |
+| **Use Cases**                 | Used in modern OS kernels that require multitasking and real-time capabilities (e.g., Linux 2.6+, Solaris) | Used in traditional UNIX, Windows 2000, early Linux kernels                |
+| **Overhead**                  | Higher overhead due to frequent context switches and synchronization mechanisms   | Lower overhead as context switches happen less frequently and cooperatively |
+| **Handling Interrupts**       | Can interrupt kernel mode processes on timer or higher priority task readiness   | Kernel mode process runs to completion or voluntary yield before switching |
+
+
+[Tutorialspoint](https://www.tutorialspoint.com/preemptive-and-non-preemptive-kernel)
+
+
+## Q7. Give an overview on resource allocation graph
+The resource allocation graph is a visual depiction of a system’s current status. The resource allocation graph, as its name implies, contains all the information about all of the activities that are holding or waiting for resources.
+
+It also provides information on all instances of all resources, whether available or in use by processes. The process is represented by a circle in the Resource Allocation Graph, whereas the resource is represented using a rectangle. Let’s take a closer look at the various types of vertices and edges.
+
+![Vertices and Edges Demo RAG](https://cdn1.byjus.com/wp-content/uploads/2022/08/resource-allocation-graph-in-operating-system.png)
+
+[Byjus](https://byjus.com/gate/resource-allocation-graph-in-operating-system-notes/)
 <!-- Bag of questions
 
 
-
-What is the Producer/Consumer problem? How to solve it with semaphores?
-
-Explain the difference between pre-emptive and non-pre-emptive kernel
 
 Explain Peterson's Solution, Dining Philosopher's Solution and Banker's Solution
 
