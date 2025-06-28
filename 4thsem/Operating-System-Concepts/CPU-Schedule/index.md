@@ -8,7 +8,7 @@ exclude: true
 
 <!--(with numerical breakdown)-->
 ## Numericals/CPU Scheduling Algorithms
-- [First-Come-First-Serve(FCFS)](./CPU-Schedule/fcfs)
-- [Shortest-Job-First(SJF)](./CPU-Schedule/sjf)
-- [Priority](./CPU-Schedule/priority.md)
-- [Round-Robin](./CPU-Schedule/round-robin.md)
+- [First-Come-First-Serve(FCFS)](./fcfs)
+- [Shortest-Job-First(SJF)](./sjf)
+- [Priority](./priority.md)
+- [Round-Robin](./round-robin.md)
