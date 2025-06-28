@@ -9,8 +9,8 @@ Here, we start with the Initial Arrival Time(0ms) successively add the Burst tim
 
 While evaluating which process to run next, we check processes that have arrived before the previous CT(Completion Time) and schedule them next.
 
-TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
-WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
+- TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
+- WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
 
 Usual Givens: AT, BT.
 

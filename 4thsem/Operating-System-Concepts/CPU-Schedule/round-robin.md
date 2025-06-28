@@ -9,8 +9,8 @@ Here, we start with the Initial Arrival Time(0ms) successively add the Execution
 
 We evaluate if the total burst time is greater than the Time Quantum given, and ask it to execute in the next round. 
 
-TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
-WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
+- TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
+- WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
 
 Usual Givens: AT, BT, Time Quantum.
 

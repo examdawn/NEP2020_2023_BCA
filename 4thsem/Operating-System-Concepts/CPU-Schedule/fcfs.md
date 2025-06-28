@@ -8,8 +8,8 @@ title: OSC - FCFS
 
 Here, we start with the Initial Arrival Time(0ms) successively add the Burst time for every process, for each process's Completion Time(CT)
 
-TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
-WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
+- TAT(Turn-around Time) = CT(Completion Time) - AT(Arrival Time)
+- WT(Waiting Time) = TAT(Turn-around Time) - BT(Burst Time)
 
 Usual Givens: AT, BT and maybe priority. 
 > [!TIP]
