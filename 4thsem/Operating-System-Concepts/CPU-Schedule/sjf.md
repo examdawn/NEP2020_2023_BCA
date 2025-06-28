@@ -3,7 +3,7 @@ order: 2
 title: OSC - SJF
 ---
 
-# Shortest-Job-First(SJW) Algorithm
+# Shortest-Job-First(SJF) Algorithm
 
 Here, we start with the Initial Arrival Time(0ms) successively add the Burst time for every process, for each process's Completion Time(CT). 
 
