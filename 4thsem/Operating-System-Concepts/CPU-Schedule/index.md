@@ -10,5 +10,4 @@ exclude: true
 ## Numericals/CPU Scheduling Algorithms
 - [First-Come-First-Serve(FCFS)](./fcfs)
 - [Shortest-Job-First(SJF)](./sjf)
-<!-- - [Priority](./priority.md)-->
 - [Round-Robin](./round-robin.md)
