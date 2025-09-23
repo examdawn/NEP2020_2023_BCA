@@ -77,25 +77,31 @@ Let's sort the array `[5, 1, 4, 2, 8]`.
 
 The array is now sorted.
 
-### Code Snippet (Python)
+### Code Snippet (C)
 
-```python
-def bubble_sort(arr):
-    n = len(arr)
-    # Traverse through all array elements
-    for i in range(n):
-        # A flag to optimize if the inner loop doesn't swap
-        swapped = False
-        # Last i elements are already in place
-        for j in range(0, n - i - 1):
-            # Traverse the array from 0 to n-i-1
-            # Swap if the element found is greater than the next element
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                swapped = True
-        # If no two elements were swapped by inner loop, then break
-        if not swapped:
-            break
+```c
+#include <stdbool.h> // For bool type
+
+void swap(int *xp, int *yp) {
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        bool swapped = false;
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(&arr[j], &arr[j + 1]);
+                swapped = true;
+            }
+        }
+        if (!swapped) {
+            break;
+        }
+    }
+}
 ```
 
 ### Complexity
@@ -133,7 +139,7 @@ These are factors that asymptotic analysis intentionally ignores to achieve a ge
       * **Cache**: A fast CPU cache can significantly speed up data access.
 2.  **Software Environment**:
       * **Operating System**: The OS manages system resources, and its scheduling can affect program speed.
-      * **Programming Language & Compiler**: A compiled language (like C++) is generally faster than an interpreted one (like Python). Compiler optimizations can also generate more efficient machine code.
+      * **Programming Language & Compiler**: Compiler optimizations can also generate more efficient machine code.
 3.  **System Load**: Other processes running concurrently on the computer compete for CPU time and memory, which can slow down the execution of the algorithm.
 
 -----
@@ -158,19 +164,19 @@ The factorial of a non-negative integer `n`, denoted by `n!`, is the product of 
   * $n\! = n \\times (n-1)\!$ (Recursive Step)
   * $0\! = 1$ (Base Case)
 
-### Code Snippet (Python)
+### Code Snippet (C)
 
-```python
-def factorial(n):
-    # Base Case: When n is 0, the recursion stops.
-    if n == 0:
-        return 1
-    # Recursive Step: The function calls itself with a smaller input (n-1).
-    else:
-        return n * factorial(n - 1)
-
-# Example usage:
-print(factorial(5))  # Output: 120 (since 5 * 4 * 3 * 2 * 1 = 120)
+```c
+long long factorial(int n) {
+    // Base Case
+    if (n == 0) {
+        return 1;
+    }
+    // Recursive Step
+    else {
+        return n * factorial(n - 1);
+    }
+}
 ```
 
 In this example, `factorial(5)` calls `factorial(4)`, which calls `factorial(3)`, and so on, until `factorial(0)` is called. This hits the base case, returns 1, and the chain of results is multiplied back up the call stack.
@@ -283,12 +289,15 @@ The outcome of a search algorithm is typically one of two possibilities:
 
   * **Linear Search**: This is the simplest search method. It sequentially checks each element in the collection until a match is found or the entire collection has been checked. It works on unsorted data but is inefficient for large datasets, with a time complexity of $O(n)$.
 
-    ```python
-    def linear_search(arr, key):
-        for i in range(len(arr)):
-            if arr[i] == key:
-                return i  # Return the index if found
-        return -1 # Return -1 if not found
+    ```c
+    int linearSearch(int arr[], int n, int key) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == key) {
+            return i; // Return index if found
+        }
+    }
+    return -1; // Return -1 if not found
+    }
     ```
 
   * **Binary Search**: This is a much more efficient algorithm that works only on **sorted** data. It repeatedly divides the search interval in half. It compares the key with the middle element. If they don't match, the half in which the key cannot lie is eliminated, and the search continues on the remaining half. Its time complexity is $O(\\log n)$.
@@ -409,20 +418,28 @@ Let's sort the array `[64, 25, 12, 22, 11]`. The `|` symbol divides the sorted a
 
 The array is now sorted.
 
-### Code Snippet (Python)
+### Code Snippet (C)
 
-```python
-def selection_sort(arr):
-    n = len(arr)
-    # Traverse through all array elements
-    for i in range(n):
-        # Find the minimum element in the remaining unsorted array
-        min_idx = i
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_idx]:
-                min_idx = j
-        # Swap the found minimum element with the first element
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+```C
+void swap(int *xp, int *yp); // Assumes swap function from above is available
+
+void selectionSort(int arr[], int n) {
+    int min_idx;
+    // One by one move boundary of unsorted subarray
+    for (int i = 0; i < n - 1; i++) {
+        // Find the minimum element in unsorted array
+        min_idx = i;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[min_idx]) {
+                min_idx = j;
+            }
+        }
+        // Swap the found minimum element with the first element
+        if (min_idx != i) {
+            swap(&arr[min_idx], &arr[i]);
+        }
+    }
+}
 ```
 
 ### Complexity
