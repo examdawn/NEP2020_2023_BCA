@@ -20,6 +20,9 @@ features:
   - title: 4th Semester
     link: ./4thsem
     details: Click here to view 4th Semester options
+  - title: 5th Semester
+    link: ./4thsem
+    details: Click here to view 5th Semester options
   - title: Request New Page
     details: Add your section here!
     link: https://forms.gle/G15qitWu66YgSj5e6
