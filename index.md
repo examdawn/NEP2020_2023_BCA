@@ -21,7 +21,7 @@ features:
     link: ./4thsem
     details: Click here to view 4th Semester options
   - title: 5th Semester
-    link: ./4thsem
+    link: ./5thsem
     details: Click here to view 5th Semester options
   - title: Request New Page
     details: Add your section here!
