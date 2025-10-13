@@ -6,7 +6,7 @@ title: DAA Lab - Part A
 
 ## Q1. write a program to sort a list of N element using selection Sort techique using C.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -39,10 +39,10 @@ Enter number of elements: 5
 Enter 5 elements: 5 2 3 6 1
 Sorted array: 1 2 3 5 6 
 ```
+:::
 
 ## Q2: Write a program to perform Travelling Salesman Problem.
-
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 #include <limits.h>
@@ -92,10 +92,11 @@ Enter cost matrix (3x3):
 15 35 0 
 Minimum cost: 60
 ```
+:::
 
 ## Q3: Write program to implement Dynamic programming Algorithm for the 0/1 Knapsack problem.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -151,7 +152,7 @@ Maximum value in knapsack: 7
 
 ## Q4. Write a program to perform knapsack problem using Greedy solution.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -209,7 +210,7 @@ Maximum value: 220.00
 
 ## Q5. Write a program to implement the dfs and bfs algorithm for a graph.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -267,7 +268,7 @@ void main() {
 ```
 :::
 
-:: details Show Output
+::: details Show Output
 ```
 Enter number of vertices: 4
 Enter number of edges: 3
@@ -280,10 +281,11 @@ Enter starting vertex: 0
 DFS traversal: 0 1 2 3 
 BFS traversal: 0 1 2 3
 ```
+:::
 
 ## Q6. Write a program to find minimum and maximum value in an array using divide and conquer.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -339,7 +341,7 @@ Maximum element: 10
 
 ## Q7. Write a simple test program to implement divide and conquer strategy. E.g Quick sort algorithm for sorting list of integers in ascending order.
 
-::: details See code
+::: details See Code
 ```C
 #include <stdio.h>
 
@@ -398,7 +400,7 @@ Sorted array: 1 2 3 6 8
 
 ## Q8: Write a program to implement merge sort algorithm for sorting a list of integers in ascending order.
 
-::: details See code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
