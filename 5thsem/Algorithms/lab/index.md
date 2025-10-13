@@ -1,6 +1,8 @@
 ---
 order: 0
-title: Algorithms - View Lab Records
+title: Design & Analysis Of Algorithms - View Lab Records
 ---
-# Algorithms
-## Lab Records
+# 
+
+Others:
+- [Lab PartA](parta.md)
