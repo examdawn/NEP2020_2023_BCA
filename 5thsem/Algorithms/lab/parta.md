@@ -341,7 +341,7 @@ Maximum element: 10
 
 ## Q7. Write a simple test program to implement divide and conquer strategy. E.g Quick sort algorithm for sorting list of integers in ascending order.
 
-::: details See Code
+::: details See Code {open}
 ```C
 #include <stdio.h>
 
@@ -455,3 +455,4 @@ Enter elements: 4 2 1 7
 Sorted array: 1 2 4 7
 ```
 :::
+
