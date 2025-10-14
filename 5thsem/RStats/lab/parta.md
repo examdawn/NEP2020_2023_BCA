@@ -8,6 +8,9 @@ title: RStats Lab - Part A
 
 Problem Statement: Write a program for different types of data structures in R​
 
+::: details View Code
+
+<JupyterLite kernel="xr">
 ```r
 # Creating a Numeric Vector
 n <- c(1, 2, 3, 4, 5)
@@ -36,10 +39,16 @@ print("Data Frame:")
 print(df)
 ```
 
+</JupyterLite>
+:::  
+
 ## **Program 2: Variables, Constants, and Data Types**
 
 Problem Statement: Write a program that include variables, constants, data types
 
+::: details View Code
+
+<JupyterLite kernel="xr">
 ```r
 # Constants
 PI <- 3.14159
@@ -68,10 +77,16 @@ cat("Data Type of 'age':", atype, "\n")
 cat("Data Type of 'is_student':", itype, "\n")
 cat("Data Type of 'grades':", gtype, "\n")
 ```
+</JupyterLite>
+::: 
 
 ## **Program 3: Operators, Control Structures, and Functions**
 
 Problem Statement: Write a R program that includes different operators, control structures, default values for arguments, returning complex objects
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Function with default argument values
@@ -105,10 +120,16 @@ result2 <- calculate_area("rectangle", 8, 4)
 result3 <- calculate_area("circle", 6)
 ```
 
+</JupyterLite>
+::: 
 
 ## **Program 4: Quick Sort and Binary Search Tree Implementation**
 
 Problem Statement: Write a R program for quick sort implementation, binary search tree
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Quick Sort Implementation
@@ -167,11 +188,16 @@ cat("In-order Traversal of BST:")
 in_order_traversal(bst_root)
 ```
 
+</JupyterLite>
+::: 
 
 ## **Program 5: Cumulative Operations and Calculus**
 
 Problem Statement: Write a R program for calculating cumulative sums, and products minima maxima and calculus
 
+::: details View Code
+
+<JupyterLite kernel="xr">
 ```r
 # Sample dataset
 data <- c(2, 4, 1, 8, 5, 7)
@@ -199,10 +225,16 @@ integrate <- cumsum(data)
 cat("Integration (Cumulative Sum):", integrate, "\n")
 ```
 
+</JupyterLite>
+::: 
 
 ## **Program 6: Markov Chain Stationary Distribution**
 
 Problem Statement: Write a R program for finding stationary distribution of markanov chains
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Install and load the markovchain package
@@ -223,10 +255,16 @@ stationary_distribution <- steadyStates(markov_chain)
 print("Stationary Distribution:")
 print(stationary_distribution)
 ```
+</JupyterLite>
+::: 
 
 ## **Program 7: Linear Algebra Operations**
 
 Problem Statement: Write a R program that include linear algebra operations on vectors and matrices
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Create vectors
@@ -260,10 +298,16 @@ print(matrix_product)
 print("Matrix Transpose:")
 print(matrix1_transpose)
 ```
+</JupyterLite>
+::: 
 
 ## **Program 8: Data Visualization with Graphics Functions**
 
 Problem Statement: Write a R program for any visual representation of an object with creating graphs using graphic functions Plot,Hist,Linechart,Pie,Boxplot,Scatterplots
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Scatter Plot
@@ -287,10 +331,16 @@ categories <- c("A", "B", "C")
 values <- c(30, 40, 20)
 pie(values, labels = categories, main = "Pie Chart", col = c("red", "green", "blue"))
 ```
+</JupyterLite>
+::: 
 
 ## **Program 9: Data Frame Operations and Analysis**
 
 Problem Statement: ​Write a R program for with any dataset containing dataframe objects, indexing and subsetting data frames, and employ manipulating and analyzing data
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Create employee dataset
@@ -322,10 +372,16 @@ cat("Maximum Age:", max_age, "\n")
 print(department_counts)
 print(department_payroll)
 ```
+</JupyterLite>
+::: 
 
 ## **Program 10: Multivariate Linear Regression**
 
 Problem Statement: Write a program to create an any application of Linear Regression in a multivariate context for predictive purpose
+
+::: details View Code
+
+<JupyterLite kernel="xr">
 
 ```r
 # Sample dataset: Salary, Experience, Education
@@ -350,3 +406,6 @@ summary(model)
 cat("Predicted Salaries:\n")
 print(predicted_salaries)
 ```
+
+</JupyterLite>
+::: 
