@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Rprog - Solved Questions
+title: RStats - Solved Questions
 exclude: true
 ---
-# Rprog
+# RStats
 ## Solved Questions

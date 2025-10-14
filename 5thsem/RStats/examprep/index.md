@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Rprog - "Exam Preparation" Questions
+title: RStats - "Exam Preparation" Questions
 exclude: true
 ---
-# Rprog
+# RStats
 ## Faculty-Shared Solved Questions

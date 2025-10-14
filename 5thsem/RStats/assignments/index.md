@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Rprog - Assignments List
+title: RStats - Assignments List
 exclude: true
 ---
-# Rprog
+# RStats
 ## Assignments

@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Rprog - Notes
+title: RStats - Notes
 exclude: true
 ---
-# Rprog
+# RStats
 ## Notes
