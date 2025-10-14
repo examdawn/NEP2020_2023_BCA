@@ -11,12 +11,12 @@ Problem Statement: Write a program for different types of data structures in Râ€
 ::: details View Code
 
 <JupyterLite kernel="xr">
+
 ```r
 # Creating a Numeric Vector
 n <- c(1, 2, 3, 4, 5)
 print("Numeric Vector:")
 print(n)
-
 # Creating a Character Vector
 cv <- c("apple", "banana", "cherry")
 print("Character Vector:")
@@ -49,6 +49,7 @@ Problem Statement: Write a program that include variables, constants, data types
 ::: details View Code
 
 <JupyterLite kernel="xr">
+
 ```r
 # Constants
 PI <- 3.14159
@@ -77,7 +78,9 @@ cat("Data Type of 'age':", atype, "\n")
 cat("Data Type of 'is_student':", itype, "\n")
 cat("Data Type of 'grades':", gtype, "\n")
 ```
+
 </JupyterLite>
+
 ::: 
 
 ## **Program 3: Operators, Control Structures, and Functions**
@@ -189,6 +192,7 @@ in_order_traversal(bst_root)
 ```
 
 </JupyterLite>
+
 ::: 
 
 ## **Program 5: Cumulative Operations and Calculus**
@@ -198,6 +202,7 @@ Problem Statement: Write a R program for calculating cumulative sums, and produc
 ::: details View Code
 
 <JupyterLite kernel="xr">
+
 ```r
 # Sample dataset
 data <- c(2, 4, 1, 8, 5, 7)
@@ -226,6 +231,7 @@ cat("Integration (Cumulative Sum):", integrate, "\n")
 ```
 
 </JupyterLite>
+
 ::: 
 
 ## **Program 6: Markov Chain Stationary Distribution**
@@ -256,6 +262,7 @@ print("Stationary Distribution:")
 print(stationary_distribution)
 ```
 </JupyterLite>
+
 ::: 
 
 ## **Program 7: Linear Algebra Operations**
@@ -299,6 +306,7 @@ print("Matrix Transpose:")
 print(matrix1_transpose)
 ```
 </JupyterLite>
+
 ::: 
 
 ## **Program 8: Data Visualization with Graphics Functions**
@@ -332,6 +340,7 @@ values <- c(30, 40, 20)
 pie(values, labels = categories, main = "Pie Chart", col = c("red", "green", "blue"))
 ```
 </JupyterLite>
+
 ::: 
 
 ## **Program 9: Data Frame Operations and Analysis**
@@ -373,6 +382,7 @@ print(department_counts)
 print(department_payroll)
 ```
 </JupyterLite>
+
 ::: 
 
 ## **Program 10: Multivariate Linear Regression**
@@ -408,4 +418,5 @@ print(predicted_salaries)
 ```
 
 </JupyterLite>
+
 ::: 
