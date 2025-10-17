@@ -144,7 +144,7 @@ quick_sort <- function(arr) {
     return(arr)
   }
   
-  pivot <- arr[^1]
+  pivot <- arr[1]
   smaller <- arr[arr < pivot]
   equal <- arr[arr == pivot]
   larger <- arr[arr > pivot]
