@@ -119,8 +119,11 @@ calculate_area <- function(shape = "rectangle", length = 5, width = 3) {
 
 # Using the function with default arguments
 result1 <- calculate_area()
+print(result1)
 result2 <- calculate_area("rectangle", 8, 4)
+print(result2)
 result3 <- calculate_area("circle", 6)
+print(result3)
 ```
 
 </JupyterLite>
