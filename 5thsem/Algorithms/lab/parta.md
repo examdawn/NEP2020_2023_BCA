@@ -456,7 +456,7 @@ Sorted array: 1 2 4 7
 ```
 :::
 
-## Q9: Write a program to Automated Merge Sort Timing for Multiple Input Sizes.
+## Q9: Write a program to display Automated Merge Sort Timing for Multiple Input Sizes.
 
 ::: details See Code {open}
 ```C
