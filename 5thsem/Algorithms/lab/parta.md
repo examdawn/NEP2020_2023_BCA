@@ -522,3 +522,81 @@ n       Time (seconds)
 ```
 :::
 
+## Q10: Write a program to Sort a given set of n integer elements using Quick Sort method and compute its time complexity.
+
+> [!NOTE]
+>  Run the program for varied values of [n > 5000] and record the time taken to sort. 
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void swap(int *a, int *b) {
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+int partition(int arr[], int low, int high) {
+	int pivot = arr[high];
+	int i = (low - 1);
+	for (int j = low; j < high; j++) {
+		if (arr[j] <= pivot) {
+			i++;
+			swap(&arr[i], &arr[j]);
+		}
+	}
+	swap(&arr[i + 1], &arr[high]);
+	return (i + 1);
+}
+
+void quickSort(int arr[], int low, int high) {
+	if (low < high) {
+		int pi = partition(arr, low, high);
+		quickSort(arr, low, pi - 1);
+		quickSort(arr, pi + 1, high);
+	}
+}
+
+void generateRandomArray(int arr[], int n) {
+	for (int i = 0; i < n; i++) 
+		arr[i] = rand() % 100000;
+}
+
+void main() {
+	int sizes[] = {6000, 10000, 20000, 50000, 100000};
+	int num_tests = sizeof(sizes) / sizeof(sizes[0]);
+	printf("Quick Sort Time Measurement:\n");
+	printf("-----------------------------\n");
+	for (int t = 0; t < num_tests; t++) {
+		int n = sizes[t];
+		int *arr = (int *)malloc(n * sizeof(int));
+		if (arr == NULL) {
+			printf("Memory allocation failed for size %d\n", n);
+			continue;
+		}
+		generateRandomArray(arr, n);
+		clock_t start = clock();
+		quickSort(arr, 0, n - 1);
+		clock_t end = clock();
+		double time_taken = ((double)(end - start)) / CLOCKS_PER_SEC;
+		printf("Size: %6d -> Time taken: %.6f seconds\n", n, time_taken);
+		free(arr);
+	}
+}
+```
+:::
+
+::: details Show Output
+```
+Quick Sort Time Measurement:
+-----------------------------
+Size:   6000 -> Time taken: 0.000000 seconds
+Size:  10000 -> Time taken: 0.000000 seconds
+Size:  20000 -> Time taken: 0.000000 seconds
+Size:  50000 -> Time taken: 0.007000 seconds
+Size: 100000 -> Time taken: 0.009000 seconds
+```
+:::
