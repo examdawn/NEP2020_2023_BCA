@@ -604,3 +604,130 @@ Size:  50000 -> Time taken: 0.007000 seconds
 Size: 100000 -> Time taken: 0.009000 seconds
 ```
 :::
+
+## Q11. Write a program that Accepts the Vertices and Edges for a Graph and Stores it as an Adjacency Matrix.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+
+void main() {
+	int vertices, edges;
+	int i, j;
+	printf("Enter number of vertices: ");
+	scanf("%d", &vertices);
+	int adj[vertices][vertices];
+	for (i = 0; i < vertices; i++) {
+		for (j = 0; j < vertices; j++)
+			adj[i][j] = 0;
+	}
+	printf("Enter number of edges: ");
+	scanf("%d", &edges);
+	printf("Enter edges [source and destination vertices between 0 and %d]:\n", vertices - 1);
+	for (i = 0; i < edges; i++) {
+		int u, v;
+		printf("Edge %d: ", i + 1);
+		scanf("%d %d", &u, &v);
+		if (u >= 0 && u < vertices && v >= 0 && v < vertices)
+			adj[u][v] = 1;
+		else {
+			printf("Invalid edge! Vertex out of range.\n");
+			i--;
+		}
+	}
+	printf("\nAdjacency Matrix:\n");
+	for (i = 0; i < vertices; i++) {
+		for (j = 0; j < vertices; j++)
+			printf("%d ", adj[i][j]);
+		printf("\n");
+	}
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of vertices: 3
+Enter number of edges: 3
+Enter edges [source and destination vertices between 0 and 2]:
+Edge 1: 1 2
+Edge 2: 0 1
+Edge 3: 1 1
+
+Adjacency Matrix:
+0 1 0
+0 1 1
+0 0 0
+```
+:::
+
+## Q12. Write a program to implement function to print In-Degree, Out-Degree and to Display that Adjacency Matrix.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+
+void main() {
+	int vertices, edges;
+	int i, j;
+	printf("Enter number of vertices: ");
+	scanf("%d", &vertices);
+	int adj[vertices][vertices];
+	for (i = 0; i < vertices; i++)
+		for (j = 0; j < vertices; j++)
+			adj[i][j] = 0;
+	printf("Enter number of edges: ");
+	scanf("%d", &edges);
+	printf("Enter edges [source and destination, 0 to %d):\n", vertices - 1];
+	for (i = 0; i < edges; i++) {
+		int u, v;
+		printf("Edge %d: ", i + 1);
+		scanf("%d %d", &u, &v);
+		if (u >= 0 && u < vertices && v >= 0 && v < vertices)
+			adj[u][v] = 1;
+		else {
+			printf("Invalid edge! Please enter vertices between 0 and %d.\n", vertices - 1);
+			i--;
+		}
+	}
+	printf("\nAdjacency Matrix:\n");
+	for (i = 0; i < vertices; i++) {
+		for (j = 0; j < vertices; j++)
+			printf("%d ", adj[i][j]);
+		printf("\n");
+	}
+	printf("\nVertex\tIn-Degree\tOut-Degree\n");
+	for (i = 0; i < vertices; i++) {
+		int in = 0, out = 0;
+		for (j = 0; j < vertices; j++) {
+			if (adj[j][i] == 1)
+				in++;
+			if (adj[i][j] == 1)
+				out++;
+		}
+		printf("%d\t%d\t\t%d\n", i, in, out);
+	}
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of vertices: 3
+Enter number of edges: 3
+Enter edges [source and destination, 0 to 2]:
+Edge 1: 1 2
+Edge 2: 2 0
+Edge 3: 1 0
+
+Adjacency Matrix:
+0 0 0
+1 0 1
+1 0 0
+
+Vertex  In-Degree       Out-Degree
+0       2               0
+1       0               2
+2       1               1
+```
+:::
