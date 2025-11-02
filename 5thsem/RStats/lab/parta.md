@@ -243,7 +243,6 @@ Problem Statement: Write a R program for finding stationary distribution of mark
 
 ::: details View Code
 
-<JupyterLite kernel="xr">
 
 ```r
 # Install and load the markovchain package
@@ -264,7 +263,8 @@ stationary_distribution <- steadyStates(markov_chain)
 print("Stationary Distribution:")
 print(stationary_distribution)
 ```
-</JupyterLite>
+
+> Code running disabled since JupyterLite+XR doesn't support markovchain
 
 ::: 
 
@@ -421,5 +421,6 @@ print(predicted_salaries)
 ```
 
 </JupyterLite>
+
 
 ::: 
