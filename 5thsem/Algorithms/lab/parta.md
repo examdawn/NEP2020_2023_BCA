@@ -731,3 +731,72 @@ Vertex  In-Degree       Out-Degree
 2       1               1
 ```
 :::
+
+## Q13.  Write a program to implement Backtracking Algorithm for solving problems like N Queens.  
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#include <stdbool.h>
+#define N 4
+
+int board[N];
+bool isSafe(int row, int col) {
+	for (int i = 0; i < row; i++) {
+		if (board[i] == col || board[i] - i == col - row || board[i] + i == col + row)
+			return false;
+	}
+	return true;
+}
+
+void printBoard() {
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			if (board[i] == j)
+				printf("Q ");
+			else
+				printf(". ");
+		}
+		printf("\n");
+	}
+	printf("\n");
+}
+
+void solve(int row) {
+	if (row == N) {
+		printBoard();
+		return;
+	}
+
+	for (int col = 0; col < N; col++) {
+		if (isSafe(row, col)) {
+			board[row] = col;
+			solve(row + 1);
+		}
+	}
+}
+
+int main() {
+	printf("Solutions to %d-Queens Problem:\n\n", N);
+	solve(0);
+	return 0;
+}
+```
+:::
+
+
+::: details Show Output
+```
+Solutions to 4-Queens Problem:
+
+. Q . .
+. . . Q
+Q . . .
+. . Q .
+
+. . Q .
+Q . . .
+. . . Q
+. Q . .
+```
+:::
