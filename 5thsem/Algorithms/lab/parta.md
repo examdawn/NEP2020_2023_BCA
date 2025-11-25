@@ -732,7 +732,7 @@ Vertex  In-Degree       Out-Degree
 ```
 :::
 
-## Q13.  Write a program to implement Backtracking Algorithm for solving problems like N Queens.  
+## Q13.  Write a program to implement Backtracking Algorithm for Solving problems like N Queens.  
 
 ::: details See Code {open}
 ```C
@@ -798,5 +798,59 @@ Q . . .
 Q . . .
 . . . Q
 . Q . .
+```
+:::
+
+
+## Q13.  Write a program to implement the Backtracking Algorithm for the Sum of Sub-sets problem. 
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+
+int set[100], subset[100];
+int n, target, found = 0;
+
+void sumOfSubsets(int index, int currentSum, int subsetSize) {
+	if (currentSum == target) {
+		printf("Subset: ");
+		for (int i = 0; i < subsetSize; i++)
+			printf("%d ", subset[i]);
+		printf("\n");
+		found = 1;
+		return;
+	}
+	for (int i = index; i < n; i++) {
+		if (currentSum + set[i] <= target) {
+			subset[subsetSize] = set[i];
+			sumOfSubsets(i + 1, currentSum + set[i], subsetSize + 1);
+		}
+	}
+}
+
+void main() {
+	printf("Enter number of elements: ");
+	scanf("%d", &n);
+	printf("Enter the elements: ");
+	for (int i = 0; i < n; i++)
+		scanf("%d", &set[i]);
+	printf("Enter target sum: ");
+	scanf("%d", &target);
+	printf("Subsets with sum %d:\n", target);
+	sumOfSubsets(0, 0, 0);
+	if (!found)
+		printf("No subset found.\n");
+}
+```
+:::
+
+
+::: details Show Output
+```
+Enter number of elements: 3
+Enter the elements: 21 29 12
+Enter target sum: 50
+Subsets with sum 50:
+Subset: 21 29
 ```
 :::
