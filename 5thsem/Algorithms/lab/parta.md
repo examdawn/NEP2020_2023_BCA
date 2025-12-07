@@ -802,7 +802,7 @@ Q . . .
 :::
 
 
-## Q13.  Write a program to implement the Backtracking Algorithm for the Sum of Sub-sets problem. 
+## Q14.  Write a program to implement the Backtracking Algorithm for the Sum of Sub-sets problem. 
 
 ::: details See Code {open}
 ```C
@@ -853,4 +853,5 @@ Enter target sum: 50
 Subsets with sum 50:
 Subset: 21 29
 ```
+
 :::
