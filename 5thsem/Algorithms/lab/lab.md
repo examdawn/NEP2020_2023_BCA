@@ -855,3 +855,305 @@ Subset: 21 29
 ```
 
 :::
+
+## Q15. Write program to implement Greedy Algorithm for job sequencing with deadlines.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 100
+
+typedef struct {
+    char id;
+    int deadline;
+    int profit;
+} Job;
+
+int compare(const void *a, const void *b) {
+    return ((Job *)b)->profit - ((Job *)a)->profit;
+}
+
+int min(int a, int b) {
+    return (a < b) ? a : b;
+}
+
+void main() {
+    int n;
+    Job jobs[MAX];
+    int slot[MAX] = {0};
+    char result[MAX];
+    printf("Enter number of jobs: ");
+    scanf("%d", &n);
+    printf("Enter job id, deadline, and profit:\n");
+    for (int i = 0; i < n; i++)
+        scanf(" %c %d %d", &jobs[i].id, &jobs[i].deadline, &jobs[i].profit);
+    qsort(jobs, n, sizeof(Job), compare);
+    int maxDeadline = 0;
+    for (int i = 0; i < n; i++)
+        if (jobs[i].deadline > maxDeadline)
+            maxDeadline = jobs[i].deadline;
+    int totalProfit = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = min(maxDeadline, jobs[i].deadline) - 1; j >= 0; j--)
+            if (slot[j] == 0) {
+                slot[j] = 1;
+                result[j] = jobs[i].id;
+                totalProfit += jobs[i].profit;
+                break;
+            }
+    printf("Job sequence: ");
+    for (int i = 0; i < maxDeadline; i++)
+        if (slot[i])
+            printf("%c ", result[i]);
+    printf("\nTotal Profit: %d\n", totalProfit);
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of jobs: 4
+Enter job id, deadline, and profit:
+A 2 100
+B 1 19
+C 3 27
+D 1 21
+Job sequence: D A C 
+Total Profit: 148
+```
+:::
+
+## Q16. Write program to implement Dynamic Programming algorithm for the Optimal Binary Search Tree Problem.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#include <limits.h>
+#define MAX 10
+
+int n;
+float p[MAX];
+float q[MAX];
+float e[MAX + 1][MAX + 1];
+float w[MAX + 1][MAX + 1];
+
+void optimalBST() {
+    int i, j, l, r;
+    for (i = 0; i <= n; i++) {
+        e[i][i] = q[i];
+        w[i][i] = q[i];
+    }
+    for (l = 1; l <= n; l++)
+        for (i = 0; i <= n - l; i++) {
+            j = i + l;
+            e[i][j] = INT_MAX;
+            w[i][j] = w[i][j - 1] + p[j - 1] + q[j];
+            for (r = i + 1; r <= j; r++) {
+                float cost = e[i][r - 1] + e[r][j] + w[i][j];
+                if (cost < e[i][j])
+                    e[i][j] = cost;
+            }
+        }
+    printf("Minimum expected cost of Optimal BST: %.2f\n", e[0][n]);
+}
+void main() {
+    int i;
+    printf("Enter number of keys: ");
+    scanf("%d", &n);
+    printf("Enter successful search probabilities p[1..%d]:\n", n);
+    for (i = 0; i < n; i++) {
+        printf("p[%d]: ", i + 1);
+        scanf("%f", &p[i]);
+    }
+    printf("Enter unsuccessful search probabilities q[0..%d]:\n", n);
+    for (i = 0; i <= n; i++) {
+        printf("q[%d]: ", i);
+        scanf("%f", &q[i]);
+    }
+    optimalBST();
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of keys: 3
+Enter successful search probabilities p[1..3]:
+p[1]: 0.2
+p[2]: 0.5
+p[3]: 0.1
+Enter unsuccessful search probabilities q[0..3]:
+q[0]: 0.1
+q[1]: 0.2
+q[2]: 0.3
+q[3]: 0.1
+Minimum expected cost of Optimal BST: 3.20
+```
+:::
+
+## Q17. Write a program that implements Prim’s algorithm to generate Minimum Cost Spanning Tree.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#define MAX 10
+#define INF 1000000
+
+int n;
+int graph[MAX][MAX];
+int selected[MAX];
+
+void prim() {
+    int i, j, edges = 0;
+    int totalCost = 0;
+    selected[0] = 1;
+    printf("\nEdges in MST:\n");
+    while (edges < n - 1) {
+        int min = INF;
+        int x = -1, y = -1;
+        for (i = 0; i < n; i++)
+            if (selected[i])
+                for (j = 0; j < n; j++)
+                    if (!selected[j] && graph[i][j])
+                        if (graph[i][j] < min) {
+                            min = graph[i][j];
+                            x = i;
+                            y = j;
+                        }
+        printf("%d - %d : %d\n", x, y, min);
+        totalCost += min;
+        selected[y] = 1;
+        edges++;
+    }
+    printf("\nTotal cost of MST: %d\n", totalCost);
+}
+
+void main() {
+    int i, j;
+    printf("Enter number of vertices (max %d): ", MAX);
+    scanf("%d", &n);
+    printf("Enter adjacency matrix (0 if no edge):\n");
+    for (i = 0; i < n; i++) {
+        selected[i] = 0;
+        for (j = 0; j < n; j++)
+            scanf("%d", &graph[i][j]);
+    }
+    prim();
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of vertices (max 10): 4
+Enter adjacency matrix (0 if no edge):
+0 3 1 0
+5 1 2 4
+5 2 3 0
+9 3 1 0
+
+Edges in MST:
+0 - 2 : 1
+2 - 1 : 2
+1 - 3 : 4
+
+Total cost of MST: 7
+```
+:::
+
+## Q18. Write a program that implements Kruskal’s algorithm to generate Minimum Cost Spanning Tree.
+
+::: details See Code {open}
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 100
+
+typedef struct {
+    int u;
+    int v;
+    int weight;
+} Edge;
+
+int n, e;
+Edge edges[MAX];
+Edge result[MAX];
+int parent[MAX];
+
+int find(int i) {
+    while (parent[i] != i)
+        i = parent[i];
+    return i;
+}
+
+void union_set(int u, int v) {
+    int set_u = find(u);
+    int set_v = find(v);
+    parent[set_u] = set_v;
+}
+
+int compare(const void *a, const void *b) {
+    Edge *edge1 = (Edge *)a;
+    Edge *edge2 = (Edge *)b;
+    return edge1->weight - edge2->weight;
+}
+
+void kruskal() {
+    int count = 0;
+    int i = 0;
+    for (int v = 0; v < n; v++)
+        parent[v] = v;
+    qsort(edges, e, sizeof(Edge), compare);
+    while (count < n - 1 && i < e) {
+        Edge current = edges[i++];
+        int set_u = find(current.u);
+        int set_v = find(current.v);
+        if (set_u != set_v) {
+            result[count++] = current;
+            union_set(set_u, set_v);
+        }
+    }
+    printf("\nEdges in Minimum Spanning Tree:\n");
+    int totalCost = 0;
+    for (int i = 0; i < count; i++) {
+        printf("%d - %d : %d\n", result[i].u, result[i].v, result[i].weight);
+        totalCost += result[i].weight;
+    }
+    printf("\nTotal cost of MST: %d\n", totalCost);
+}
+
+void main() {
+    printf("Enter number of vertices: ");
+    scanf("%d", &n);
+    printf("Enter number of edges: ");
+    scanf("%d", &e);
+    printf("Enter each edge in format: u v weight (vertices numbered 0 to %d)\n", n - 1);
+    for (int i = 0; i < e; i++)
+        scanf("%d %d %d", &edges[i].u, &edges[i].v, &edges[i].weight);
+    kruskal();
+}
+```
+:::
+
+::: details Show Output
+```
+Enter number of vertices: 4
+Enter number of edges: 3
+Enter each edge in format: u v weight (vertices numbered 0 to 3)
+3 1
+0 1
+1 1
+0 2
+2 1
+
+Edges in Minimum Spanning Tree:
+3 - 1 : 0
+0 - 2 : 2
+
+Total cost of MST: 2
+```
+:::
+
+> [!IMPORTANT]
+> End of Lab Record.
