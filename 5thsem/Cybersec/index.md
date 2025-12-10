@@ -1,8 +1,8 @@
 ---
 order: 0
-title: Cyberse - Syllabus
+title: CyberSec - Syllabus
 ---
-# Cyberse
+# CyberSec
 
 ## Units
 <!-- Upload your Syllabus here. -->

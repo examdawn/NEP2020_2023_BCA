@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Cyberse - Assignments List
+title: CyberSec - Assignments List
 exclude: true
 ---
-# Cyberse
+# CyberSec
 ## Assignments

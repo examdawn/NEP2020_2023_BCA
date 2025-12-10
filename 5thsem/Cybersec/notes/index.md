@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Cyberse - Notes
+title: CyberSec - Notes
 exclude: true
 ---
-# Cyberse
+# CyberSec
 ## Notes

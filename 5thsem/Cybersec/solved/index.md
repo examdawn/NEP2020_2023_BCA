@@ -1,7 +1,7 @@
 ---
 order: 0
-title: Cyberse - Solved Questions
+title: CyberSec - Solved Questions
 exclude: true
 ---
-# Cyberse
+# CyberSec
 ## Solved Questions
