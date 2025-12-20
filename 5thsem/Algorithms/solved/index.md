@@ -6,4 +6,4 @@ exclude: true
 # Algorithms
 ## Solved Questions
 - [IA1 Prep. Questions](./IA1-prep.md)
-- [SA Prep. Questions](./SE-prep.md)
+- [SA Prep. Questions](./SA-prep.md)
