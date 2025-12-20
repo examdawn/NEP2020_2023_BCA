@@ -112,19 +112,19 @@ Time complexities:
 
 - Describes an asymptotic upper bound on a function f(n); it gives worst-case growth rate.   
 - f(n) is O(g(n)) if there exist constants c>0, n₀ such that f(n) <= c * g(n) for all n >= n₀.  
-- Example: 3n^2 + 2n + 5 is O(n²); graphically, the curve stays below a constant multiple of n² for large n.
+- Example: 3n² + 2n + 5 is O(n²); graphically, the curve stays below a constant multiple of n² for large n.
 
 ### Big Omega (Ω-notation)
 
 - Gives an asymptotic lower bound, often used for best-case or guaranteed minimum growth.
 - f(n) is Ω(g(n) if there exist c>0, n₀ such that f(n) >= c * g(n) for all n >= n₀.
-- Example: 3n^2 + 2n + 5 is Ω(n²); its graph lies above some multiple of n² beyond n₀.
+- Example: 3n² + 2n + 5 is Ω(n²); its graph lies above some multiple of n² beyond n₀.
 
 ### Theta (Θ-notation)
 
 - Gives a tight bound, both upper and lower; describes exact asymptotic growth.
 - f(n) is (Theta) θ(g(n)) if it is both (Big O) O(g(n)) and (Omega) Ω(g(n)).  
-- Example: 3n^2 + 2n + 5 is (Theta) θ(n²); graphically, it is sandwiched between two constants times n² for large n.
+- Example: 3n² + 2n + 5 is (Theta) θ(n²); graphically, it is sandwiched between two constants times n² for large n.
 
 ## Q2. Explain Merge Sort using the Divide and Conquer technique. Provide a step-by-step trace for a example and discuss its space and time complexity. 
 - Merge sort uses **divide and conquer**:  
