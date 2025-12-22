@@ -27,7 +27,7 @@ Prim’s algorithm finds a minimum spanning tree (MST) of a connected, weighted,
 Brute force (exhaustive search) systematically enumerates and evaluates all possible candidate solutions to a problem. It guarantees finding an optimal solution, but is often impractical due to exponential time for large inputs.
 
 ## Q6. What is Sequential/Linear Search?
-Linear search scans elements of a list sequentially from start to end to find a target value. It compares each element with the key and either returns its position when found or reports failure after the last element; its time complexity is O(n²).
+Linear search scans elements of a list sequentially from start to end to find a target value. It compares each element with the key and either returns its position when found or reports failure after the last element; its time complexity is O(n).
 
 ## Q7. What is insertion sort?
 Insertion sort builds a sorted list one element at a time by inserting each new element into its correct position among already sorted elements. It has O(n²) time in worst and average cases and O(n) in best case, with O(1) extra space.
@@ -194,4 +194,5 @@ All subsets:
 | 16     | A,B,C,D | 18           | 136         | No       | 
 
 - Only {A,B,C,D} is unfeasible (weight 18 > 15).  
+
 - Among feasible subsets, {A,C,D} has maximum value 111 and total weight 13 ≤ 15, so it is the optimal solution under exhaustive search. 
