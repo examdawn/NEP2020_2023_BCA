@@ -139,16 +139,16 @@ The Chi-Square Test of Independence is a statistical method used to determine wh
    - Alternative Hypothesis (\(H_a\)): Variables are not independent.
 
 2. **Calculate Chi-Square Statistic**:
-   \[
+   $$
    \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
-   \]
-   where \(O_i\) is the observed frequency and \(E_i\) is the expected frequency.
+   $$
+   where $O_i$ is the observed frequency and $E_i$ is the expected frequency.[web:21]
 
 3. **Determine Degrees of Freedom**:
-   \[
+   $$
    df = (r - 1)(c - 1)
-   \]
-   where \(r\) is the number of rows and \(c\) is the number of columns in the contingency table.
+   $$
+   where $r$ is the number of rows and $c$ is the number of columns.[web:21]
 
 4. **Compare with Critical Value**:
    Using the Chi-Square distribution table, compare the calculated statistic with the critical value at desired significance level (e.g., 0.05).
