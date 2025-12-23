@@ -307,9 +307,9 @@ print(num3)  # Output: 10
 ```mermaid
 flowchart TD
     A[Numeric] -->|Implicit| B[Character]
-    A -->|Explicit| C[as.character()]
-    B -->|Explicit| D[as.numeric()]
-    B -->|Explicit| E[as.factor()]
+    A -->|Explicit| C[as.character]
+    B -->|Explicit| D[as.numeric]
+    B -->|Explicit| E[as.factor]
 ```
 
 ##### Complexity

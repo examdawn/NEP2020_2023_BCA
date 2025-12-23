@@ -62,17 +62,17 @@ writeLines(lines, "output.txt")
 flowchart TD
     A[Start] --> B[Read Data]
     B --> C{File Type}
-    C -->|CSV| D[read.csv()]
-    C -->|Excel| E[readxl::read_excel()]
-    C -->|Text| F[readLines()]
+    C -->|CSV| D[read.csv]
+    C -->|Excel| E[readxl::read_excel]
+    C -->|Text| F[readLines]
     D --> G[Process Data]
     E --> G
     F --> G
     G --> H[Write Data]
     H --> I{File Type}
-    I -->|CSV| J[write.csv()]
-    I -->|Excel| K[writexl::write_xlsx()]
-    I -->|Text| L[writeLines()]
+    I -->|CSV| J[write.csv]
+    I -->|Excel| K[writexl::write_xlsx]
+    I -->|Text| L[writeLines]
     J --> M[End]
     K --> M
     L --> M
@@ -275,8 +275,8 @@ flowchart TD
     A[Start] --> B[Execute Code]
     B -->|Error| C[Catch Error]
     C --> D{Handle Error?}
-    D -->|Yes| E[Handle with tryCatch()]
-    D -->|No| F[Stop with stop()]
+    D -->|Yes| E[Handle with tryCatch]
+    D -->|No| F[Stop with stop]
     E --> G[Continue Execution]
     F --> H[End]
 ```
@@ -333,8 +333,8 @@ print(result)
 ```mermaid
 flowchart TD
     A[Start] --> B{Choose Timing Method}
-    B -->|System Time| C[system.time()]
-    B -->|Microbenchmark| D[microbenchmark()]
+    B -->|System Time| C[system.time]
+    B -->|Microbenchmark| D[microbenchmark]
     C --> E[Measure Execution Time]
     D --> E
     E --> F[Output Results]
@@ -387,9 +387,9 @@ remove.packages("ggplot2")
 ```mermaid
 flowchart TD
     A[Start] --> B{Action}
-    B -->|Install| C[Use install.packages()]
-    B -->|Update| D[Use update.packages()]
-    B -->|Remove| E[Use remove.packages()]
+    B -->|Install| C[Use install.packages]
+    B -->|Update| D[Use update.packages]
+    B -->|Remove| E[Use remove.packages]
     C --> F[Package Installed]
     D --> F
     E --> F
