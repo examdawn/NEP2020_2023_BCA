@@ -144,17 +144,6 @@ Example of operations:
 result <- numeric_vector + 10  # Adds 10 to each element in the numeric vector
 ```
 
-#### Flowchart of Data Types and Structures
-
-```mermaid
-flowchart TD
-    A[Basic Data Types] --> B[Vectors]
-    A --> C[Lists]
-    A --> D[Data Frames]
-    A --> E[Matrices]
-    A --> F[Arrays]
-```
-
 R is a versatile language used for statistical computing and graphics, making these structures essential for data manipulation and analysis.
 
 <sub>This was AI generated from github copilot on 2025-12-23</sub>
@@ -190,7 +179,7 @@ In this example:
 The time complexity of accessing dimensions is $O(1)$, and the space complexity is also $O(1)$ since it returns a fixed-size vector.
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Create Matrix] --> B{Get Dimensions}
     B --> C[Output: Rows and Columns]
 ```

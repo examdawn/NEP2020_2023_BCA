@@ -139,7 +139,7 @@ plot(x, y, col = rgb(0.1, 0.5, 0.8)) # RGB values
 A flowchart representing the workflow of plotting in R might look like this:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B[Generate Data]
     B --> C[Create 2D Plot]
     C --> D[Customize Plot]

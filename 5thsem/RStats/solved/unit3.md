@@ -42,17 +42,17 @@ ggplot(data, aes(x = x, y = y)) +
 
 The time complexity of generating a plot is generally $O(n)$, where $n$ is the number of data points being plotted. The space complexity is also $O(n)$ due to storage of the data points during the plotting process.
 
-```latex
+$$
 \text{Time Complexity: } O(n) \\
 \text{Space Complexity: } O(n)
-```
+$$
 
 ##### Mermaid Diagram
 
 Below is a simple flowchart to visualize the process of creating a plot in R:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B[Load Data]
     B --> C[Choose Visualization Type]
     C --> D[Create Plot]
@@ -141,7 +141,7 @@ print(prob_5_heads)
 Here’s a simple flowchart demonstrating the concept of probability:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Event Occurs] -->|Probability| B[0 <= P <= 1]
     B --> C{Event}
     C -->|Certain| D[Probability = 1]

@@ -173,7 +173,7 @@ print(result)
 Below is a flowchart illustrating the steps involved in conducting the Chi-Square Test of Independence:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B{State Hypotheses}
     B --> C[Calculate Chi-Square Statistic]
     C --> D[Determine Degrees of Freedom]
