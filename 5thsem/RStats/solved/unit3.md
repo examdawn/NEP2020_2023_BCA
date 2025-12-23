@@ -40,7 +40,7 @@ ggplot(data, aes(x = x, y = y)) +
 
 ##### Complexity Analysis
 
-The time complexity of generating a plot is generally \(O(n)\), where \(n\) is the number of data points being plotted. The space complexity is also \(O(n)\) due to storage of the data points during the plotting process.
+The time complexity of generating a plot is generally $O(n)$, where $n$ is the number of data points being plotted. The space complexity is also $O(n)$ due to storage of the data points during the plotting process.
 
 ```latex
 \text{Time Complexity: } O(n) \\
@@ -152,9 +152,9 @@ flowchart TD
 
 If we consider calculating probabilities in a basic statistical sense, the time complexity is generally O(1) for simple calculations, and space complexity is also O(1). 
 
-\[
+$$
 \text{Time Complexity: } O(1), \quad \text{Space Complexity: } O(1)
-\] 
+$$ 
 
 This indicates that the calculations do not depend on the size of the input data.
 
@@ -250,15 +250,15 @@ graph TD;
 
 - PMF for Binomial Distribution:
   
-  \[
+  $$
   P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-  \]
+  $$
 
 - PDF for Normal Distribution:
 
-  \[
+  $$
   f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
-  \]
+  $$
 
 This summary provides a concise overview of probability distributions, PMF, and PDF, along with examples and comparisons.
 

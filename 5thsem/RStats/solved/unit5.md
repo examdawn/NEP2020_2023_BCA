@@ -19,14 +19,14 @@ Linear regression is a statistical method used to model the relationship between
 ##### Types of Linear Regression
 
 1. **Simple Linear Regression**: Involves one independent variable and one dependent variable. The model is represented as:
-   \[
+   $$
    Y = \beta_0 + \beta_1 X + \epsilon
-   \]
+   $$
    
 2. **Multiple Linear Regression**: Involves multiple independent variables. The model is represented as:
-   \[
+   $$
    Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \ldots + \beta_n X_n + \epsilon
-   \]
+   $$
 
 ##### R Implementation
 
@@ -55,8 +55,8 @@ flowchart LR
 
 ##### Complexity
 
-- **Time Complexity**: \(O(n^2)\) for the normal equation solution.
-- **Space Complexity**: \(O(n)\) for storing data points.
+- **Time Complexity**: $O(n^2)$ for the normal equation solution.
+- **Space Complexity**: $O(n)$ for storing data points.
 
 <sub>This was AI generated from github copilot on 2025-12-23</sub>
 

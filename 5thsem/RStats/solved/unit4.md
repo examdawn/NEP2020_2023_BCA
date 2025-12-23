@@ -58,12 +58,12 @@ flowchart TD
 
 ##### Time Complexity of Common Tests
 
-- **t-test**: \( O(n) \)
-- **ANOVA**: \( O(nk) \) where \( k \) is the number of groups
+- **t-test**: $O(n)$
+- **ANOVA**: $O(nk)$ where $k$ is the number of groups
 
 ##### Space Complexity
 
-- **All Tests**: \( O(1) \) for constant space, except for storing input data.
+- **All Tests**: $O(1)$ for constant space, except for storing input data.
 
 This concise overview covers R programming, statistical testing, and modeling, providing a foundational understanding for further exploration.
 
@@ -135,20 +135,20 @@ The Chi-Square Test of Independence is a statistical method used to determine wh
 ##### Steps to Perform Chi-Square Test
 
 1. **State Hypotheses**:
-   - Null Hypothesis (\(H_0\)): Variables are independent.
-   - Alternative Hypothesis (\(H_a\)): Variables are not independent.
+   - Null Hypothesis ($H_0$): Variables are independent.
+   - Alternative Hypothesis ($H_a$): Variables are not independent.
 
 2. **Calculate Chi-Square Statistic**:
    $$
    \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
    $$
-   where $O_i$ is the observed frequency and $E_i$ is the expected frequency.[web:21]
+   where $O_i$ is the observed frequency and $E_i$ is the expected frequency.
 
 3. **Determine Degrees of Freedom**:
    $$
    df = (r - 1)(c - 1)
    $$
-   where $r$ is the number of rows and $c$ is the number of columns.[web:21]
+   where $r$ is the number of rows and $c$ is the number of columns.
 
 4. **Compare with Critical Value**:
    Using the Chi-Square distribution table, compare the calculated statistic with the critical value at desired significance level (e.g., 0.05).
@@ -198,11 +198,11 @@ Statistical power is the probability that a statistical test will correctly reje
 
 The power of a test can be expressed as:
 
-\[
+$$
 \text{Power} = 1 - \beta
-\]
+$$
 
-where \( \beta \) is the probability of a Type II error.
+where $\beta$ is the probability of a Type II error.
 
 #### Key Factors Affecting Statistical Power
 
@@ -264,7 +264,7 @@ summary(two_way_anova)
 #### Mermaid Representation
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B{Type of ANOVA}
     B -- One-Way --> C[Compare means of one factor]
     B -- Two-Way --> D[Compare means of two factors]
@@ -276,12 +276,12 @@ flowchart TD
 #### Complexity
 
 - **One-Way ANOVA**: 
-  - Time Complexity: \(O(n)\)
-  - Space Complexity: \(O(1)\)
+  - Time Complexity: $O(n)$
+  - Space Complexity: $O(1)$
 
 - **Two-Way ANOVA**:
-  - Time Complexity: \(O(n \cdot m)\) where \(m\) is the number of levels of the second factor.
-  - Space Complexity: \(O(1)\) 
+  - Time Complexity: $O(n \cdot m)$ where $m$ is the number of levels of the second factor.
+  - Space Complexity: $O(1)$ 
 
 This concise explanation covers the essential aspects of ANOVA, its types, R implementations, and a simple flowchart representation.
 

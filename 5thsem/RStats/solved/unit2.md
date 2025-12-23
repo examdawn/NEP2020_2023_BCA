@@ -80,8 +80,8 @@ flowchart TD
 
 ##### Complexity
 
-- **Time Complexity**: \(O(n)\) for reading and writing, where \(n\) is the number of rows.
-- **Space Complexity**: \(O(n)\) for storing data in memory.
+- **Time Complexity**: $O(n)$ for reading and writing, where $n$ is the number of rows.
+- **Space Complexity**: $O(n)$ for storing data in memory.
 
 <sub>This was AI generated from github copilot on 2025-12-23</sub>
 
@@ -128,8 +128,8 @@ flowchart TD
 
 ##### Complexity
 
-- Time Complexity: \(O(n)\) for reading/writing files, where \(n\) is the number of records.
-- Space Complexity: \(O(n)\) for storing the data in memory.
+- Time Complexity: $O(n)$ for reading/writing files, where $n$ is the number of records.
+- Space Complexity: $O(n)$ for storing the data in memory.
 
 <sub>This was AI generated from github copilot on 2025-12-23</sub>
 
@@ -343,11 +343,11 @@ flowchart TD
 
 ### Time Complexity
 
-The time complexity of these timing functions is generally constant, \(O(1)\), since they only measure the elapsed time of the executed code. 
+The time complexity of these timing functions is generally constant, $O(1)$, since they only measure the elapsed time of the executed code. 
 
 ### Space Complexity
 
-The space complexity is also minimal, \(O(1)\), as it does not require additional space proportional to the input size.
+The space complexity is also minimal, $O(1)$, as it does not require additional space proportional to the input size.
 
 <sub>This was AI generated from github copilot on 2025-12-23</sub>
 

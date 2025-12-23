@@ -45,8 +45,8 @@ plot(data, type = "o", col = "blue", main = "Simple Line Plot", xlab = "Index", 
 
 For basic operations in R, like the plot above, the time complexity is generally:
 
-- **Time Complexity**: \(O(n)\)
-- **Space Complexity**: \(O(n)\)
+- **Time Complexity**: $O(n)$
+- **Space Complexity**: $O(n)$
 
 #### Diagram Representation
 
@@ -187,7 +187,7 @@ In this example:
 
 ##### Complexity
 
-The time complexity of accessing dimensions is \(O(1)\), and the space complexity is also \(O(1)\) since it returns a fixed-size vector.
+The time complexity of accessing dimensions is $O(1)$, and the space complexity is also $O(1)$ since it returns a fixed-size vector.
 
 ```mermaid
 flowchart TD
@@ -360,10 +360,10 @@ hist(y, main="Histogram", xlab="Values", col="purple", breaks=5)
 
 ##### Complexity Analysis
 
-The time and space complexity of plotting operations generally depend on the data size \( n \) being plotted, leading to the following:
+The time and space complexity of plotting operations generally depend on the data size $n$ being plotted, leading to the following:
 
-- **Time Complexity**: \( O(n) \)
-- **Space Complexity**: \( O(n) \)
+- **Time Complexity**: $O(n)$
+- **Space Complexity**: $O(n)$
 
 ##### Mermaid Flowchart of Plot Types
 
