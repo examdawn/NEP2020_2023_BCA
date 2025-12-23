@@ -168,9 +168,9 @@ Below is a simple flowchart illustrating the flow of conditional statements in R
 ```mermaid
 flowchart TD
     A[Start] --> B{Is x > 0?}
-    B -- Yes --> C[Print "Positive number"]
+    B -- Yes --> C[Positive number]
     B -- No --> D{Is x < 0?}
-    D -- Yes --> E[Print "Negative number"]
+    D -- Yes --> E[Negative number]
     D -- No --> F[Print "Zero"]
     C --> G[End]
     E --> G
