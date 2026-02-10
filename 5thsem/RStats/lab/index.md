@@ -6,3 +6,6 @@ title: RStats - View Lab Records
 ## Lab Records
 Others:
 - [Lab PartA](parta.md)
+- [Lab PartB](partb.md)
+
+(Important Questions are marked with a *!)

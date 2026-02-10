@@ -4,7 +4,7 @@ title: RStats Lab - Part A
 ---
 # R Programming - Lab Part A
 
-## **Program 1: Different Types of Data Structures in R**
+## * **Program 1: Different Types of Data Structures in R**
 
 Problem Statement: Write a program for different types of data structures in R​
 
@@ -42,7 +42,7 @@ print(df)
 </JupyterLite>
 :::  
 
-## **Program 2: Variables, Constants, and Data Types**
+## * **Program 2: Variables, Constants, and Data Types**
 
 Problem Statement: Write a program that include variables, constants, data types
 
@@ -83,7 +83,7 @@ cat("Data Type of 'grades':", gtype, "\n")
 
 ::: 
 
-## **Program 3: Operators, Control Structures, and Functions**
+## * **Program 3: Operators, Control Structures, and Functions**
 
 Problem Statement: Write a R program that includes different operators, control structures, default values for arguments, returning complex objects
 
@@ -198,7 +198,7 @@ in_order_traversal(bst_root)
 
 ::: 
 
-## **Program 5: Cumulative Operations and Calculus**
+## * **Program 5: Cumulative Operations and Calculus**
 
 Problem Statement: Write a R program for calculating cumulative sums, and products minima maxima and calculus
 
@@ -237,7 +237,7 @@ cat("Integration (Cumulative Sum):", integrate, "\n")
 
 ::: 
 
-## **Program 6: Markov Chain Stationary Distribution**
+## * **Program 6: Markov Chain Stationary Distribution**
 
 Problem Statement: Write a R program for finding stationary distribution of markanov chains
 
@@ -264,7 +264,7 @@ print("Stationary Distribution:")
 print(stationary_distribution)
 ```
 
-> Code running disabled since JupyterLite+XR doesn't support markovchain
+> Code running disabled since JupyterLite+XR doesn't support markovchain or most libraries
 
 ::: 
 
@@ -312,7 +312,7 @@ print(matrix1_transpose)
 
 ::: 
 
-## **Program 8: Data Visualization with Graphics Functions**
+## * **Program 8: Data Visualization with Graphics Functions**
 
 Problem Statement: Write a R program for any visual representation of an object with creating graphs using graphic functions Plot,Hist,Linechart,Pie,Boxplot,Scatterplots
 
@@ -388,7 +388,7 @@ print(department_payroll)
 
 ::: 
 
-## **Program 10: Multivariate Linear Regression**
+## * **Program 10: Multivariate Linear Regression**
 
 Problem Statement: Write a program to create an any application of Linear Regression in a multivariate context for predictive purpose
 
