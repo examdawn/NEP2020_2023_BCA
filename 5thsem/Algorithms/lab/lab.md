@@ -1,10 +1,13 @@
 ---
 order: 1
-title: DAA Lab - Part A
+title: DAA Lab Records
 ---
+
 # Design & Analysis Of Algorithms - Lab Part A
 
-## Q1. write a program to sort a list of N element using selection Sort techique using C.
+(Important Questions are marked with a *!)
+
+## * Q1. write a program to sort a list of N element using selection Sort techique using C.
 
 ::: details See Code {open}
 ```C
@@ -41,7 +44,7 @@ Sorted array: 1 2 3 5 6
 ```
 :::
 
-## Q2: Write a program to perform Travelling Salesman Problem.
+## * Q2: Write a program to perform Travelling Salesman Problem.
 ::: details See Code {open}
 ```C
 #include <stdio.h>
@@ -94,7 +97,7 @@ Minimum cost: 60
 ```
 :::
 
-## Q3: Write program to implement Dynamic programming Algorithm for the 0/1 Knapsack problem.
+## * Q3: Write program to implement Dynamic programming Algorithm for the 0/1 Knapsack problem.
 
 ::: details See Code {open}
 ```C
@@ -208,7 +211,7 @@ Maximum value: 220.00
 ```
 :::
 
-## Q5. Write a program to implement the dfs and bfs algorithm for a graph.
+## * Q5. Write a program to implement the dfs and bfs algorithm for a graph.
 
 ::: details See Code {open}
 ```C
@@ -283,7 +286,7 @@ BFS traversal: 0 1 2 3
 ```
 :::
 
-## Q6. Write a program to find minimum and maximum value in an array using divide and conquer.
+## * Q6. Write a program to find minimum and maximum value in an array using divide and conquer.
 
 ::: details See Code {open}
 ```C
@@ -398,7 +401,7 @@ Sorted array: 1 2 3 6 8
 ```
 :::
 
-## Q8: Write a program to implement merge sort algorithm for sorting a list of integers in ascending order.
+## * Q8: Write a program to implement merge sort algorithm for sorting a list of integers in ascending order.
 
 ::: details See Code {open}
 ```C
@@ -605,7 +608,7 @@ Size: 100000 -> Time taken: 0.009000 seconds
 ```
 :::
 
-## Q11. Write a program that Accepts the Vertices and Edges for a Graph and Stores it as an Adjacency Matrix.
+## * Q11. Write a program that Accepts the Vertices and Edges for a Graph and Stores it as an Adjacency Matrix.
 
 ::: details See Code {open}
 ```C
@@ -661,7 +664,7 @@ Adjacency Matrix:
 ```
 :::
 
-## Q12. Write a program to implement function to print In-Degree, Out-Degree and to Display that Adjacency Matrix.
+## * Q12. Write a program to implement function to print In-Degree, Out-Degree and to Display that Adjacency Matrix.
 
 ::: details See Code {open}
 ```C
@@ -802,7 +805,7 @@ Q . . .
 :::
 
 
-## Q14.  Write a program to implement the Backtracking Algorithm for the Sum of Sub-sets problem. 
+## * Q14.  Write a program to implement the Backtracking Algorithm for the Sum of Sub-sets problem. 
 
 ::: details See Code {open}
 ```C
@@ -856,7 +859,7 @@ Subset: 21 29
 
 :::
 
-## Q15. Write program to implement Greedy Algorithm for job sequencing with deadlines.
+## * Q15. Write program to implement Greedy Algorithm for job sequencing with deadlines.
 
 ::: details See Code {open}
 ```C
@@ -924,7 +927,7 @@ Total Profit: 148
 ```
 :::
 
-## Q16. Write program to implement Dynamic Programming algorithm for the Optimal Binary Search Tree Problem.
+## * Q16. Write program to implement Dynamic Programming algorithm for the Optimal Binary Search Tree Problem.
 
 ::: details See Code {open}
 ```C
@@ -992,7 +995,7 @@ Minimum expected cost of Optimal BST: 3.20
 ```
 :::
 
-## Q17. Write a program that implements Prim’s algorithm to generate Minimum Cost Spanning Tree.
+## * Q17. Write a program that implements Prim’s algorithm to generate Minimum Cost Spanning Tree.
 
 ::: details See Code {open}
 ```C
@@ -1062,7 +1065,7 @@ Total cost of MST: 7
 ```
 :::
 
-## Q18. Write a program that implements Kruskal’s algorithm to generate Minimum Cost Spanning Tree.
+## * Q18. Write a program that implements Kruskal’s algorithm to generate Minimum Cost Spanning Tree.
 
 ::: details See Code {open}
 ```C
